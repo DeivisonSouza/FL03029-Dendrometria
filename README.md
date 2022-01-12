@@ -36,7 +36,7 @@ figuras, conjunto de dados (e outros) utilizados na disciplina de
 **Dendrometria** (FL03029) ministrada pelo **Prof. Deivison Venicio
 Souza** no curso de graduação em **Engenharia Florestal** da
 **Universidade Federal do Pará** (UFPA). O curso será ofertado na
-modalidade Ensino Híbrido no âmbito do **Ensino Remoto Emergencial
+modalidade de Ensino Híbrido no âmbito do **Ensino Remoto Emergencial
 (ERE)** na [Universidade Federal do Pará
 (UFPA)](https://portal.ufpa.br/index.php), conforme dispõe a [Resolução
 n. 5.294, de 21 de agosto de
