@@ -1,0 +1,555 @@
+---
+title: "Dendrometria (FL03029)"
+subtitle: "Cronograma da disciplina"
+author: "Prof. Dr. Deivison Venicio Souza"
+institute: "Universidade Federal do Pará (UFPA)"
+date: 
+encoding: "UTF-8"
+output:
+  xaringan::moon_reader:
+    css:
+      - default 
+      - assets/sydney-fonts.css
+      - assets/slide-title/sydney-title.css
+    self_contained: false
+    seal: false
+    includes:
+      in_header: "assets/mathjax-equation-numbers.html"
+    nature:
+      beforeInit: ["assets/remark-zoom.js", "https://platform.twitter.com/widgets.js"]
+      highlightStyle: googlecode
+      highlightLines: true
+      countIncrementalSlides: false
+      highlightLanguage: ["r", "css", "yaml"]
+      ratio: '16:9'
+      navigation:
+        scroll: false
+---
+class: title-slide, center, middle
+background-image: url(fig/slide-title/ufpa2.png), url(fig/slide-title/forest.png), url(fig/slide-title/img3.png)
+background-position: 84% 90%, 95% 90%
+background-size: 220px, 90px, cover
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  fig.showtext = TRUE,
+  fig.align = "center", 
+  cache = TRUE,
+  error = FALSE,
+  message = FALSE, 
+  warning = FALSE, 
+  collapse = TRUE ,
+  dpi = 600)
+```
+
+```{r xaringan-logo, echo=FALSE}
+library(xaringanExtra)
+use_logo(
+  image_url = "fig/slide-title/ufpa.png",
+  position = css_position(top = ".8em", right = "-.5em"),
+  width = "140px",
+  height = "140px"
+)
+```
+
+```{r icon, echo=FALSE}
+#remotes::install_github("mitchelloharawild/icons")
+#library(icons)
+#download_fontawesome()
+#download_simple_icons()
+```
+
+<!-- title-slide -->
+# Dendrometria <br> (FL03029)
+<br><br>
+## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Cronograma da disciplina `r anicon::faa("pagelines", animate="horizontal", colour="green")`
+
+#### **Prof. Dr. Deivison Venicio Souza**
+##### Universidade Federal do Pará (UFPA) 
+##### Faculdade de Engenharia Florestal
+##### E-mail: deivisonvs@ufpa.br
+<br>
+##### 1ª versão: 24/janeiro/2022 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
+
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Cronograma da disciplina</div>
+
+---
+
+## 👋 Olá, sejam bem vindos!
+<br>
+
+### **Sobre o facilitador**
+.pull-left[
+.font90[
+1. .green[Graduação (Titulação: ano 2008)]
+    - Universidade Federal Rural da Amazônia (UFRA); e
+    - Título: Bacharel em Engenharia Florestal.
+
+2. .green[Mestrado (Titulação: ano 2011)]
+    - Universidade Federal Rural da Amazônia (UFRA);
+    - Programa de Pós-graduação em Ciências Florestais (PPGCF); e
+    - Área de Concentração: Manejo de ecossistemas florestais.
+]
+]
+
+.pull-right[
+.font90[
+3. .green[Doutorado (Titulação: ano 2020)]
+    - Universidade Federal do Paraná (UFPR);
+    - Programa de Pós-graduação em Engenharia Florestal (PPGEF); e
+    - Área de Concentração: Manejo Florestal.
+    
+4. .green[Especialização (Defesa: ano 2019)]
+    - Universidade Federal do Paraná (UFPR);
+    - Área: Big Data e Data Science
+    
+ .center1[
+```{r echo = FALSE, out.width='200%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/slide-title/img.jpeg")
+```
+]   
+]
+]
+
+---
+
+## 👋 Olá, sejam bem vindos!
+
+.pull-left[
+.font90[
+### **Interesses atuais**
+1. .green[Linguagem de programação]
+    - R
+    - Python
+
+2. .green[Modelagem preditiva aplicada à ciência florestal]
+    - Aprendizado de máquina
+    
+3. .green[Visão computacional]
+    - reconhecimento de espécies baseado em imagens
+    
+4. .green[Criação de Dashboard - Shiny]
+]
+]
+
+.pull-right[
+.font90[
+### **Websites e contatos**
+
+`r icons::simple_icons("github")` GitHub: https://github.com/DeivisonSouza
+
+<span class="iconify" data-icon="fa-brands:orcid" data-inline="false"></span>
+
+
+<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-2975-0927" href="https://orcid.org/0000-0002-2975-0927" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_128x128.png" style="width:1.5em;margin-right:1em;" alt="ORCID iD icon">https://orcid.org/0000-0002-2975-0927</a></div>
+
+```{r, echo=FALSE, out.width='20%', fig.align='center', fig.cap=''}
+knitr::include_graphics('fig/ORCID.png')
+```
+
+Email: deivisonvs@ufpa.br
+]
+]
+
+<!-- Slide 2 -->
+---
+
+## Cronograma .black[.font80[(**Horário: 07h30min - 12h50min**)]]
+
+```{r echo=FALSE, eval=TRUE, warning=FALSE, dpi=600, fig.width = 35, fig.height = 17}
+library(calendR)
+library(ggplot2)
+
+dates <- seq(as.Date("2022-01-01"), as.Date("2022-01-31"), by = "1 day")
+events <- ifelse(format(dates, "%w") %in% c(6,7), "Final de semana", NA)
+#events[c(12)] <- "Aniversário do Professor"
+#events[c(25)] <- "Curso ggplot2 - SIINGEF"
+
+p <- calendR::calendR(year = 2022,
+        month = 1,
+        start = "M",
+        title = "Janeiro (Ano 2022)",
+        title.size = 50, 
+        subtitle.size = 20, 
+        title.col = 2,  
+        subtitle = "",   
+        subtitle.col = 3,
+        weeknames.size = 15,
+        special.days = events,
+        legend.pos = "bottom",
+        special.col = rgb(1, 0, 0, 0.1),
+        col = "black",                  
+        lwd = 1,
+        lty = 1,
+        font.family = "mono",       
+        font.style = "bold",
+        weeknames.col = "black",
+        months.col = "gray30",
+        days.col = 2, 
+        day.size = 18,
+        bg.img = "",
+        text = c(
+          "Introdução à \n Dendrometria",
+          "Medição de \n Diâmetros de \n Árvores",
+          "Medição de \n Alturas de \n Árvores",
+          "Aula Prática \n (Diâmetro e \n Altura)",
+          "Relação \n Hipsométrica",
+          "1ª Avaliação"),
+        text.pos = c(24:28, 31), 
+        text.size = 12,
+        text.col = 1)
+
+p + theme(legend.key.size = unit(2, 'cm'),
+          legend.text = element_text(size=30))
+
+```
+
+<!-- Slide 3 -->
+---
+## Cronograma .black[.font80[(**Horário: 07h30min - 12h50min**)]]
+
+```{r echo=FALSE, eval=TRUE, warning=FALSE, dpi=600, fig.width = 35, fig.height = 17}
+
+dates <- seq(as.Date("2022-02-01"), as.Date("2022-02-28"), by = "1 day")
+events <- ifelse(format(dates, "%w") %in% c(6,7), "Final de semana", NA)
+events[c(8)] <- "Fim do Período Letivo"
+events[c(25)] <- "Lançamento de Conceitos (Prazo Final)"
+
+p <- calendR::calendR(year = 2022,
+        month = 2,
+        start = "M",
+        title = "Fevereiro (Ano 2022)",
+        title.size = 50, 
+        subtitle.size = 20, 
+        title.col = 2,  
+        subtitle = "",   
+        subtitle.col = 3,
+        weeknames.size = 15,
+        special.days = events,
+        legend.pos = "bottom",
+        special.col = c(rgb(1, 0, 0, 0.1), "lightgreen", rgb(0, 0, 1, 0.1)),
+        col = "black",                  
+        lwd = 1,
+        lty = 1,
+        font.family = "mono",       
+        font.style = "bold",
+        weeknames.col = "black",
+        months.col = "gray30",
+        days.col = 2, 
+        day.size = 18,
+        bg.img = "",
+        text = c(
+          "Estudo da \n Forma do Tronco\n das Árvores",
+          "Volume de \n Árvores \n(Métodos de \nCubagem)",
+          "Método de \n Bitterlich", 
+          "Aula Prática \n (Relascópio)",
+          "Biomassa e \n Carbono de \n Árvores", 
+          "2ª Avaliação"),
+        text.pos = c(1:4, 7:8), 
+        text.size = 12,
+        text.col = 1)
+
+p + theme(legend.key.size = unit(2, 'cm'),
+          legend.text = element_text(size=30))
+
+```
+
+<!-- Slide 6 -->
+---
+## Palestras
+<br>
+
+- **Dia 03/02** (Período da manhã) - A partir das 08h:00min
+
+.green[**Palestra 1**]: **Dendrometria no Manejo Florestal Sustentável** (08h:00min)
+
+**Palestrante**: .blue[XXXXXXXXXX] (Engenheiro Florestal)
+
+**Empresa**: XXXXXXXXXXXXXX
+<br><br>
+
+.green[**Palestra 2**]: **Dendrocronologia** (10h:30min)
+
+**Palestrante**: .blue[YYYYYYYYYYY] (Engenheira Florestal)
+
+**Empresa**: XXXXXXXXXXXXXX
+<br><br>
+
+<!-- Slide 7 -->
+---
+## Palestras
+<br>
+
+- **Dia 04/02** (Período da manhã) - A partir das 8h:00min
+
+.green[**Palestra 1**]: **FFF** (8h:00min)
+
+**Palestrante**: .blue[ZZZZZZ] (Engenheiro Florestal)
+
+**Empresa**: XXXXXXXXXXXXXX
+<br><br>
+
+
+.green[**Palestra 2**]: **RRR** (10h:30min)
+
+**Palestrante**: .blue[GGGGGG] (Engenheiro Florestal)
+
+**Empresa**: XXXXXXXXXXXXXX
+
+<!-- Slide 7 -->
+---
+
+## Ementa da disciplina (FL03029).
+
+.shadow2[
+<br>
+1 - Introdução à Dendrometria
+
+2 - Medição de Diâmetros de Árvores
+
+3 - Medição de Alturas de Árvores
+
+4 - Relação Hipsométrica
+
+5 - Estudo da Forma do Tronco das Árvores
+
+6 - Volume de Árvores (Métodos de Cubagem)
+
+7 - Método de Bitterlich - Relascopia 
+
+8 - Biomassa e Carbono de Árvores
+
+9 - Análise de Tronco
+]
+
+<!-- Slide 7 -->
+---
+## Estratégias e Ferramentas de Ensino
+<br>
+
+- **Aula Presencial** (*Sala 3 - FEF*)
+
+Aulas teóricas e práticas presenciais, realização de atividades complementares e avaliações de desempenho.
+
+--
+<br><br>
+
+- **Plataforma de videoconferência** (*Google Meeting*)
+
+**Palestras**: Videoconferências com profissionais convidados para palestrar sobre temas relacionados a Dendrometria.
+
+.red[**Atenção**]`r anicon::faa("exclamation-triangle", colour="red")`: Formação de grupos (Duas perguntas no mínimo)
+
+
+<!-- Slide 8 -->
+---
+## Estratégias e Ferramentas de Ensino
+<br>
+
+- **Sala de aula virtual** (*Google Classroom*)
+
+Comunicação, envio de atividades complementares e de conteúdos digitas.
+
+--
+<br><br>
+
+- **Repositório GitHub**
+
+Repositório com os slides em .html, arquivos .R e .Rmd, figuras, conjunto de dados (e outros). O repositório pode ser acessado em: [FL03029-Dendrometria](https://github.com/DeivisonSouza/FL03029-Dendrometria)
+
+
+<!-- Slide 9 -->
+---
+## Estratégias de avaliação da aprendizagem
+<br>
+
+- **Atividades práticas**
+
+Exercícios com dados reais (quando possível) para aprendizado da matemática e estatísticas inerentes ao conteúdo abordado;
+
+Construção de instrumentos de medições e aulas de campo (floresta/plantações)
+
+--
+<br><br>
+
+- **Avaliação teórica**
+
+Avaliações teóricas presenciais.
+
+--
+<br><br>
+
+- **Participação** 
+
+O nível de participação e interação nas aulas presenciais poderá ser critério para definir uma pontuação extra nas avaliações teóricas.
+
+
+<!-- Slide 9 -->
+---
+## Média Final e Conceito
+
+$$
+\Large
+MF = \frac{(NA*2)+NPT}{3}
+$$
+
+**MF** = Média Final
+
+**NA** = Nota das Atividade (Soma das atividades será 10 pts.)
+
+**NP** = Nota das Provas Teóricas (Soma das provas será 10 pts.)
+
+<br>
+
+| Conceito     | Intervalo      |
+|--------------|----------------|
+| Excelente    | 9,0 ≤ MF ≤ 10    |
+| Bom          | 7,0 ≤ MF ≤ 8,9   |
+| Regular      | 5,0 ≤ MF ≤ 6,9 |
+| Insuficiente | 0 ≤ MF ≤ 4,9   |
+
+
+<!-- Slide 10 -->
+---
+## Plano de Ensino
+<br><br>
+
+O plano de ensino da disciplina pode ser acessado em:
+
+[Plano de Ensino (FL03029 - Dendrometria)](https://github.com/DeivisonSouza/FL03034-EF/blob/master/Slides/PE/EF-PE.pdf)
+
+
+<!-- Slide 11 -->
+---
+## Reprovação
+<br>
+Conforme o Regimento Geral da UFPA, será considerado reprovado o discente que:
+
+- Obtiver o conceito Insuficiente (INS), isto é, nota inferior a 5 (cinco); (.green[**Aplicável**])
+- Sem Avaliação (SA); ou (.green[**Aplicável**])
+- Não obtiver a frequência mínima de 75% na disciplina, isto é, Sem Frequência (SF). (.green[**Aplicável**])
+
+
+<!-- Slide 12 -->
+---
+
+## .font90[Resoluções da UFPA - Ensino Remoto/Calendário Acadêmico]
+
+- [Resolução  n. 5.294, de 21 de Agosto de 2020](http://www.proeg.ufpa.br/images/Artigos/Normas/Resolucao_5294_2020_CONSEPEAprovaoEREnaUFPA.pdf)
+
+Aprova, de forma excepcional e temporária, o Ensino Remoto Emergencial em diferentes níveis de ensino para os cursos ofertados pela Universidade Federal do Pará, em decorrência da situação de pandemia do novo Coronavírus–COVID-19, e dá outras providências.
+
+- [Resolução n. 5.332, de 22 de Dezembro de 2020](http://www.proeg.ufpa.br/images/Artigos/Normas/RESOLUO5.332DEZEMBRO2020calendarioacademicoparaoanoletivode2021.pdf)
+
+Aprova o Calendário Acadêmico da Universidade Federal do Pará (UFPA), para o
+ano de 2021.
+
+- [Resolução n. 5.349, de 24 de Fevereiro de 2021](http://facdes.ufpa.br/pdfs/5349%20Aprova%20a%20altera%C3%A7%C3%A3o%20da%20Resolu%C3%A7%C3%A3o%205.332-2020%2C%20que%20aprovou%20o%20Calend%C3%A1rio%20Academico%202021.pdf)
+
+Altera a Resolução n. 5.332, de 22 de dezembro de 2020, que aprovou o Calendário Acadêmico – 2021 da Universidade Federal do Pará (UFPA).
+
+
+<!-- Slide 12 -->
+---
+
+## Bibliografia básica
+
+<br>
+.pull-left-4[
+BATISTA, J. L. F.; COUTO, H. T. Z.; SILVA FILHO, D. F. **Quantificação de Recursos Florestais: árvores, arvoredos e florestas**. 1ª ed. - São Paulo, SP: Oficina de Textos, 2014. 384 p.
+]
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='65%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('https://editoraufv.cdn.plataformaneo.com.br/produto/multifotos/hd/quantificacao-de-recursos-florestais84836978.jpg')
+```
+
+]
+
+---
+
+## Bibliografia básica
+
+<br>
+.pull-left-4[
+CAMPOS, J. C. C.; LEITE, H. G. **Mensuração florestal: perguntas e respostas**. 3ª ed. - Viçosa, MG: Ed. UFV, 2009. 548 p.
+<br><br>
+
+**.green[Já está disponível 5ª Edição!]**
+
+*Perguntas e Respostas - 5ª Edição, atualizada e ampliada*
+]
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='65%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('https://editoraufv.cdn.plataformaneo.com.br/produto/multifotos/hd/1591464mensuracao-florestal-ufv66456241.jpg')
+```
+
+]
+
+
+---
+
+## Bibliografia básica
+
+<br>
+.pull-left-4[
+SOARES, C. P. B.; PAULA NETO, F.; SOUZA, A. L. **Dendrometria e Inventário Florestal**. 2ª ed. - Viçosa, MG: Ed. UFV, 2011. 272 p.
+<br><br>
+
+**.green[Capítulos do livro estão na Web]** `r anicon::faa("hand-point-down", animate="vertical")`
+
+Link: http://www.mensuracaoflorestal.com.br/sobre-o-site
+
+
+]
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='65%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('https://editoraufv.cdn.plataformaneo.com.br/produto/3492395282_dendrometria-e-inventario-florestal.jpg')
+```
+
+]
+
+---
+
+## Bibliografia básica
+
+<br>
+.pull-left-4[
+MACHADO, S. A.; FIGUEIREDO FILHO, A. **Dendrometria**. Curitiba, 2003. 309p.
+<br><br>
+]
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='65%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/slide-title/dendro.jpeg')
+```
+
+]
+
+<!-- Slide 14 -->
+---
+
+## Bibliografia complementar
+
+<br>
+.pull-left-4[
+PRODAN, M.; PETERS, R.; COX, F.; REAL, P. **Mensura Forestal**. Agroamerica. 1997.
+<br><br>
+
+**.green[Versão em PDF]** `r anicon::faa("hand-point-down", animate="vertical")`
+
+Link: http://repiica.iica.int/docs/B4179e/B4179e.pdf
+]
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='65%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('http://4.bp.blogspot.com/_1kfg_RxkYUg/S1kvIAVs9_I/AAAAAAAAAEQ/ezRFXAi1ICU/w1200-h630-p-k-no-nu/nuevo-1.jpg')
+```
+]
+
+
