@@ -477,6 +477,22 @@ Ao tomar uma medida qualquer, pode-se cometer vários tipos de erros. Em geral, 
 ]
 
 
+---
+
+## Medidas Dendrométricas: Erros de medição
+<br>
+
+.shadow1[
+### Erros de Medição .font90[(Machado e Figueiredo Filho, 2009)]
+<br>
+
+**1) Erros Compensantes**
+
+- Erros que **não** estão relacionados aos defeitos do instrumento ou à falta de habilidade no manuseio pelo operador;
+- Ocorrem ao se .blue[arredondar] cifras ou ao .blue[aproximar valores]; e
+- Comumente são denominado também de .blue[Erros de Arredondamento].
+]
+
 
 ---
 
