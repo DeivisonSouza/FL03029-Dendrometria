@@ -1,0 +1,173 @@
+---
+title: "Dendrometria (FL03029)"
+subtitle: "Introdução à Dendrometria"
+author: "Prof. Dr. Deivison Venicio Souza"
+institute: "Universidade Federal do Pará (UFPA)"
+date: 
+encoding: "UTF-8"
+output:
+  xaringan::moon_reader:
+    css:
+      - default 
+      - assets/sydney-fonts.css
+      - assets/slide-title/sydney-title.css
+    self_contained: false
+    seal: false
+    includes:
+      in_header: "assets/mathjax-equation-numbers.html"
+    nature:
+      beforeInit: ["assets/remark-zoom.js", "https://platform.twitter.com/widgets.js"]
+      highlightStyle: googlecode
+      highlightLines: true
+      countIncrementalSlides: false
+      highlightLanguage: ["r", "css", "yaml"]
+      ratio: '16:9'
+      navigation:
+        scroll: false
+---
+class: title-slide, center, middle
+background-image: url(fig/slide-title/ufpa2.png), url(fig/slide-title/forest.png), url(fig/slide-title/img3.png)
+background-position: 84% 90%, 95% 90%
+background-size: 220px, 90px, cover
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  fig.showtext = TRUE,
+  fig.align = "center", 
+  cache = TRUE,
+  error = FALSE,
+  message = FALSE, 
+  warning = FALSE, 
+  collapse = TRUE ,
+  dpi = 600)
+```
+
+```{r xaringan-logo, echo=FALSE}
+library(xaringanExtra)
+use_logo(
+  image_url = "fig/slide-title/ufpa.png",
+  position = css_position(top = ".8em", right = "-.5em"),
+  width = "140px",
+  height = "140px"
+)
+```
+
+```{r icon, echo=FALSE}
+#remotes::install_github("mitchelloharawild/icons")
+#library(icons)
+#download_fontawesome()
+#download_simple_icons()
+```
+
+<!-- title-slide -->
+# Dendrometria <br> (FL03029)
+<br><br>
+## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Introdução à Dendrometria `r anicon::faa("pagelines", animate="horizontal", colour="green")`
+
+#### **Prof. Dr. Deivison Venicio Souza**
+##### Universidade Federal do Pará (UFPA) 
+##### Faculdade de Engenharia Florestal
+##### E-mail: deivisonvs@ufpa.br
+<br>
+##### 1ª versão: 24/janeiro/2022 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
+
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Introdução à Dendrometria</div>
+
+---
+
+## Ementa da disciplina (FL03039 - IF)
+<br>
+
+.pull-left-3[
+.shadow3[
+**1 - Introdução à Dendrometria**
+
+2 - Medição de Diâmetros de Árvores
+
+3 - Medição de Alturas de Árvores
+
+4 - Relação Hipsométrica
+
+5 - Estudo da Forma do Tronco das Árvores
+
+6 - Volume de Árvores (Métodos de Cubagem)
+
+7 - Método de Bitterlich - Relascopia 
+
+8 - Biomassa e Carbono de Árvores
+
+.red[9 - Análise de Tronco]
+]
+]
+
+---
+
+## Objetivos
+<br><br>
+Ao final desta aula espera-se que o discente seja capaz de...
+
+* Compreender alguns conceitos básicos, a importância e a correlação da Dendrometria com outras disciplinas;
+* Compreender e diferenciar os principais tipos de medidas;
+* Compreender os principais erros que podem ser cometidos ao realizar medições de árvores; e
+* Compreender a importância da padronização de símbolos dendrométricos e conhecer um guia orientador.
+
+---
+
+## Conteúdo
+<br>
+
+.pull-left[
+.pull-top[
+**Parte 1 - Dendrometria**
+.font90[
+
+[1 - Origem da Palavra](#op)
+
+[2 - Sinonímias](#s)
+
+[3 - Conceito](#c)
+
+[4 - Importância e Aplicações](#ia)
+
+[5 - Variáveis Dendrométricas](#vd)
+
+<br><br>
+
+.font80[**IUFRO**: .blue[*International Union of Forest Research Organizations*] (União Internacional de Organizações de Pesquisa Florestal)]
+
+
+]
+]
+]
+
+
+.pull-right[
+.pull-top[
+**Parte 2 - Medidas Dendrométricas**
+.font90[
+[1 - Tipos de Medidas](#tm)
+
+[2 - Erros de Medição](#em)
+
+[3 - Unidades de Medidas](#um)
+
+]
+]
+
+<br>
+
+.pull-bottom[
+**Parte 3 - Padronização de Símbolos Dendrométricos**
+.font90[
+[1 - Por que é importante padronizar?](#pip)
+
+[2 - Proposição da IUFRO (1959)](#iufro)
+
+[3 - Iniciativa no Brasil: Padronização da Simbologia em Mensuração e Manejo Florestal (.black[Em discussão])](#ib)
+]
+]
+]
+
