@@ -138,7 +138,6 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 .font80[**IUFRO**: .blue[*International Union of Forest Research Organizations*] (União Internacional de Organizações de Pesquisa Florestal)]
 
-
 ]
 ]
 ]
@@ -171,3 +170,19 @@ Ao final desta aula espera-se que o discente seja capaz de...
 ]
 ]
 
+<!-- Slide XX -->
+---
+layout: false
+name: if
+class: inverse, middle, center
+background-image: url(fig/class1/sec.png)
+background-size: cover
+
+.white[.font200[**Dendrometria:**] <br> .font150[Origem, Sinonímia, Conceito e Importância]]
+
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Introdução à Dendrometria</div>
+
+---

@@ -1,5 +1,5 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file.. -->
+<!-- README.md is generated from README.Rmd. Please edit that file... -->
 <!-- badges: start -->
 <!-- badges: end -->
 <!-- Emprestei a função list_github_files() da Curso-R. (https://github.com/curso-r). A ideia desse readme emprestei da Curso-R. Achei excelente!-->
@@ -51,9 +51,10 @@ o ano de 2021.
 A programação, o conteúdo e os slides da disciplina **Dendrometria**
 (FL03029) estão detalhados a seguir.
 
-| Slide                        | Link                                                                                |
-|:-----------------------------|:------------------------------------------------------------------------------------|
-| Slides/Aula0-Cronograma.html | <https://deivisonsouza.github.io/FL03029-Dendrometria/Slides/Aula0-Cronograma.html> |
+| Slide                                     | Link                                                                                             |
+|:------------------------------------------|:-------------------------------------------------------------------------------------------------|
+| Slides/Aula0-Cronograma.html              | <https://deivisonsouza.github.io/FL03029-Dendrometria/Slides/Aula0-Cronograma.html>              |
+| Slides/Aula1-Introducao-Dendrometria.html | <https://deivisonsouza.github.io/FL03029-Dendrometria/Slides/Aula1-Introducao-Dendrometria.html> |
 
 # Facilitador :deciduous\_tree:
 
