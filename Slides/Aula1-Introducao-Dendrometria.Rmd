@@ -230,6 +230,9 @@ No âmbito da Engenharia Florestal, existem algumas sinonímias (palavras de sig
 name: ci
 ## Dendrometria: Conceito e Importância
 <br>
+
+--
+
 .shadow1[
 ### Conceito e Importância (Machado e Figueiredo Filho, 2003)
 
@@ -245,6 +248,9 @@ name: ci
 name: road
 ## Dendrometria: Relação com outras disciplinas
 <br>
+
+--
+
 .shadow1[
 ### Relação com outras disciplinas
 
@@ -260,6 +266,9 @@ A disciplina de Dendrometria está fortemente relacionada com outras áreas/disc
 name: vd
 ## Dendrometria: Variáveis
 <br>
+
+--
+
 .shadow1[
 ### Variáveis Dendrométricas
 
@@ -277,6 +286,8 @@ São caracerísticas medidas nas árvores, são exemplos:
 
 ## Variáveis Dendrométricas
 <br>
+
+--
 
 .pull-left-5[
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
