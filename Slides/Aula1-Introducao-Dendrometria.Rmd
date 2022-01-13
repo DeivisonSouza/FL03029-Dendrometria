@@ -445,7 +445,44 @@ knitr::include_graphics('fig/class1/hip2.jpeg')
 
 ---
 
+## Medidas Dendrométricas: Erros de medição
+<br>
+
+.shadow1[
+### Erros de Medição .font90[(Machado e Figueiredo Filho, 2009)]
+<br>
+
+Ao tomar uma medida qualquer, pode-se cometer vários tipos de erros. Em geral, os erros de medição podem ser classificados da seguinte forma:
+
+- 1) Erros Sistemáticos
+- 2) Erros Compensantes
+- 3) Erros de Estimativa
+- 4) Erros Acidentais
+]
+
+---
+
+## Medidas Dendrométricas: Erros de medição
+<br>
+
+.shadow1[
+### Erros de Medição .font90[(Machado e Figueiredo Filho, 2009)]
+<br>
+
+**1) Erros Sistemáticos**
+
+- Erros causados por .blue[defeitos nos instrumentos] de medição (falta de calibração), ou mesmo, por inabilidade do operador em manuseá-los;
+- Em geral, .blue[influem na medida sempre no mesmo sentido], para mais ou para menos, em relação ao verdadeiro valor da grandeza (SOARES; PAULA NETO, 2011); e
+- **Por exemplo**: uso de uma .blue[suta com braço móvel desajustado]. (esta condição poderá fornecer sempre um diâmetro menor do que o verdadeiro).
+]
+
+
+
+---
+
 ## Referências
 
 <br>
 MACHADO, S. A.; FIGUEIREDO FILHO, A. **Dendrometria**. 2.ed. guarapuava: UNICENTRO, 2009. 316p.
+<br><br>
+SOARES, C. P. B.; PAULA NETO, F.; SOUZA, A. L. **Dendrometria e Inventário Florestal**. 2ª ed. - Viçosa, MG: Ed. UFV, 2011. 272p.
