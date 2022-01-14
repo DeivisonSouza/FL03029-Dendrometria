@@ -3,12 +3,12 @@ title: "Dendrometria (FL03029)"
 subtitle: "Introdução à Dendrometria"
 author: "Prof. Dr. Deivison Venicio Souza"
 institute: "Universidade Federal do Pará (UFPA)"
-date: 
+date:
 encoding: "UTF-8"
 output:
   xaringan::moon_reader:
     css:
-      - default 
+      - default
       - assets/sydney-fonts.css
       - assets/slide-title/sydney-title.css
     self_contained: false

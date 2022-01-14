@@ -551,5 +551,3 @@ Link: http://repiica.iica.int/docs/B4179e/B4179e.pdf
 knitr::include_graphics('http://4.bp.blogspot.com/_1kfg_RxkYUg/S1kvIAVs9_I/AAAAAAAAAEQ/ezRFXAi1ICU/w1200-h630-p-k-no-nu/nuevo-1.jpg')
 ```
 ]
-
-
