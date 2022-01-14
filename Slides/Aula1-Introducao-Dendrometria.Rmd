@@ -802,12 +802,60 @@ knitr::include_graphics('fig/class1/PS.jpg')
 
 ---
 
-## Símbolos Dendrométricos - Outras Iniciativas
+## Símbolos Dendrométricos - Honório (2019)/Monografia
+
+.pull-left-2[
+```{r, echo=FALSE, out.width='65%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class1/Honorio-Tabela1.png')
+```
+]
+
+.pull-right-1[
+<br><br><br><br>
+[Link para Honório (2019)](https://florestaemadeira.ufes.br/sites/florestaemadeira.ufes.br/files/field/anexo/tcc_ana_paula_alcure_honorio.pdf)
+
+]
+
+---
+
+## Símbolos Dendrométricos - Honório (2019)/Monografia
+
+.pull-left-2[
+```{r, echo=FALSE, out.width='65%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class1/Honorio-Tabela1.png')
+```
+]
+
+.pull-right-1[
+<br><br><br><br>
+[Link para Honório (2019)](https://florestaemadeira.ufes.br/sites/florestaemadeira.ufes.br/files/field/anexo/tcc_ana_paula_alcure_honorio.pdf)
+
+]
+
+---
+
+## Símbolos Dendrométricos - Honório (2019)/Monografia
+
+.pull-left-2[
+```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class1/Honorio-Tabela1-cont.png')
+```
+]
+
+.pull-right-1[
+<br><br><br><br>
+[Link para Honório (2019)](https://florestaemadeira.ufes.br/sites/florestaemadeira.ufes.br/files/field/anexo/tcc_ana_paula_alcure_honorio.pdf)
+
+]
+
 
 ---
 
 ## Referências
 
+.font80[
+<br><br>
+HONÓRIO, A. P. A. **Padronização do uso de símbolos em mensuração e manejo florestal**. 2019. 20p. Monografia (Graduação em Engenharia Florestal) – Universidade Federal do Espírito Santo – Jerônimo Monteiro, 2019. [(Link para Publicação)](https://florestaemadeira.ufes.br/sites/florestaemadeira.ufes.br/files/field/anexo/tcc_ana_paula_alcure_honorio.pdf)
 <br><br>
 IUFRO. **The standardization of symbols in forest mensuration**. Maine Agricultural Experiment Station Technical Bulletin 15. 1965. 32p. [(Link para Publicação)](https://library.umaine.edu/MaineAES/TechnicalBulletin/tb15.pdf)
 <br><br>
@@ -821,3 +869,4 @@ Técnica de Lisboa, Instituto Superior Agronomia, Centro de Estudos Florestais,
 Lisboa, 27 pp. [(Link para Publicação)](https://www.repository.utl.pt/bitstream/10400.5/2016/1/REP-DEF-Relat%c3%b3rios-simbologia.pdf)
 <br><br>
 **Padronização da Simbologia em Mensuração e Manejo Florestal** (documento em construção). [(Link para Versão Web)](https://linktr.ee/mensuflor_br)
+]
