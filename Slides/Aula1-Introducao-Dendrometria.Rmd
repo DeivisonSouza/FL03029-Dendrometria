@@ -486,13 +486,56 @@ Ao tomar uma medida qualquer, pode-se cometer vários tipos de erros. Em geral, 
 ### Erros de Medição .font90[(Machado e Figueiredo Filho, 2009)]
 <br>
 
-**1) Erros Compensantes**
+**2) Erros Compensantes**
 
 - Erros que **não** estão relacionados aos defeitos do instrumento ou à falta de habilidade no manuseio pelo operador;
 - Ocorrem ao se .blue[arredondar] cifras ou ao .blue[aproximar valores]; e
 - Comumente são denominado também de .blue[Erros de Arredondamento].
 ]
 
+---
+
+## Medidas Dendrométricas: Erros de medição
+<br>
+
+.shadow1[
+### Erros de Medição .font90[(Machado e Figueiredo Filho, 2009)]
+<br>
+
+**3) Erros de Estimativa**
+
+- Erros devido ao uso da amostragem para obter estimativas da variável de interesse; e
+- **Amostragem** = consite em medir a variável de interesse em parte da população (amostra) e a partir desta obter estimativas dos parâmetros populacionais.
+]
+
+
+---
+
+## Medidas Dendrométricas: Erros de medição
+<br>
+
+.shadow1[
+### Erros de Medição .font90[(Machado e Figueiredo Filho, 2009)]
+<br>
+
+**4) Erros Acidentais**
+
+- Erros cometidos por engano - descuido do operador (na leitura dos instrumentos) ou do anotador dos dados dendrométricos.
+]
+
+---
+layout: false
+name: if
+class: inverse, middle, center
+background-image: url(fig/class1/sec.png)
+background-size: cover
+
+.white[.font200[**Símbolos Dendrométricos:**] <br> .font150[Importância da Padronização]]
+
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Introdução à Dendrometria</div>
 
 ---
 
