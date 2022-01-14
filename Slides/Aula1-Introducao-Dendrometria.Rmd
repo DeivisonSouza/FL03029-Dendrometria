@@ -704,8 +704,19 @@ A simbologia para designar fatores e quocientes de forma.
 
 ## Símbolos Dendrométricos - Iniciativa recente no Brasil
 <br>
-Mensuflor...
-<br><br>
+
+.shadow1[
+### Padronização da simbologia em Mensuração e Manejo Florestal
+.font90[
+
+- **.green[2021]**: No .blue[V Encontro Brasileiro de Mensuração Florestal] (MENSUFLOR), que ocorreu de forma on-line, foi apresentado pelo **Professor Dr. Gilson Fernandes da Silva** (UFES) um documento preliminar (em construção) com uma proposta de ".blue[Padronização da Simbologia em Mensuração e Manejo Florestal]".
+
+**Link da Palestra**: https://www.youtube.com/watch?v=2y_GY2-Xy-Q
+
+**Link do Documento**: https://linktr.ee/mensuflor_br (documento em construção)
+
+]
+]
 
 
 ---
