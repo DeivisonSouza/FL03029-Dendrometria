@@ -203,12 +203,85 @@ name: id
 ## Diâmetro das Árvores: Importância
 <br>
 
+.shadow1[
+### Importância do Diâmetro
+<br>
+O diâmetro da árvore é importante para o cálculo de diversas medidas derivadas:
+ * 1 - Cálculo da área transversal (g) da árvore;
+
+$$
+\begin{equation*}
+\large
+ g_i = \frac{\pi \color{blue}{d}^2}{4}
+\end{equation*}
+$$
+ * 2 - Cálculo da área basal (G) da parcela/unidade de amostra (ou população);
+$$
+\begin{equation*}
+G = \sum_{i=1}^{n}g_i
+\end{equation*}
+$$
+
+]
+
+
+---
+
+## Diâmetro das Árvores: Importância
 --
 
 .shadow1[
-### Importância
+### Importância do Diâmetro
+<br>
+.font90[
+O diâmetro da árvore é importante para o cálculo de diversas medidas derivadas:
+ * 3 - Cálculo do volume da árvore individual; (Por exemplo, a fórmula para calcular o volume de árvores individuais em PMFS na Amazônia)
+
+$$
+\begin{equation*}
+\large
+ v_i = \frac{\pi \color{blue}{d}^2}{4}.h_{c}.0,7~~\color{orange}{(Eq. 1)}~~~~~~~~~~
+ v_i = \frac{\pi \color{blue}{d}^2}{40000}.h_{c}.0,7~~\color{darkred}{(Eq. 2)}~~
+\end{equation*}
+$$
+
+$\color{orange}{Eq. 1}$: $d$ = diâmetro medido à 1,30m do solo (**em metros**); $h_c$ = altura comercial da árvore (em metros); $0,7$ = fator de forma
+
+$\color{darkred}{Eq. 2}$: $d$ = diâmetro medido à 1,30m do solo (**em centímetros**); $h_c$ = altura comercial da árvore (em metros); $0,7$ = fator de forma
+]
+]
+
+.font90[
+**Importante** `r anicon::faa("exclamation-triangle", colour="red")`: Veja que o diâmetro tem .blue[efeito quadrático sobre o volume] da árvore.
+]
+
+---
+
+## Diâmetro das Árvores: Importância
 <br>
 
+.shadow1[
+### Importância do Diâmetro
+<br>
+.font90[
+O diâmetro da árvore é importante para o cálculo de diversas medidas derivadas:
+ * 4 - Cálculo do crescimento (ou incremento) da árvore (ICA, IMA, IP, IPA);
+
+$$
+\begin{equation*}
+\large
+ ICA = Y_2 - Y_1~~~~~~~~~~~~
+ IPA = \frac{Y_2 - Y_1}{t}
+\end{equation*}
+$$
+
+**Em que**: ICA = Incremento Corrente Anual; IMA = Incremento Médio Anual; IP = Incremento Periódico; IPA = Incremento Periódico Anual (IPA).
+<br><br>
+
+`r anicon::faa("hand-point-right", animate="horizontal", colour="blue")` Comumente, o crescimento (incremento) em volume é de maior interesse.
+<br>
+`r anicon::faa("hand-point-right", animate="horizontal")` **Lembre-se:** Precisa-se do diâmetro para calcular o volume!
+]
 ]
 
 ---
