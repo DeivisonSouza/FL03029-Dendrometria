@@ -206,8 +206,8 @@ name: id
 .shadow1[
 ### Importância do Diâmetro
 <br>
-O diâmetro da árvore é importante para o cálculo de diversas medidas derivadas:
- * 1 - Cálculo da área transversal (g) da árvore;
+**1)** O diâmetro da árvore é importante para o cálculo de diversas medidas derivadas:
+ * a) Cálculo da área transversal (g) da árvore;
 
 $$
 \begin{equation*}
@@ -215,7 +215,7 @@ $$
  g_i = \frac{\pi \color{blue}{d}^2}{4}
 \end{equation*}
 $$
- * 2 - Cálculo da área basal (G) da parcela/unidade de amostra (ou população);
+ * b) Cálculo da área basal (G) da parcela/unidade de amostra (ou população);
 $$
 \begin{equation*}
 G = \sum_{i=1}^{n}g_i
@@ -234,8 +234,8 @@ $$
 ### Importância do Diâmetro
 <br>
 .font90[
-O diâmetro da árvore é importante para o cálculo de diversas medidas derivadas:
- * 3 - Cálculo do volume da árvore individual; (Por exemplo, a fórmula para calcular o volume de árvores individuais em PMFS na Amazônia)
+**1)** O diâmetro da árvore é importante para o cálculo de diversas medidas derivadas:
+ * c) Cálculo do volume da árvore individual; (Por exemplo, a fórmula para calcular o volume de árvores individuais em PMFS na Amazônia)
 
 $$
 \begin{equation*}
@@ -263,8 +263,8 @@ $\color{darkred}{Eq. 2}$: $d$ = diâmetro medido à 1,30m do solo (**em centíme
 ### Importância do Diâmetro
 <br>
 .font90[
-O diâmetro da árvore é importante para o cálculo de diversas medidas derivadas:
- * 4 - Cálculo do crescimento (ou incremento) da árvore (ICA, IMA, IP, IPA);
+**1)** O diâmetro da árvore é importante para o cálculo de diversas medidas derivadas:
+ * d) Cálculo do crescimento (ou incremento) da árvore (ICA, IMA, IP, IPA);
 
 $$
 \begin{equation*}
@@ -287,6 +287,33 @@ $$
 
 ]
 ]
+
+---
+
+## Diâmetro das Árvores: Importância
+
+.shadow1[
+### Importância do Diâmetro
+<br>
+.font90[
+**1)** O diâmetro da árvore é importante para o cálculo de diversas medidas derivadas:
+ * e) Quociente de forma (K) e fator de forma (f);
+
+$$
+\begin{equation*}
+\large
+ ICA = Y_2 - Y_1~~~~~~~~~~~~
+ IPA = \frac{Y_2 - Y_1}{t} ~~~~~~~~~~~~
+ IMA = \frac{Y}{I}
+\end{equation*}
+$$
+
+]
+]
+
+
+
+
 
 ---
 
