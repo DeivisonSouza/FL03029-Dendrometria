@@ -280,7 +280,7 @@ $$
 
 `r anicon::faa("hand-point-right", animate="horizontal", colour="blue")` Comumente, o crescimento (incremento) em volume é de maior interesse.
 <br>
-`r anicon::faa("hand-point-right", animate="horizontal")` **Lembre-se:** Precisa-se do diâmetro para calcular o volume!
+`r anicon::faa("hand-point-right", animate="horizontal")` **Lembre-se:** Precisa-se do diâmetro para calcular o volume da árvore!
 ]
 ]
 
