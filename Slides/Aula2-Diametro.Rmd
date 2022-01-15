@@ -258,7 +258,6 @@ $\color{darkred}{Eq. 2}$: $d$ = diâmetro medido à 1,30m do solo (**em centíme
 ---
 
 ## Diâmetro das Árvores: Importância
-<br>
 
 .shadow1[
 ### Importância do Diâmetro
@@ -271,7 +270,8 @@ $$
 \begin{equation*}
 \large
  ICA = Y_2 - Y_1~~~~~~~~~~~~
- IPA = \frac{Y_2 - Y_1}{t}
+ IPA = \frac{Y_2 - Y_1}{t} ~~~~~~~~~~~~
+ IMA = \frac{Y}{I}
 \end{equation*}
 $$
 
@@ -281,6 +281,10 @@ $$
 `r anicon::faa("hand-point-right", animate="horizontal", colour="blue")` Comumente, o crescimento (incremento) em volume é de maior interesse.
 <br>
 `r anicon::faa("hand-point-right", animate="horizontal")` **Lembre-se:** Precisa-se do diâmetro para calcular o volume da árvore!
+
+
+`r anicon::faa("hand-point-right", animate="horizontal", colour="orange")` **Entenda as definições**: [SOARES et al., 2011](http://www.mensuracaoflorestal.com.br/crescimento-e-producao-florestal)
+
 ]
 ]
 
