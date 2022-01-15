@@ -124,7 +124,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 **Parte 1 - Dendrometria**
 .font90[
 
-[1 - Etimologia](#op)
+[1 - Etimologia](#etim)
 
 [2 - Sinonímias](#s)
 
@@ -172,7 +172,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 <!-- Slide XX -->
 ---
 layout: false
-name: if
+name: etim
 class: inverse, middle, center
 background-image: url(fig/class1/sec.png)
 background-size: cover
@@ -185,7 +185,7 @@ layout: true
 <div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Introdução à Dendrometria</div>
 
 ---
-name: op
+name: etim
 ## Dendrometria: Etimologia
 <br>
 
@@ -324,7 +324,6 @@ knitr::include_graphics('fig/class1/alt.jpg')
 
 ---
 layout: false
-name: if
 class: inverse, middle, center
 background-image: url(fig/class1/sec.png)
 background-size: cover
@@ -337,7 +336,7 @@ layout: true
 <div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Introdução à Dendrometria</div>
 
 ---
-
+name: tm
 ## Medidas Dendrométricas: Tipos
 <br>
 
@@ -443,7 +442,7 @@ knitr::include_graphics('fig/class1/hip2.jpeg')
 ]
 
 ---
-
+name: em
 ## Medidas Dendrométricas: Erros de medição
 <br>
 
@@ -523,7 +522,7 @@ Ao tomar uma medida qualquer, pode-se cometer vários tipos de erros. Em geral, 
 ]
 
 ---
-
+name: um
 ## Medidas Dendrométricas: Unidades de Medidas
 <br>
 .font90[
@@ -544,7 +543,7 @@ No Brasil o sistema de unidades de medidas adotado desde 1962 é o Sistema Inter
 ]
 
 ---
-
+name: cd
 ## Medidas Dendrométricas: Casas Decimais
 <br>
 
@@ -580,7 +579,6 @@ No Brasil o sistema de unidades de medidas adotado desde 1962 é o Sistema Inter
 
 ---
 layout: false
-name: if
 class: inverse, middle, center
 background-image: url(fig/class1/sec.png)
 background-size: cover
@@ -593,7 +591,7 @@ layout: true
 <div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Introdução à Dendrometria</div>
 
 ---
-
+name: pip
 ## Símbolos Dendrométricos
 <br>
 
@@ -608,7 +606,7 @@ layout: true
 ]
 
 ---
-
+name: iufro
 ## Símbolos Dendrométricos
 <br>
 
@@ -685,7 +683,7 @@ A simbologia para circunferências, diâmetros, área transversal e área basal.
 
 ## Símbolos Dendrométricos - Proposição da IUFRO
 <br>
-A simbologia para circunferências, diâmetros, área transversal e área basal. (Cont.)
+A simbologia para **circunferências**, **diâmetros**, **área transversal** e **área basal**. (Cont.)
 <br><br>
 
 .font90[
@@ -704,7 +702,7 @@ A simbologia para circunferências, diâmetros, área transversal e área basal.
 
 ## Símbolos Dendrométricos - Proposição da IUFRO
 <br>
-A simbologia para designar altura de árvores.
+A simbologia para designar **altura** de árvores.
 <br><br>
 
 .font90[
@@ -723,7 +721,7 @@ A simbologia para designar altura de árvores.
 
 ## Símbolos Dendrométricos - Proposição da IUFRO
 <br>
-A simbologia para designar volume de árvores.
+A simbologia para designar **volume** de árvores.
 <br><br>
 
 .font90[
@@ -740,7 +738,7 @@ A simbologia para designar volume de árvores.
 
 ## Símbolos Dendrométricos - Proposição da IUFRO
 <br>
-A simbologia para designar fatores e quocientes de forma.
+A simbologia para designar **fatores** e **quocientes de forma**.
 <br><br>
 
 .font90[
@@ -756,7 +754,7 @@ A simbologia para designar fatores e quocientes de forma.
 ]
 
 ---
-
+name: ib
 ## Símbolos Dendrométricos - Iniciativa recente no Brasil
 <br>
 
@@ -775,7 +773,7 @@ A simbologia para designar fatores e quocientes de forma.
 
 
 ---
-
+name: oi
 ## Símbolos Dendrométricos - Outras Iniciativas
 
 .pull-left-4[
