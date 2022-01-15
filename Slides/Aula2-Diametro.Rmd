@@ -347,7 +347,7 @@ library(plotly)
 data <- readr::read_csv("Data/UPA07DVS.csv") %>% 
   mutate(DAP = CAP/pi)
 
-# Gráfico distribuição diamétrica 
+# Gráfico de distribuição diamétrica 
 h1 <- data %>%
   filter(Nome_Especie %in% "Acapu") %>%
   ggplot(aes(x=DAP)) +
@@ -391,6 +391,31 @@ style(h1, text=mytext_h1, hoverinfo="text",traces=c(1,2,3,4))
 **Fonte**: IF-100% da UPA-07 da AMF do PDS-Virola Jatobá.
 ]
 ]
+
+---
+
+## Diâmetro das Árvores: Importância
+
+.shadow1a[
+### Importância do Diâmetro
+<br>
+
+**3)** Usado como variável independente (preditora) no ajuste de modelos preditivos;
+.font90[
+- a) Modelos volumétricos $\rightarrow$ $ln(v) = ln(\beta_0) + \beta_1ln(\color{blue}{d}) + \beta_2ln(h_c) + \epsilon_i$ (.green[Schumacher-Hall])
+- b) Modelos hipsométricos $\rightarrow$ $h = \beta_0 + \beta_1\frac{1}{\color{blue}{d}} + \epsilon_i$ (.green[Curtis, 1967])
+- c) Modelos de biomassa $\rightarrow$ $ln(AGB) = \beta_0 + \beta_1ln(\rho \color{blue}{d}^2h) + \epsilon_i$ (.green[Chaves et al., 2014])*
+- d) Modelos de carbono
+- e) Modelos de fator de forma
+- f) Modelos de afilamento do fuste
+]
+
+]
+
+`r anicon::faa("hand-point-right", animate="horizontal", colour="orange")` **Acesse**: [Chaves et al., 2014](https://onlinelibrary.wiley.com/doi/10.1111/gcb.12629)
+
+
+
 
 ---
 
