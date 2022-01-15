@@ -460,6 +460,32 @@ As principais razões para a escolha da altura de 1,30m do solo foram: (SILVA; P
 
 ---
 
+## Ponto de Medição do Diâmetro - PMD
+
+.font90[
+.shadow1[
+### Ainda existem diferenças no PMD...
+<br>
+Apesar da padronização da altura do ponto de medição ainda existem pequenas diferenças entre países: (Machado e Figueiredo Filho, 2009)
+<br><br>
+
+| **País​**       | **Altura do PMD (m)​** |
+|:---------------:|:----------------------:|
+| Brasil​         | 1,30​                  |
+| Estados Unidos​ | 1,35​                  |
+| Japão​          | 1,25​                  |
+| Inglaterra​     | 1,39​                  |
+
+<br>
+
+`r anicon::faa("hand-point-right", animate="horizontal", colour="orange")` **Implicações**: gera pequenas diferenças na medida do DAP e, por conseguinte, da área transversal entre países.
+
+]
+]
+
+
+---
+
 ## Referências
 
 .font80[
