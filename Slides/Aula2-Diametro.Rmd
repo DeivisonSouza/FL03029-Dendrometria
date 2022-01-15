@@ -331,13 +331,66 @@ $d$: diâmetro medido à 1,30 m do solo.
 .shadow1[
 ### Importância do Diâmetro
 <br>
-.font90[
+.font80[
 **2)** Usado para compreender a distribuição diamétrica de espécies e/ou florestas (nativas ou plantadas);
-
-
 ]
 ]
 
+--
+
+.pull-left-2[
+```{r tb1, echo=F, eval=T, dpi=600, fig.width=1, fig.height=.6}
+library(dplyr)
+library(ggplot2)
+library(plotly)
+
+data <- readr::read_csv("Data/UPA07DVS.csv") %>% 
+  mutate(DAP = CAP/pi)
+
+# Gráfico distribuição diamétrica 
+h1 <- data %>%
+  filter(Nome_Especie %in% "Acapu") %>%
+  ggplot(aes(x=DAP)) +
+  geom_histogram(breaks=seq(30, 120, by=10),
+                 col="red",
+                 fill="green",
+                 alpha = .2) +
+  labs(title = "Distribuição Diamétrica \n(Vouacapoua americana Aubl.)",
+       subtitle = "") +
+  scale_x_continuous(breaks=seq(30, 120, by=10),
+                     limits=c(30, 120),
+                     name="Classes de Diâmetro") +
+  scale_y_continuous(breaks=seq(0, 1000, by=100),
+                     limits=c(0, 1000),
+                     name="Número de Indivíduos") +
+  theme_bw() +
+  theme(panel.border=element_rect(color="black"),
+        plot.title = element_text(hjust = 0),
+        plot.subtitle = element_text(hjust = 0.5, face = 'italic'))
+
+
+p_h1 <- ggplot_build(h1)
+
+h1 <- ggplotly(h1)
+  
+  mytext_h1 <- paste("Count", ": ", p_h1$data[[1]]$count, "\n",
+                    "Lower",": ", round(p_h1$data[[1]]$xmin,2), "\n",
+                    "Mids",": ", round(p_h1$data[[1]]$x,2), "\n",
+                    "Upper",": ", round(p_h1$data[[1]]$xmax,2), sep="")
+  
+h1 <- plotly_build(h1)
+style(h1, text=mytext_h1, hoverinfo="text",traces=c(1,2,3,4))
+
+```
+
+]
+
+<br><br><br><br>
+.pull-right-1[
+.font80[
+**Fonte**: IF-100% da UPA-07 da AMF do PDS-Virola Jatobá.
+]
+]
 
 ---
 

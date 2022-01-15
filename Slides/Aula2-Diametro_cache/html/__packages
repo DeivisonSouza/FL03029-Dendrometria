@@ -1,2 +1,5 @@
 base
 xaringanExtra
+dplyr
+ggplot2
+plotly

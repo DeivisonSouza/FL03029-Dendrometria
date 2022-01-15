@@ -8,6 +8,14 @@
     <link href="Aula2-Diametro_files/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="Aula2-Diametro_files/font-awesome-animation-1.0/font-awesome-animation-emi.css" rel="stylesheet" />
     <script src="Aula2-Diametro_files/fontawesome-5.0.13/js/fontawesome-all.min.js"></script>
+    <script src="Aula2-Diametro_files/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+    <script src="Aula2-Diametro_files/plotly-binding-4.9.3/plotly.js"></script>
+    <script src="Aula2-Diametro_files/typedarray-0.1/typedarray.min.js"></script>
+    <script src="Aula2-Diametro_files/jquery-3.5.1/jquery.min.js"></script>
+    <link href="Aula2-Diametro_files/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
+    <script src="Aula2-Diametro_files/crosstalk-1.1.1/js/crosstalk.min.js"></script>
+    <link href="Aula2-Diametro_files/plotly-htmlwidgets-css-1.57.1/plotly-htmlwidgets.css" rel="stylesheet" />
+    <script src="Aula2-Diametro_files/plotly-main-1.57.1/plotly-latest.min.js"></script>
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
         TeX: { equationNumbers: { autoNumber: "AMS" } },
@@ -341,13 +349,25 @@ $$
 .shadow1[
 ### Importância do Diâmetro
 &lt;br&gt;
-.font90[
+.font80[
 **2)** Usado para compreender a distribuição diamétrica de espécies e/ou florestas (nativas ou plantadas);
-
-
 ]
 ]
 
+--
+
+.pull-left-2[
+<div id="htmlwidget-87e0b853aec22aa2cd82" style="width:600px;height:360px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-87e0b853aec22aa2cd82">{"x":{"data":[{"orientation":"v","width":[10,10,10,10,10,10,10,10,10],"base":[0,0,0,0,0,0,0,0,0],"x":[35,45,55,65,75,85,95,105,115],"y":[37,947,924,420,202,59,20,6,2],"text":["Count: 37<br />Lower: 30<br />Mids: 35<br />Upper: 40","Count: 947<br />Lower: 40<br />Mids: 45<br />Upper: 50","Count: 924<br />Lower: 50<br />Mids: 55<br />Upper: 60","Count: 420<br />Lower: 60<br />Mids: 65<br />Upper: 70","Count: 202<br />Lower: 70<br />Mids: 75<br />Upper: 80","Count: 59<br />Lower: 80<br />Mids: 85<br />Upper: 90","Count: 20<br />Lower: 90<br />Mids: 95<br />Upper: 100","Count: 6<br />Lower: 100<br />Mids: 105<br />Upper: 110","Count: 2<br />Lower: 110<br />Mids: 115<br />Upper: 120"],"type":"bar","marker":{"autocolorscale":false,"color":"rgba(0,255,0,0.2)","line":{"width":1.88976377952756,"color":"rgba(255,0,0,1)"}},"showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"text":["Count: 37<br />Lower: 30<br />Mids: 35<br />Upper: 40","Count: 947<br />Lower: 40<br />Mids: 45<br />Upper: 50","Count: 924<br />Lower: 50<br />Mids: 55<br />Upper: 60","Count: 420<br />Lower: 60<br />Mids: 65<br />Upper: 70","Count: 202<br />Lower: 70<br />Mids: 75<br />Upper: 80","Count: 59<br />Lower: 80<br />Mids: 85<br />Upper: 90","Count: 20<br />Lower: 90<br />Mids: 95<br />Upper: 100","Count: 6<br />Lower: 100<br />Mids: 105<br />Upper: 110","Count: 2<br />Lower: 110<br />Mids: 115<br />Upper: 120"],"hoverinfo":"text","xaxis":"x","yaxis":"y","frame":null},{"text":["Count: 37<br />Lower: 30<br />Mids: 35<br />Upper: 40","Count: 947<br />Lower: 40<br />Mids: 45<br />Upper: 50","Count: 924<br />Lower: 50<br />Mids: 55<br />Upper: 60","Count: 420<br />Lower: 60<br />Mids: 65<br />Upper: 70","Count: 202<br />Lower: 70<br />Mids: 75<br />Upper: 80","Count: 59<br />Lower: 80<br />Mids: 85<br />Upper: 90","Count: 20<br />Lower: 90<br />Mids: 95<br />Upper: 100","Count: 6<br />Lower: 100<br />Mids: 105<br />Upper: 110","Count: 2<br />Lower: 110<br />Mids: 115<br />Upper: 120"],"hoverinfo":"text","xaxis":"x","yaxis":"y","frame":null},{"text":["Count: 37<br />Lower: 30<br />Mids: 35<br />Upper: 40","Count: 947<br />Lower: 40<br />Mids: 45<br />Upper: 50","Count: 924<br />Lower: 50<br />Mids: 55<br />Upper: 60","Count: 420<br />Lower: 60<br />Mids: 65<br />Upper: 70","Count: 202<br />Lower: 70<br />Mids: 75<br />Upper: 80","Count: 59<br />Lower: 80<br />Mids: 85<br />Upper: 90","Count: 20<br />Lower: 90<br />Mids: 95<br />Upper: 100","Count: 6<br />Lower: 100<br />Mids: 105<br />Upper: 110","Count: 2<br />Lower: 110<br />Mids: 115<br />Upper: 120"],"hoverinfo":"text","xaxis":"x","yaxis":"y","frame":null}],"layout":{"margin":{"t":45.7108066971081,"r":7.30593607305936,"b":42.130898021309,"l":48.9497716894977},"plot_bgcolor":"rgba(255,255,255,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"Distribuição Diamétrica <br />(Vouacapoua americana Aubl.)","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[25.5,124.5],"tickmode":"array","ticktext":["30","40","50","60","70","80","90","100","110","120"],"tickvals":[30,40,50,60,70,80,90,100,110,120],"categoryorder":"array","categoryarray":["30","40","50","60","70","80","90","100","110","120"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"Classes de Diâmetro","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-50,1050],"tickmode":"array","ticktext":["0","100","200","300","400","500","600","700","800","900","1000"],"tickvals":[0,100,200,300,400,500,600,700,800,900,1000],"categoryorder":"array","categoryarray":["0","100","200","300","400","500","600","700","800","900","1000"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"Número de Indivíduos","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":"transparent","line":{"color":"rgba(0,0,0,1)","width":0.66417600664176,"linetype":"solid"},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.88976377952756,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"7444519d89e":{"x":{},"type":"bar"}},"cur_data":"7444519d89e","visdat":{"7444519d89e":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+
+]
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+.pull-right-1[
+.font80[
+**Fonte**: IF-100% da UPA-07 da AMF do PDS-Virola Jatobá.
+]
+]
 
 ---
 
