@@ -326,6 +326,18 @@ $d$: diâmetro medido à 1,30 m do solo.
 
 ---
 
+## Diâmetro das Árvores: Importância
+
+.shadow1[
+### Importância do Diâmetro
+<br>
+.font90[
+**2)** Usado para compreender a distribuição diamétrica de espécies e/ou florestas (nativas ou plantadas);
+
+
+]
+]
+
 
 ---
 
