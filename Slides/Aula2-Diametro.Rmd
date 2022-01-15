@@ -408,14 +408,34 @@ style(h1, text=mytext_h1, hoverinfo="text",traces=c(1,2,3,4))
 - d) Modelos de carbono
 - e) Modelos de fator de forma
 - f) Modelos de afilamento do fuste
+- g) Modelos de aprendizado de máquina (RNA, Random Forest, SVR, Regression Tree, etc.)
 ]
 
 ]
 
 `r anicon::faa("hand-point-right", animate="horizontal", colour="orange")` **Acesse**: [Chaves et al., 2014](https://onlinelibrary.wiley.com/doi/10.1111/gcb.12629)
 
+---
+name: pmd
+## Ponto de Medição do Diâmetro - PMD
 
+.shadow1[
+### A Necessidade de Padronizar de um Ponto de Medição
+.font90[
+- Até início do século XX as .blue[medições] de diâmetro eram tomadas em .blue[diferentes alturas] próxima da base;
+- Devido a isso, não era possível .blue[comparar os estudos] conduzidas por diferentes pesquisadores de distintos locais;
+- Assim, surgiu a necessidade de padronizar um .blue[Ponto de Medição do Diâmetro (PMD)];
+- Portanto, convencionou-se que a altura mais adequada para a medição do diâmetro a .blue[1,30m do solo]. Essa medida foi comumente denominada: **Diâmetro à Altura do Peito (DAP)**
 
+(**Machado e Figueiredo Filho, 2009**)
+]
+]
+
+<br>
+
+.font80[
+**Minha opinião** `r anicon::faa("exclamation-triangle", colour="red")`: Não concordo com o uso da terminologia **Diâmetro à Altura do Peito (DAP)**. Particularmente, acredito ser mais razoável usar **Diâmetro à 1,30m do solo**, e simbolizar por $d$, conforme recomendado pela IUFRO.
+]
 
 ---
 
