@@ -302,11 +302,19 @@ $$
 $$
 \begin{equation*}
 \large
- ICA = Y_2 - Y_1~~~~~~~~~~~~
- IPA = \frac{Y_2 - Y_1}{t} ~~~~~~~~~~~~
- IMA = \frac{Y}{I}
+ K = \frac{d_{\frac{1}{2}h}}{d}~~~~~~~~~~~~~
+ f_{1,3} = \frac{v_{cubagem}}{v_{cilindro}}
 \end{equation*}
 $$
+<br>
+
+$K$ = Quociente de forma artificial (ou Schiffel); 
+
+$f_{1,3}$ = Fator de Forma Normal ou Artificial
+
+$d_{\frac{1}{2}h}$: Diâmetro medido na metade da altura da árvore.
+
+$d$: diâmetro medido à 1,30 m do solo.
 
 ]
 ]
