@@ -439,6 +439,27 @@ name: pmd
 
 ---
 
+## Ponto de Medição do Diâmetro - PMD
+
+.font90[
+.shadow1[
+### Por que 1,30m do solo?
+<br>
+As principais razões para a escolha da altura de 1,30m do solo foram: (SILVA; PAULA NETO,1979; MACHADO; FIGUEIREDO FILHO, 2009)
+
+- **Altura do operador**: Padronizar um PMD que não tivesse uma dependência da altura do operador;
+- **Manuseio do instrumento**: Na altura de 1,30m do solo, o instrumento é facilmente manejável; e
+- **Sapopemas ou raízes aéreas**: Evitar a influência de sapopemas ou raízes aéreas muito comuns em florestas tropicais.
+]
+]
+<br>
+
+.font80[
+`r anicon::faa("hand-point-right", animate="horizontal", colour="orange")` **Na Amazônia**: é bastante comum encontrar árvores com sapopemas gigantes, maiores do que 1,30m do solo.
+]
+
+---
+
 ## Referências
 
 .font80[
