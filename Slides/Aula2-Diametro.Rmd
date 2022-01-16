@@ -550,6 +550,26 @@ $$
 
 
 ---
+name: sepmd
+## Situações Especiais de PMD
+
+.shadow1[
+### Situações Especiais
+<br>
+Em situações práticas de campo, .blue[nem sempre é possível medir o diâmetro a 1,30 m do solo]. Portanto, o PMD pode modificar em função de(a):
+
+- a) Anomalias na árvore (bifurcações, nó, dilatação, etc.);
+- b) Inclinação da árvore;
+- c) Localização no terreno (aclives ou declives); e
+- d) Presença de sapopemas ou raízes aéreas.
+
+]
+
+
+
+
+
+---
 
 ## Referências
 
