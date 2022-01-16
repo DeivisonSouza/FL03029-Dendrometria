@@ -132,7 +132,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 [4 - Situações Especiais de PMD](#sepmd)
 
-&nbsp;&nbsp;[4.1 - Árvores sem anomalias e situadas em terreno plano](#qo)
+&nbsp;&nbsp;[4.1 - Árvores sem anomalias e situadas em terreno plano](#asa)
 
 &nbsp;&nbsp;[4.2 - Árvores inclinadas](#ai)
 
@@ -565,7 +565,48 @@ Em situações práticas de campo, .blue[nem sempre é possível medir o diâmet
 
 ]
 
+---
+name: asa
+## Situações Especiais de PMD
+<br>
+### **Árvores sem anomalias e situadas em terreno plano**
 
+.pull-left-1[
+<br><br>
+```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class2/fig1.jpeg')
+```
+
+]
+
+
+.pull-right-2[
+<br><br><br><br>
+Em árvore em pé, reta e localizada em terreno plano, o diâmetro deve ser tomado a 1,30 m do solo.
+]
+
+---
+
+## Situações Especiais de PMD
+<br>
+### **Árvores inclinadas**
+
+
+.pull-right-2[
+<br><br><br><br>
+Em árvores inclinadas o PMD deve ser fixado do lado inverso à direção de inclinação.
+]
+
+---
+
+## Situações Especiais de PMD
+<br>
+### **Árvores em aclives ou declives**
+
+.pull-right-2[
+<br><br><br><br>
+Em árvores situadas em aclives ou declives o PMD deve ser determinado a partir da declividade mais alta do solo.
+]
 
 
 
