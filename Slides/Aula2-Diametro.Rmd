@@ -469,6 +469,7 @@ As principais razões para a escolha da altura de 1,30m do solo foram: (SILVA; P
 Apesar da padronização da altura do ponto de medição ainda existem pequenas diferenças entre países: (Machado e Figueiredo Filho, 2009)
 <br><br>
 
+.pull-left-4[
 | **País**       | **Altura do PMD (m)** |
 |:---------------:|:----------------------:|
 | Brasil         | 1,30                  |
@@ -479,6 +480,15 @@ Apesar da padronização da altura do ponto de medição ainda existem pequenas 
 <br>
 
 `r anicon::faa("hand-point-right", animate="horizontal", colour="orange")` **Implicações**: gera pequenas diferenças na medida do DAP e, por conseguinte, da área transversal entre países.
+]
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class1/fig1.jpeg')
+```
+]
+
+
 
 ]
 ]
