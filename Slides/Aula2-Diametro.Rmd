@@ -568,47 +568,57 @@ Em situações práticas de campo, .blue[nem sempre é possível medir o diâmet
 ---
 name: asa
 ## Situações Especiais de PMD
-<br>
-### **Árvores sem anomalias e situadas em terreno plano**
 
-.pull-left-1[
+.pull-left-4[
+.font80[
+<br>
+1 - Árvores sem anomalias no PMD e situadas em terreno plano
+
+2 - Árvores em declives (ou aclives)
+
+3 - Árvores inclinadas e em declives
+
+4 - Árvores com galhos/deformidades no PMD
+
+5 - Árvores bifurcadas abaixo do PMD
+
+6 - Árvores bifurcadas acima do PMD
+
+7 - Árvores com sapopemas
+
+8 - Árvores com raízes elevadas (raízes aéreas)
 <br><br>
-```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class2/fig1.jpeg')
+
+**Importante** `r anicon::faa("exclamation-triangle", colour="red")`: Para árvores com sapopemas ou raízes aéreas maiores do que 1,30m, recomenda-se definir o PMD 30cm após o término da anomalia (Machado; Figueiredo Filho, 2009).
+
+]
+]
+
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('https://www.researchgate.net/profile/Bao-Huy-2/publication/317380319/figure/fig4/AS:502540039344129@1496826290207/Measuring-DBH-tree.png')
+```
+
+.center[
+.font70[
+Huy et al. (2013). [(Link para Versão Web)](https://www.researchgate.net/profile/Bao-Huy-2/publication/317380319_Participatory_Carbon_Monitoring_Manual_for_Local_Technical_Staff/links/5937c1adaca272ede1cefd8a/Participatory-Carbon-Monitoring-Manual-for-Local-Technical-Staff.pdf)
+]
+]
+]
+
+---
+
+## Situações Especiais de PMD
+<br>
+### **Algumas situações em campo...**
+
+.pull-left-4[
+```{r, echo=FALSE, out.width='45%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('https://i.stack.imgur.com/rc3Lc.jpg')
 ```
 
 ]
-
-
-.pull-right-2[
-<br><br><br><br>
-Em árvore em pé, reta e localizada em terreno plano, o diâmetro deve ser tomado a 1,30 m do solo.
-]
-
----
-
-## Situações Especiais de PMD
-<br>
-### **Árvores inclinadas**
-
-
-.pull-right-2[
-<br><br><br><br>
-Em árvores inclinadas o PMD deve ser fixado do lado inverso à direção de inclinação.
-]
-
----
-
-## Situações Especiais de PMD
-<br>
-### **Árvores em aclives ou declives**
-
-.pull-right-2[
-<br><br><br><br>
-Em árvores situadas em aclives ou declives o PMD deve ser determinado a partir da declividade mais alta do solo.
-]
-
-
 
 ---
 
@@ -618,6 +628,8 @@ Em árvores situadas em aclives ou declives o PMD deve ser determinado a partir 
 <br><br>
 CAMPOS, J. C. C.; LEITE, H. G. Mensuração florestal: perguntas e respostas. 3ª ed. - Viçosa, MG: Ed. UFV, 2009. 548p.
 <br><br>
+Huy, B., Huong, N. T. T., Sharma, B. D., & Quang, N. V. (2013). Participatory carbon monitoring: Manual for local technical staff.[(Link para Versão Web)](https://www.researchgate.net/profile/Bao-Huy-2/publication/317380319_Participatory_Carbon_Monitoring_Manual_for_Local_Technical_Staff/links/5937c1adaca272ede1cefd8a/Participatory-Carbon-Monitoring-Manual-for-Local-Technical-Staff.pdf)
+<br><br>
 IMANÃ-ENCINAS, J. Slides de aula da disciplina dendrometria. Brasília: Universidade de Brasília, Departamento de Engenharia Florestal, 2011. 231p.
 <br><br>
 MACHADO, S. A.; FIGUEIREDO FILHO, A. **Dendrometria**. 2.ed. guarapuava: UNICENTRO, 2009. 316p.
@@ -626,3 +638,7 @@ SILVA, J. A. A.; PAULA NETO, F. Princípios básicos de dendrometria. Recife. UF
 <br><br>
 SOARES, C. P. B.; PAULA NETO, F.; SOUZA, A. L. **Dendrometria e Inventário Florestal**. 2ª ed. - Viçosa, MG: Ed. UFV, 2011. 272p. [(Link para Versão Web)](http://www.mensuracaoflorestal.com.br/sobre-o-site)
 ]
+
+
+
+
