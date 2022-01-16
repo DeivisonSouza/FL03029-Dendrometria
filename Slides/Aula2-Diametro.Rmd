@@ -618,7 +618,20 @@ Huy et al. (2013). [(Link para Versão Web)](https://www.researchgate.net/profil
 knitr::include_graphics('https://i.stack.imgur.com/rc3Lc.jpg')
 ```
 
+.center[.font80[**Fonte**: [stackexchange.com](https://outdoors.stackexchange.com/questions/9800/what-are-these-bulges-are-they-harming-the-tree)]]
+
 ]
+
+.pull-left-4[
+
+```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='Samaúma (Ceiba pentranda) ', dpi=600}
+knitr::include_graphics('https://portalamazonia.com/images/p/34367/samauma.jpg')
+```
+.center[.font80[**Fonte**: [portalamazonia.com](https://portalamazonia.com/images/p/34367/samauma.jpg)]]
+]
+
+
+
 
 ---
 
