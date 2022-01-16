@@ -484,13 +484,68 @@ Apesar da padronização da altura do ponto de medição ainda existem pequenas 
 
 .pull-right-4[
 ```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class1/fig1.jpeg')
+knitr::include_graphics('fig/class2/fig1.jpeg')
 ```
 ]
 
+]
+]
 
+---
+name: rdc
+## Relação entre Circunferência e Diâmetro
+<br>
+.font90[
+.shadow1[
+### Conversão Circunferência e Diâmetro
+<br>
+- Em muitos casos, a medida do diâmetro não pode ser obtida diretamente, seja pela .blue[ausência de instrumento] de medição graduado com medidas de diâmetro (por exemplo, fita diamétrica), seja pela .blue[dimensão das árvores];
+- Alternativamente, pode-se .blue[medir a circuferência] da árvore com uma fita métrica convencional; e
+- Assim, como o comprimento e diâmetro da circunferência guardam uma relação matemática, pode-se realizar uma simples conversão por fórmula.
 
 ]
+]
+
+---
+
+## Relação entre Circunferência e Diâmetro
+
+.pull-left-1[
+```{r, echo=FALSE, out.width='95%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class2/dc.png')
+```
+
+.font80[
+Em que: $\pi$ = constante pi (3,141593); $r$ = raio da circunferência; $c$ = comprimento da circunferência; $d$ = diâmetro da circunferência.
+]
+]
+
+--
+
+.pull-right-2[
+<br>
+.center[**Relação matemática...**]
+
+$$
+\Large
+\begin{equation*}
+c = \pi d~~~~~~~~~~~~~~ d = \frac{c}{\pi}
+\end{equation*}
+$$
+
+.font90[
+**Exemplo**: Considere que a medida da circuferência tomada à 1,30m do solo de uma árvore é 157,08cm. Qual o valor do diâmetro, em centímetros, dessa árvore?
+]
+<br>
+
+$$
+\Large
+\begin{equation*}
+d = \frac{c}{\pi} = \frac{157,08}{3,141593} \approx 50cm
+\end{equation*}
+$$
+
+
 ]
 
 
