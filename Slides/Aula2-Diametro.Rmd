@@ -919,6 +919,29 @@ knitr::include_graphics('fig/class2/fig1.jpeg')
 ]
 
 
+---
+
+## Instrumentos para a Medição de Diâmetros
+
+.shadow1[
+### Comparação: Suta x Fita diamétrica
+]
+<br>
+
+.font90[
+| **Fatores**                                         | **Suta**                          | **Fita Diamétrica**               |
+|:---------------------------------------------------:|:---------------------------------:|:---------------------------------:|
+| Transporte                                          | Menos Cômodo (tamanho)            | Mais cômodo (bolso)               |
+| Tempo de Medição                                    | + Rápido                          | + Vagarosa                        |
+| Diâmetro                                            | Sim                               | Sim                               |
+| Circunferência                                      | Não                               | Sim                               |
+| Seções Excêntricas (Elípiticas) - Número de Medidas | 2                                 | 1                                 |
+| Seções Excêntricas (Elípiticas) - Erros de Medidas   | Sistemáticos para + (< magnitude) | Sistemáticos para + (> magnitude) |
+]
+
+
+
+
 
 ---
 
