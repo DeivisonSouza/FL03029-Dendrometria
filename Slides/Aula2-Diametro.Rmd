@@ -707,8 +707,29 @@ name: sme
 ]
 ]
 
-
 ---
+
+## Instrumentos para a Medição de Diâmetros
+
+.shadow1[
+### Suta - Tipos
+]
+<br>
+
+.pull-left-4[
+```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='Suta Mecânica', dpi=600}
+knitr::include_graphics('https://www.eloforte.com/uploads/01.jpg')
+```
+.center[.font80[**Fonte**: [www.eloforte.com](https://www.eloforte.com/uploads/01.jpg)]]
+]
+
+
+.pull-left-4[
+```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='Suta Digital (Suta Mantax Digitech MDII)', dpi=600}
+knitr::include_graphics('https://www.eloforte.com/uploads/04.jpg')
+```
+.center[.font80[**Fonte**: [www.eloforte.com](https://www.eloforte.com/uploads/04.jpg)]]
+]
 
 ---
 
