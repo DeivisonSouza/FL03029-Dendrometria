@@ -768,6 +768,23 @@ Atenção `r anicon::faa("exclamation-triangle", colour="red")`: Não pressionar
 
 ---
 
+## Instrumentos para a Medição de Diâmetros
+
+.shadow1[
+### Suta - Desvantagens
+<br>
+.font90[
+- **1. Imprecisão**: Quando desajustado (erros sistemáticos);
+- **2. Árvores Grossas**: Sutas muito grandes (transporte e manuseio);
+- **3. Resíduos**: Na barra graduada (deslizamento do braço móvel); e
+- **4. Árvores Excêntricas**: Necessidade de tomar 2 medidas.
+]
+]
+
+
+
+---
+
 ## Referências
 
 .font80[
