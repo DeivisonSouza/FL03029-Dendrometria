@@ -982,6 +982,27 @@ knitr::include_graphics('https://bloximages.chicago2.vip.townnews.com/heraldbull
 
 ---
 
+## Instrumentos para a Medição de Diâmetros
+
+.pull-left-2[
+.shadow1[
+### Vara de Biltmore - Procedimento de Uso
+.font80[
+- Encostar a régua no tronco, em posição perpendicular ao eixo da árvore;
+- Manter a cabeça imóvel e com ".blue[olho]" a uma distância ".blue[L]" pré-fixada;
+- **1ª visada**: Deslocar a vara até que a marca ".blue[zero]" coincida com a linha de vista que tangencia um lado da árvore; e
+- **2ª visada**: Fornecerá a leitura do diâmetro da árvore. É o ponto em que a linha de visada tangencia a outra extremidade da árvore.
+]
+]
+]
+
+.pull-right-1[
+```{r, echo=FALSE, out.width='95%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('https://extension.unh.edu/sites/default/files/migrated_unmanaged_files/diameteroftree.png')
+```
+
+.center[.font80[**Fonte**: [https://extension.unh.edu](https://extension.unh.edu/sites/default/files/migrated_unmanaged_files/diameteroftree.png)]]
+]
 
 
 ---
