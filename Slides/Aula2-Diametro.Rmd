@@ -740,6 +740,7 @@ Acesse o site [https://www.eloforte.com](https://www.eloforte.com) e veja outros
 
 ## Instrumentos para a Medição de Diâmetros
 
+.pull-left-9[
 .shadow1[
 ### Suta Mecânica - Procedimento de uso
 
@@ -750,7 +751,31 @@ Acesse o site [https://www.eloforte.com](https://www.eloforte.com) e veja outros
 - 4 - Manter os braços e a régua no mesmo plano horizontal; e
 - 5 - Ler a medida do diâmetro diretamente na régua graduada.
 
-**Importante**: Para árvores com seções não circulares recomenda-se tomar 2 medições. Em seguida, calcula-se a média aritmética.
+]
+]
+<br>
+.font90[
+Atenção `r anicon::faa("exclamation-triangle", colour="red")`: Não pressionar demasiadamente o braço da Suta contra a casca. Pode acarretar erro de medição.
+]
+]
+
+.pull-right-9[
+<br>
+```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('https://assets.intergiro.net.br/arquivos/soilcontrol/produtos/thumbs/suta-florestal-mecanica-de-500mm_dc5bf998-04d5-4af7-abdd-c2f749e86fa0.jpg')
+```
+.center[.font80[**Fonte**: [https://www.soilcontrol.com.br](https://www.soilcontrol.com.br/produtos/90164/912/florestal/suta-mecanica.aspx)]]
+
+]
+
+---
+
+## Instrumentos para a Medição de Diâmetros
+
+.shadow1[
+### Suta Mecânica - Procedimento de uso
+<br>
+**Recomendação**: Para árvores com seções não circulares recomenda-se tomar 2 medições. Em seguida, calcula-se a média aritmética.
 
 $$
 \Large
@@ -758,13 +783,8 @@ $$
 d = \frac{d_1 + d_2}{2}
 \end{equation*}
 $$
-
-]
 ]
 
-.font90[
-Atenção `r anicon::faa("exclamation-triangle", colour="red")`: Não pressionar demasiadamente o braço da Suta contra a casca. Pode acarretar erro de medição.
-]
 
 ---
 
@@ -778,8 +798,40 @@ Atenção `r anicon::faa("exclamation-triangle", colour="red")`: Não pressionar
 - **2. Árvores Grossas**: Sutas muito grandes (transporte e manuseio);
 - **3. Resíduos**: Na barra graduada (deslizamento do braço móvel); e
 - **4. Árvores Excêntricas**: Necessidade de tomar 2 medidas.
+
 ]
 ]
+
+
+---
+
+## Instrumentos para a Medição de Diâmetros
+<br>
+.pull-left-9[
+.shadow1[
+### Fita Diamétrica
+<br>
+.font90[
+- É uma fita graduada em intervalos constantes de $\pi$ em uma de suas faces. 
+- Ao usar a fita diamétrica pode-se obter diretamente a medida do diâmetro da árvore, em centímetros.
+]
+]
+]
+
+--
+
+.pull-right-9[
+<br>
+```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap='Fita Diamétrica', dpi=600}
+knitr::include_graphics('https://www.embrapa.br/bme_images/m/190480040m.jpg')
+```
+.center[.font80[**Fonte**: [https://www.embrapa.br](https://www.embrapa.br/bme_images/m/190480040m.jpg)]]
+]
+
+
+
+
+
 
 
 
