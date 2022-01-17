@@ -715,20 +715,24 @@ name: sme
 ### Suta - Tipos
 ]
 <br>
-
+.pull-top[
 .pull-left-4[
-```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='Suta Mecânica', dpi=600}
+```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap='Suta Mecânica', dpi=600}
 knitr::include_graphics('https://www.eloforte.com/uploads/01.jpg')
 ```
 .center[.font80[**Fonte**: [www.eloforte.com](https://www.eloforte.com/uploads/01.jpg)]]
 ]
 
-
 .pull-left-4[
-```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='Suta Digital (Suta Mantax Digitech MDII)', dpi=600}
+```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap='Suta Digital (Suta Mantax Digitech MDII)', dpi=600}
 knitr::include_graphics('https://www.eloforte.com/uploads/04.jpg')
 ```
-.center[.font80[**Fonte**: [www.eloforte.com](https://www.eloforte.com/uploads/04.jpg)]]
+.center[.font80[**Fonte**:[www.eloforte.com](https://www.eloforte.com/uploads/04.jpg)]]
+
+.font70[
+Acesse o site [https://www.eloforte.com](https://www.eloforte.com) e veja outros modelos de Suta e acessórios (como apontadores a laser GatorEyes para medir diâmetros à distância).
+]
+]
 ]
 
 ---
