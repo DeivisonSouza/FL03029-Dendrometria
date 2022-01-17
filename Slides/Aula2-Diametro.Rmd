@@ -829,9 +829,51 @@ knitr::include_graphics('https://www.embrapa.br/bme_images/m/190480040m.jpg')
 ]
 
 
+---
 
+## Instrumentos para a Medição de Diâmetros
 
+.pull-left-9[
+.shadow1[
+### Fita Diamétrica - Características
+<br>
+.font80[
+**Manuseio**: Simples, fácil.
 
+----------
+
+**Composição**:
+
+1 - Duas Faces
+- **Face 1**: Leitura de diâmetros, em cm. $(d = \dfrac{c}{\pi})$
+- **Face 2**: Leitura de circunferências, em cm.
+
+2 - Gancho na extremidade (algumas)
+
+3 - Comprimento (5 ou 10m)
+
+----------
+
+**Material**:
+
+1 - Aço flexível
+
+2 - Lona reforçada
+]
+]
+]
+
+--
+
+.pull-right-9[
+<br>
+```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap='Fita Diamétrica', dpi=600}
+knitr::include_graphics('https://terrages.pt/media/img/FitasDiametricas.png')
+```
+.center[.font80[**Fonte**: [https://terrages.pt](https://terrages.pt/media/img/FitasDiametricas.png)]]
+]
+
+---
 
 
 
