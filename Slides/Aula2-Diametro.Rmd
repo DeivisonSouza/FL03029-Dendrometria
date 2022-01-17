@@ -186,7 +186,6 @@ Ao final desta aula espera-se que o discente seja capaz de...
 <!-- Slide XX -->
 ---
 layout: false
-name: if
 class: inverse, middle, center
 background-image: url(fig/class1/sec.png)
 background-size: cover
@@ -196,7 +195,7 @@ background-size: cover
 ---
 layout: true
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Medição de Diâmetros de Árvores</div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Medição de Diâmetros de Árvores/Parte 1: O Diâmetro das Árvores</div>
 
 ---
 name: id
@@ -630,8 +629,88 @@ knitr::include_graphics('https://portalamazonia.com/images/p/34367/samauma.jpg')
 .center[.font80[**Fonte**: [portalamazonia.com](https://portalamazonia.com/images/p/34367/samauma.jpg)]]
 ]
 
+<!-- Slide XX -->
+---
+layout: false
+class: inverse, middle, center
+background-image: url(fig/class1/sec.png)
+background-size: cover
 
+.white[.font200[**Instrumentos para a Medição de Diâmetros:**] <br> .font150[Suta, Fita Diamétrica, Vara de Biltmore, etc.]]
 
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Medição de Diâmetros de Árvores/Parte 2: Instrumentos para a Medição de Diâmetros</div>
+
+---
+name: sme
+## Instrumentos para a Medição de Diâmetros
+
+.shadow1[
+### Suta - Características
+<br>
+
+**Sinonímia**: Cálibre, forcípula ou compasso florestal.
+
+**Manuseio**: Simples, fácil.
+
+----------
+
+**Composição**:
+
+1 - Régua graduada
+
+2 - Dois braços perpendiculares à régua
+
+- **Braço fixo** (coincide com "zero");
+- **Braço móvel** (desloca-se sobre a régua graduada).
+
+]
+
+---
+
+## Instrumentos para a Medição de Diâmetros
+
+.shadow1[
+### Suta - Características
+
+.font90[
+.pull-left-4[
+**Madeira**:
+
+- **No início**: o principal material usado foi a madeira.
+- **Vantagens**: leves e baratas.
+- **Desvantagens**: 
+1. Desgaste do encaixe do braço móvel; e
+2. Suscetíveis às variações de umidade.
+]
+
+.pull-right-4[
+**Ligas de alumínio**:
+
+- **Atualmente**: Ligas de alumínio
+- **Vantagens**:
+1 - Leves; 
+2 - mantém-se ajustadas por maior tempo; e
+3 - maior facilidade de limpeza do instrumento.
+
+**Desvantagens**: 
+1. Mais caras! 
+
+:calendar:
+
+:thinking: embora não tenha conhecimento de valores das sutas de madeira, é razoável acreditar que as sutas de ligas de alumínio tiveram uma agregação de valor.
+]
+
+]
+]
+
+`r  anicon::cia("thinking.gif", size=3, border=T)`
+
+---
+
+:calendar:
 
 ---
 
