@@ -741,10 +741,11 @@ Acesse o site [https://www.eloforte.com](https://www.eloforte.com) e veja outros
 ## Instrumentos para a Medição de Diâmetros
 
 .pull-left-9[
+<br>
 .shadow1[
 ### Suta Mecânica - Procedimento de uso
 
-.font90[
+.font80[
 - 1- Abrir o braço móvel;
 - 2 - Encostar a régua graduada na árvore;
 - 3 - Comprimir os braços contra o tronco da árvore;
@@ -760,12 +761,13 @@ Atenção `r anicon::faa("exclamation-triangle", colour="red")`: Não pressionar
 ]
 
 .pull-right-9[
-<br>
-```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('https://assets.intergiro.net.br/arquivos/soilcontrol/produtos/thumbs/suta-florestal-mecanica-de-500mm_dc5bf998-04d5-4af7-abdd-c2f749e86fa0.jpg')
+<br><br>
+```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class2/suta.jpg')
 ```
-.center[.font80[**Fonte**: [https://www.soilcontrol.com.br](https://www.soilcontrol.com.br/produtos/90164/912/florestal/suta-mecanica.aspx)]]
+<br>
 
+.font80[**Foto**: Acervo pessoal.]
 ]
 
 ---
@@ -897,6 +899,26 @@ $$
 🌳**.green[Atividade prática 1 (individual)]**🌳: Construir uma **Fita Diamétrica**.
 ]
 ]
+
+---
+
+## Instrumentos para a Medição de Diâmetros
+
+.shadow1[
+### Fita Diamétrica - Procedimento de uso
+
+.font90[
+- 1 - A fita deve circundar o tronco em posição horizontal.
+- 2 - Cuidar para evitar dobraduras na fita, no momento da medição.
+]
+]
+
+.pull-left-4[
+```{r, echo=FALSE, out.width='65%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class2/fig1.jpeg')
+```
+]
+
 
 
 ---
