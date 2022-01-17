@@ -674,43 +674,41 @@ name: sme
 
 .shadow1[
 ### Suta - Características
+]
+<br>
 
-.font90[
 .pull-left-4[
-**Madeira**:
-
+.center[**MADEIRA**]
+.font80[
 - **No início**: o principal material usado foi a madeira.
 - **Vantagens**: leves e baratas.
 - **Desvantagens**: 
 1. Desgaste do encaixe do braço móvel; e
 2. Suscetíveis às variações de umidade.
 ]
+<br><br><br><br>
+.green[**É um paquímetro para medir grandes dimensões!**]
+]
+
+--
 
 .pull-right-4[
-**Ligas de alumínio**:
-
+.center[**LIGAS DE ALUMÍNIO**]
+.font80[
 - **Atualmente**: Ligas de alumínio
 - **Vantagens**:
-1 - Leves; 
-2 - mantém-se ajustadas por maior tempo; e
-3 - maior facilidade de limpeza do instrumento.
-
-**Desvantagens**: 
+  1 - Leves;
+  2 - Mantém-se ajustadas por maior tempo; e
+  3 - Maior facilidade de limpeza do instrumento.
+- **Desvantagens**: 
 1. Mais caras! 
 
-:calendar:
-
-:thinking: embora não tenha conhecimento de valores das sutas de madeira, é razoável acreditar que as sutas de ligas de alumínio tiveram uma agregação de valor.
-]
-
+`r anicon::faa("hand-point-right", animate="horizontal", colour="orange")` Embora não tenha conhecimento de valores das sutas de madeira, é razoável acreditar que as sutas de ligas de alumínio tiveram uma agregação de valor.
 ]
 ]
 
-`r  anicon::cia("thinking.gif", size=3, border=T)`
 
 ---
-
-:calendar:
 
 ---
 
