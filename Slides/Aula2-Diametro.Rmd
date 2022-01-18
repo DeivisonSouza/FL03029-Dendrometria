@@ -1192,6 +1192,23 @@ knitr::include_graphics('fig/class2/triangle4.png')
 
 ]
 
+.font80[
+Portanto, a fórmula para graduação da Régua de Biltmore originou-se do princípio de semelhança entre triângulos retângulos.
+]
+
+<br><br><br><br>
+$$
+\begin{equation*}
+\dfrac{\overline{BE}}{\overline{AB}} = \dfrac{\overline{DC}}{\overline{AD}}\Rightarrow
+\dfrac{\dfrac{l}{2}}{L} = \dfrac{\dfrac{d}{2}}{\overline{AD}}
+\end{equation*}
+$$
+
+
+---
+
+
+
 ---
 
 ## Referências
