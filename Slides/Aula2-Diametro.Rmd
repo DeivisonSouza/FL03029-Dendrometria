@@ -1028,12 +1028,44 @@ Três condições básicas são indispensáveis para o perfeito uso da Régua de
 
 .shadow1[
 ### Régua de Biltmore - Princípio geométrico para a graduação
-<br>
-.font80[
-sss
+]
 
+.pull-left-9[
+```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='Princípio geométrico', dpi=600}
+knitr::include_graphics('fig/class2/bilt.png')
+```
+.font70[
+**Fonte**: O autor.
+
+O círculo da figura representa a área da seção transversal da árvore no ponto de medição do diâmetro, cujo centro é "C".
 ]
 ]
+
+--
+
+.pull-right-9[
+.center[**Notações**]
+.font80[
+- **A**  → Posição do olho do observador;
+- **EBF** → Régua de Biltmore, encostada à árvore, tangenciando a marca "zero" de um lado e o diâmetro da árvore no lado oposto;
+- **AED** → Linha de visada tangenciando a marca "zero";
+- **AFG** → Linha de visada tangenciando a graduação do diâmetro;
+- **AB** → Distância do observador à árvore ( $L$ );
+- **BC** e **DC** → Raios da circunferência; e
+- **EF** → Comprimento ( $l$ ) na régua.
+]
+]
+
+---
+
+## Instrumentos para a Medição de Diâmetros
+
+.shadow1[
+### Régua de Biltmore - Princípio geométrico para a graduação
+]
+
+
+
 
 
 
