@@ -1064,9 +1064,30 @@ O círculo da figura representa a área da seção transversal da árvore no pon
 ### Régua de Biltmore - Princípio geométrico para a graduação
 ]
 
+.pull-left-9[
+```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='Princípio geométrico', dpi=600}
+knitr::include_graphics('fig/class2/bilt.png')
+```
+.font70[**Fonte**: O autor.]
+]
+
+--
+
+.pull-right-9[
+.center[**Triângulos retângulos**]
+.font80[
+
+- O comprimento $l$ se relaciona com o diâmetro $d$, desde que a seção transversal da árvore seja circular;
+- Os triângulos ABE~ACD → Formam dois triângulos retângulos e semelhantes pelo critério AAA.
+
+```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='Semelhança de triângulos', dpi=600}
+knitr::include_graphics('fig/class2/triangle.png')
+```
+.font70[**Fonte**: O autor.]
 
 
-
+]
+]
 
 
 ---
