@@ -1268,7 +1268,16 @@ $$
 ### Régua de Biltmore - Princípio geométrico para a graduação
 ]
 
+- Então, pelo Teorema de Pitágoras sabe-se que $\overline{AD} = \sqrt{L^2 + Ld}$
+- Substituindo $\overline{AD}$ na relação de semelhanças de triângulos retângulos tem-se:
 
+$$
+\begin{equation*}
+\dfrac{\overline{BE}}{\overline{AB}} = \dfrac{\overline{DC}}{\overline{AD}}\color{green}{\Rightarrow}
+\dfrac{\dfrac{l}{2}}{L} = \dfrac{\dfrac{d}{2}}{\color{blue}{\sqrt{L^2 + Ld}}}\\ \color{green}{\Rightarrow} \dfrac{l\sqrt{L^2+Ld}}{2}=\dfrac{Ld}{2}\\
+l = \dfrac{Ld}{\sqrt{L^2+Ld}}
+\end{equation*}
+$$
 
 
 
