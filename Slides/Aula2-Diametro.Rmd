@@ -1078,16 +1078,26 @@ knitr::include_graphics('fig/class2/bilt.png')
 .font80[
 
 - O comprimento $l$ se relaciona com o diâmetro $d$, desde que a seção transversal da árvore seja circular;
-- Os triângulos ABE~ACD → Formam dois triângulos retângulos e semelhantes pelo critério AAA.
+- Os triângulos ABE~ACD → Formam dois triângulos retângulos e semelhantes.
 
 ```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='Semelhança de triângulos', dpi=600}
 knitr::include_graphics('fig/class2/triangle.png')
 ```
 .font70[**Fonte**: O autor.]
 
+]
+]
 
+---
+
+## Instrumentos para a Medição de Diâmetros
+
+.shadow1[
+### Régua de Biltmore - Princípio geométrico para a graduação
 ]
-]
+
+
+
 
 
 ---
