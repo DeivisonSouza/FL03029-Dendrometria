@@ -1207,6 +1207,69 @@ $$
 
 ---
 
+## Instrumentos para a Medição de Diâmetros
+
+.shadow1[
+### Régua de Biltmore - Princípio geométrico para a graduação
+]
+
+.pull-left-4[
+.pull-left-1[
+```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class2/triangle3.png')
+```
+]
+
+.pull-left-1[
+<br><br>
+```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class2/triangle4.png')
+```
+]
+
+
+.pull-left-1[
+$$
+\begin{equation*}
+\dfrac{\overline{BE}}{\overline{AB}} = \dfrac{\overline{DC}}{\overline{AD}}\Rightarrow
+\dfrac{\dfrac{l}{2}}{L} = \dfrac{\dfrac{d}{2}}{\overline{AD}}
+\end{equation*}
+$$
+]
+]
+
+
+--
+
+.pull-right-4[
+.font80[
+.center[`r anicon::faa("hand-point-down", animate="vertical", colour="green")` **Triângulo ACD: Teorema de Pitágoras**] 
+ 
+- Em um triângulo retângulo, o quadrado da hipotenusa é igual à soma dos quadrados dos catetos.
+
+$$
+\begin{equation*}
+a^2 = b^2 + c^2 \\
+\overline{AC}^2 = \overline{DC}^2+\overline{AD}^2\\
+\overline{AD}^2 = \overline{DC}^2-\overline{AC}^2\\
+\overline{AD} = \sqrt{\overline{DC}^2-\overline{AC}^2}\\
+\overline{AD} = \sqrt{\left(\dfrac{d}{2}\right)^2-\left(L+\dfrac{d}{2}\right)^2}\\
+\overline{AD} = \sqrt{L^2 + Ld}
+\end{equation*}
+$$
+]
+]
+
+---
+
+## Instrumentos para a Medição de Diâmetros
+
+.shadow1[
+### Régua de Biltmore - Princípio geométrico para a graduação
+]
+
+
+
 
 
 ---
