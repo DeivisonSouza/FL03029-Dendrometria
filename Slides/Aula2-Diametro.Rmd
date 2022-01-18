@@ -1096,7 +1096,69 @@ knitr::include_graphics('fig/class2/triangle.png')
 ### Régua de Biltmore - Princípio geométrico para a graduação
 ]
 
+.pull-left-8[
+.center[**Semelhança de Triângulos Retângulos**]
+.font80[
 
+```{r, echo=FALSE, out.width='95%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class2/triangle.png')
+```
+.font80[**Fonte**: O autor.]
+
+]
+]
+
+--
+
+.pull-left-6[
+
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class2/triangle1.png')
+```
+
+]
+
+--
+
+.pull-left-6[
+<br><br>
+```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class2/triangle2.png')
+```
+
+]
+
+--
+
+
+.pull-bottom[
+.pull-left-5[
+$$
+\begin{equation*}
+L = \overline{AB}\\
+l = \overline{EF} = 2\overline{BE}\\
+d = 2\overline{DC} = 2\overline{BC}
+\end{equation*}
+$$
+]
+
+.pull-right-5[
+
+$L$ = Distância do observador à árvore
+
+$l$ = Comprimento na régua
+
+$d$ = diâmetro da árvores
+]
+]
+
+---
+
+## Instrumentos para a Medição de Diâmetros
+
+.shadow1[
+### Régua de Biltmore - Princípio geométrico para a graduação
+]
 
 
 
