@@ -42,6 +42,13 @@ knitr::opts_chunk$set(
   dpi = 600)
 ```
 
+```{r packages, include=FALSE}
+# remotes::install_github("dill/emoGG")
+library(ggplot2)
+library(dplyr)
+library(ggimage)
+```
+
 ```{r xaringan-logo, echo=FALSE}
 library(xaringanExtra)
 use_logo(
@@ -1314,8 +1321,8 @@ $d$ = diâmetros das árvores
 ## Instrumentos para a Medição de Diâmetros
 
 .shadow1[
-### Régua de Biltmore - Princípio geométrico para a graduação
-- **Exemplo**: Qual a graduação na Régua de Biltmore ( $l$ ) para uma árvore com 10cm de diâmetro e um $L$ fixado de 60cm?
+### Régua de Biltmore - Graduação
+- **Exemplo 1**: Qual a graduação na Régua de Biltmore ( $l$ ) para uma árvore com 10cm de diâmetro e um $L$ fixado de 60cm?
 
 $$
 \begin{equation*}
@@ -1331,6 +1338,36 @@ $$
 
 
 ]
+
+---
+
+## Instrumentos para a Medição de Diâmetros
+
+.shadow1[
+### Régua de Biltmore - Graduação
+- **Exemplo 2**: Qual a graduação na Régua de Biltmore ( $l$ ) para os diâmetros (em, centímetros) do quadro a seguir (considere um $L$ fixado de 70cm)?
+]
+
+```{r echo=F, eval=T}
+library(dplyr)
+df <- data.frame(
+  d = c(10, 12,14,16,18,20,22,24,26,28,30), l = c(NA))
+df
+# df %>% 
+#    DT::datatable(editable = 'cell', rownames = FALSE, style = "default",
+#                  class = "display", width = '450px',
+#                  caption = '',
+#      options=list(pageLength = 12, dom = 'tip', autoWidth = F,
+#        initComplete = htmlwidgets::JS(
+#           "function(settings, json) {",
+#           paste0("$(this.api().table().container()).css({'font-size': '", "12pt", "'});"),
+#           "}")
+#        ) 
+#      )
+```
+
+
+---
 
 
 ---
