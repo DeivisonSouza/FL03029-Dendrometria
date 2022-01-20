@@ -1434,6 +1434,53 @@ knitr::include_graphics('fig/class2/gd1.png')
 ```
 .center[.font80[**Fonte**: Machado; Figueiredo Filho, 2009.]]
 
+---
+name: cd
+## Instrumentos para a Medição de Diâmetros
+
+.shadow1[
+### Cinta Dendrométrica - Características
+
+.font90[
+- São instrumentos amplamente usados em pesquisa florestal para medir o diâmetro das árvores, e objetivam fornecer mudanças no diâmetro a 1,30m do solo da árvore, na área basal e incremento da área basal, em curtos intervalos de tempo.
+
+**Sinonímia**: Banda dendrométrica; Microdendrômetro.
+
+**Utilidade**: Medir a taxa de crescimento (incremento) da árvore, em curtos períodos.
+
+----------
+
+**Material**:
+
+- Fita alumínio ou aço (graduada em parte)
+- Espiral (presa na extremidade - orifício)
+
+]
+]
+
+---
+
+## Instrumentos para a Medição de Diâmetros
+
+.shadow1[
+### Cinta Dendrométrica
+]
+
+.pull-top[
+.pull-left-4[
+```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('https://terrages.pt/media/img/DB20.png')
+```
+.center[.font80[**Fonte**: [https://terrages.pt](https://terrages.pt/media/img/DB20.png)]]
+]
+
+.pull-left-4[
+```{r, echo=FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('https://ictinternational.com/content/uploads/2014/03/dbm80-04-700x387.jpg')
+```
+.center[.font80[**Fonte**: [https://ictinternational.com](https://ictinternational.com/content/uploads/2014/03/dbm80-04-700x387.jpg)]]
+]
+]
 
 ---
 
