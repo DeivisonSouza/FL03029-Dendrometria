@@ -1279,6 +1279,37 @@ l = \dfrac{Ld}{\sqrt{L^2+Ld}}
 \end{equation*}
 $$
 
+---
+
+## Instrumentos para a Medição de Diâmetros
+
+.shadow1[
+### Régua de Biltmore - Princípio geométrico para a graduação
+
+- .font90[Portanto, a graduação da Régua de Biltmore pode ser feita usando uma das fórmulas a seguir:]
+
+$$
+\begin{equation*}
+l = \dfrac{Ld}{\sqrt{L^2+Ld}}~~(\color{orange}{Eq.1})~~~~~~~~~~~~~~~~~~~~~~~
+l = \dfrac{d}{\sqrt{1+\dfrac{d}{L}}}~~(\color{brown}{Eq.2})
+\end{equation*}
+$$
+
+.font80[
+**Em que**:
+
+$l$ = distâncias na Régua de Biltmore
+
+$L$ = distância fixa do olho do observador à Régua
+
+$d$ = diâmetros das árvores
+
+- Assim, para a graduação da régua basta: i) fixar um valor para a distância $L$ (70cm) e atribuir os valores de $d$ à fórmula escolhida ( $\color{orange}{Eq.1}$ ou $\color{brown}{Eq.2}$ ). Em seguida, realizar a operação matemática e obter os valores de $l$. Esses valores devem ser marcados na régua para graduá-la.
+]
+
+]
+
+
 
 
 ---
