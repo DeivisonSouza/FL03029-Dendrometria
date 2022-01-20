@@ -1534,7 +1534,22 @@ $$
 ]
 ]
 
+.pull-top[
+.pull-left-4[
+```{r, echo=FALSE, out.width='45%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Robinia_sezione.png/325px-Robinia_sezione.png')
+```
+.center[.font80[**Fonte**: [https://upload.wikimedia.org](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Robinia_sezione.png/325px-Robinia_sezione.png)]]
+]
 
+.pull-left-4[
+```{r, echo=FALSE, out.width='70%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Tree_Trunk_Cross_Section_-_Kolkata_2011-06-04_3688.JPG/800px-Tree_Trunk_Cross_Section_-_Kolkata_2011-06-04_3688.JPG')
+```
+.center[.font80[**Fonte**: [(https://upload.wikimedia.org](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Tree_Trunk_Cross_Section_-_Kolkata_2011-06-04_3688.JPG/800px-Tree_Trunk_Cross_Section_-_Kolkata_2011-06-04_3688.JPG)]]
+
+]
+]
 
 
 ---
