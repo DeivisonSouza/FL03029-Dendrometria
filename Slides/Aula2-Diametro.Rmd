@@ -189,18 +189,17 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 .pull-bottom[
 <br>
-**Parte 3 - Erros na Medição de Diâmetros**
-.font90[
-[1 - Erros no Uso da Suta](#eus)
-
-[2 - Erro da Área Transversal Devido à Seção Elíptica](#eat)
-
-]
+**Parte 3 - Relação Diâmetro e Área Transversal**
 ]
 
 .pull-bottom[
 <br>
-**Parte 4 - Relação Diâmetro e Área Basal**
+**Parte 4 - Erros na Medição de Diâmetros**
+.font90[
+[1 - Erros no Uso da Suta](#eus)
+
+[2 - Erro da Área Transversal Devido à Seção Elíptica](#eat)
+]
 ]
 ]
 
@@ -1480,7 +1479,26 @@ knitr::include_graphics('https://ictinternational.com/content/uploads/2014/03/db
 ]
 ]
 
-<!-- Slide XX -->
+
+---
+layout: false
+class: inverse, middle, center
+background-image: url(fig/class1/sec.png)
+background-size: cover
+
+.white[.font200[**Relação Diâmetro e Área Transversal**]]
+
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Medição de Diâmetros de Árvores/Parte 3: Relação Diâmetro e Área Transversal</div>
+
+---
+
+
+---
+
+
 ---
 layout: false
 class: inverse, middle, center
@@ -1492,7 +1510,7 @@ background-size: cover
 ---
 layout: true
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Medição de Diâmetros de Árvores/Parte 3: Erros na Medição de Diâmetros</div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Medição de Diâmetros de Árvores/Parte 4: Erros na Medição de Diâmetros</div>
 
 ---
 
@@ -1524,9 +1542,24 @@ c) Transformação de circunferências de fustes excêntricos (elípticos) para 
 
 .shadow1[
 ### Erros no Uso da Suta
+<br>
+.font90[
+Os erros mais frequentes ao se utilizar a **Suta** são (SOARES et al., 2011):
+
+- A falta de paralelismo dos braços da suta;
+- A inclinação da suta durante a medição;
+- A não observância da altura exata do PMD; e
+- A variação da pressão de contato.
+]
 ]
 
+---
 
+## Erros na Medição de Diâmetros
+
+.shadow1[
+### Erro da área transversal devido à seção elíptica
+]
 
 
 ---
