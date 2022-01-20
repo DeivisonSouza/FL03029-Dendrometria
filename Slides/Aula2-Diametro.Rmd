@@ -1394,6 +1394,45 @@ $$
 ]
 ]
 
+---
+name: gd
+## Instrumentos para a Medição de Diâmetros
+
+.shadow1[
+### Garfo Dendrométrico - Características
+
+.font90[
+- É um instrumento que permite identificar a classe diamétrica que determinada árvore pertence.
+
+**Manuseio**: Simples, fácil.
+
+----------
+
+**Utilidade**:
+
+Classificação de árvore em classes de diâmetro (até 25 cm de diâmetro)
+
+]
+]
+
+---
+
+## Instrumentos para a Medição de Diâmetros
+
+.shadow1[
+### Garfo Dendrométrico - Procedimento de Uso
+.font90[
+- Encosta-se o instrumento no tronco da árvore, na altura do PMD; e
+- Contabiliza a classe de diâmetro que a árvore está enquadrada.
+]
+]
+<br>
+
+
+```{r, echo=FALSE, out.width='35%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class2/gd1.png')
+```
+.center[.font80[**Fonte**: Machado; Figueiredo Filho, 2009.]]
 
 
 ---
