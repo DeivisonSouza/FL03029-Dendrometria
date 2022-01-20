@@ -1530,6 +1530,7 @@ $$
 ### A secção transversal do tronco nem sempre é círcular! `r anicon::faa("exclamation-triangle", colour="red")`
 .font90[
 - Na prática, especialmente em florestas tropicais inequiâneas, as secções transversais de troncos de árvores .blue[não são círculos perfeitos].
+- As formas geométricas possíveis são infinitas. Devido a isso é impossível o tratamento geral e particular de todas as situações na natureza (Batista et al., 2014).
 ]
 ]
 
