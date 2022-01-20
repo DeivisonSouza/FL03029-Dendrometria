@@ -1304,12 +1304,33 @@ $L$ = distância fixa do olho do observador à Régua
 
 $d$ = diâmetros das árvores
 
-- Assim, para a graduação da régua basta: i) fixar um valor para a distância $L$ (70cm) e atribuir os valores de $d$ à fórmula escolhida ( $\color{orange}{Eq.1}$ ou $\color{brown}{Eq.2}$ ). Em seguida, realizar a operação matemática e obter os valores de $l$. Esses valores devem ser marcados na régua para graduá-la.
+- Assim, para a graduação da régua basta: i) fixar um valor para a distância $L$ (60cm) e atribuir os valores de $d$ à fórmula escolhida ( $\color{orange}{Eq.1}$ ou $\color{brown}{Eq.2}$ ). Em seguida, realizar a operação matemática e obter os valores de $l$. Esses valores devem ser marcados na régua para graduá-la.
 ]
 
 ]
 
+---
 
+## Instrumentos para a Medição de Diâmetros
+
+.shadow1[
+### Régua de Biltmore - Princípio geométrico para a graduação
+- **Exemplo**: Qual a graduação na Régua de Biltmore ( $l$ ) para uma árvore com 10cm de diâmetro e um $L$ fixado de 60cm?
+
+$$
+\begin{equation*}
+l = \dfrac{Ld}{\sqrt{L^2+Ld}} \color{green}{\Rightarrow} \dfrac{60.(10)}{\sqrt{60^2+60.(10)}} \approx \color{blue}{9,26cm}~~~~~(\color{orange}{Eq.1})
+\end{equation*}
+$$
+
+$$
+\begin{equation*}
+l = \dfrac{d}{\sqrt{1+\dfrac{d}{L}}}\color{green}{\Rightarrow} \dfrac{10}{\sqrt{1+\dfrac{10}{60}}}\approx \color{blue}{9,26cm}~~~~~(\color{brown}{Eq.2})
+\end{equation*}
+$$
+
+
+]
 
 
 ---
