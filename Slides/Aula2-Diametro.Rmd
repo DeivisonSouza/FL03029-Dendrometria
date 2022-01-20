@@ -59,6 +59,22 @@ use_logo(
 )
 ```
 
+```{r customDT, echo=F}
+CustomDT <- function(data){
+  data %>% DT::datatable(editable = 'cell', rownames = FALSE,
+                         style = "default",
+                         class = "display", width = '180px',
+                         caption = '',
+     options=list(pageLength = 20, dom = 't', autoWidth = F,
+       initComplete = htmlwidgets::JS(
+          "function(settings, json) {",
+          paste0("$(this.api().table().container()).css({'font-size': '", "9pt", "'});"),
+          "}")
+       ) 
+     )
+}
+```
+
 ```{r icon, echo=FALSE}
 #remotes::install_github("mitchelloharawild/icons")
 #library(icons)
@@ -1348,23 +1364,12 @@ $$
 - **Exemplo 2**: Qual a graduação na Régua de Biltmore ( $l$ ) para os diâmetros (em, centímetros) do quadro a seguir (considere um $L$ fixado de 70cm)?
 ]
 
-```{r echo=F, eval=T}
-library(dplyr)
-df <- data.frame(
-  d = c(10, 12,14,16,18,20,22,24,26,28,30), l = c(NA))
-df
-# df %>% 
-#    DT::datatable(editable = 'cell', rownames = FALSE, style = "default",
-#                  class = "display", width = '450px',
-#                  caption = '',
-#      options=list(pageLength = 12, dom = 'tip', autoWidth = F,
-#        initComplete = htmlwidgets::JS(
-#           "function(settings, json) {",
-#           paste0("$(this.api().table().container()).css({'font-size': '", "12pt", "'});"),
-#           "}")
-#        ) 
-#      )
-```
+.font150[
+| $d$ | 10 | 12 | 14 | 16 | 18 | 20 | 22 | 24 | 26 | 28 | 30 |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| $l$ |    |    |    |    |    |    |    |    |    |    |    |
+
+]
 
 
 ---
