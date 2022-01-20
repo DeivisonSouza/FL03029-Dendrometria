@@ -121,8 +121,6 @@ layout: true
 7 - Método de Bitterlich - Relascopia 
 
 8 - Biomassa e Carbono de Árvores
-
-.red[9 - Análise de Tronco]
 ]
 ]
 
@@ -1482,10 +1480,21 @@ knitr::include_graphics('https://ictinternational.com/content/uploads/2014/03/db
 ]
 ]
 
+<!-- Slide XX -->
 ---
+layout: false
+class: inverse, middle, center
+background-image: url(fig/class1/sec.png)
+background-size: cover
 
+.white[.font200[**Erros na Medição de Diâmetros:**] <br> .font150[1 - Erros no Uso da Suta <br> 2 - Erro da Área Transversal Devido à Seção Elíptica]]
 
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Medição de Diâmetros de Árvores/Parte 3: Erros na Medição de Diâmetros</div>
 
+---
 
 
 ---
