@@ -1526,10 +1526,14 @@ $$
 
 ## Relação Diâmetro e Área Transversal
 
-
+.shadow1[
+### A secção transversal do tronco nem sempre é círcular! `r anicon::faa("exclamation-triangle", colour="red")`
 .font90[
-**Importante** `r anicon::faa("exclamation-triangle", colour="red")`: Na prática, especialmente em florestas tropicais, as secções transversais de troncos de árvores não são círculos perfeitos.
+- Na prática, especialmente em florestas tropicais inequiâneas, as secções transversais de troncos de árvores .blue[não são círculos perfeitos].
 ]
+]
+
+
 
 
 ---
