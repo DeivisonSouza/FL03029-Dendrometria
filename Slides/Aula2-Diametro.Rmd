@@ -1697,6 +1697,13 @@ knitr::include_graphics('fig/class2/gp2.png')
 
 ## Relação Diâmetro e Área Basal
 
+.shadow1[
+### Diâmetro e Área Basal
+.font90[
+- A área basal refere-se ao grau de ocupação do solo pelos fustes das árvores;
+- A área basal é simbolizada por $G$ ( $G$ maiúsculo ), e expressa em $m^2/ha$ (ou $m^2.ha^{-1}$);
+]
+]
 
 
 ---
