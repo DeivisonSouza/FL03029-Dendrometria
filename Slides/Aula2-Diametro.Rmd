@@ -145,7 +145,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 .pull-left[
 .pull-top[
 **Parte 1 - O Diâmetro das Árvores**
-.font90[
+.font80[
 
 [1 - Importância do Diâmetro](#id)
 
@@ -175,7 +175,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 .pull-right[
 .pull-top[
 **Parte 2 - Instrumentos para a Medição de Diâmetros**
-.font90[
+.font80[
 [1 - Suta (Mecânica e Eletrônica)](#sme)
 
 [2 - Fita Diamétrica](#fd)
@@ -190,14 +190,17 @@ Ao final desta aula espera-se que o discente seja capaz de...
 ]
 
 .pull-bottom[
-<br>
-**Parte 3 - Relação Diâmetro e Área Transversal**
+**Parte 3 - Medidas Derivadas do Diâmetro**
+.font80[
+[1 - Relação Diâmetro e Área Transversal](#rdat)
+
+[2 - Relação Diâmetro e Área Basal](#rdab)
+]
 ]
 
 .pull-bottom[
-<br>
 **Parte 4 - Erros na Medição de Diâmetros**
-.font90[
+.font80[
 [1 - Erros no Uso da Suta](#eus)
 
 [2 - Erro da Área Transversal Devido à Seção Elíptica](#eat)
@@ -1488,19 +1491,19 @@ class: inverse, middle, center
 background-image: url(fig/class1/sec.png)
 background-size: cover
 
-.white[.font200[**Relação Diâmetro e Área Transversal**]]
+.white[.font200[**Medidas Derivadas do Diâmetro:**]<br> .font150[1 - Relação Diâmetro e Área Transversal <br> 2 - Relação Diâmetro e Área Basal]]
 
 ---
 layout: true
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Medição de Diâmetros de Árvores/Parte 3: Relação Diâmetro e Área Transversal</div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Medição de Diâmetros de Árvores/Parte 3: Medidas Derivadas do Diâmetro</div>
 
 ---
 
-## Relação Diâmetro e Área Transversal
+## Medidas Derivadas do Diâmetro
 
 .shadow1[
-### Área Transversal (Batista et al., 2014)
+### Diâmetro e Área Transversal (Batista et al., 2014)
 .font90[
 - A área transversal é a .blue[área da secção transversal] do tronco na altura de .blue[1,30m] do solo;
 - A área transversal é simbolizada por $g$ ( $g$ minúsculo ), e expressa em $m^2$;
@@ -1690,7 +1693,11 @@ knitr::include_graphics('fig/class2/gp2.png')
 ```
 .center[.font80[**Fonte:** O autor. Círculos com .red["X"] são árvores mortas.]]
 
-  
+---
+
+## Relação Diâmetro e Área Basal
+
+
 
 ---
 layout: false
