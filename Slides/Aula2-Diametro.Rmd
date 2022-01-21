@@ -1573,7 +1573,7 @@ knitr::include_graphics('https://upload.wikimedia.org/wikipedia/commons/thumb/3/
 ```{r, echo=FALSE, out.width='95%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class2/gp.png')
 ```
-.font80[**Fonte:** O autor.]
+.font80[**Fonte:** O autor. Círculos com .red["X"]: árvores mortas.]
 
 ]
 
