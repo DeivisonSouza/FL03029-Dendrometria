@@ -1639,7 +1639,6 @@ $$
 ]
 
 
-
 ---
 
 ## Relação Diâmetro e Área Transversal
@@ -1684,8 +1683,12 @@ knitr::include_graphics('https://media0.giphy.com/media/fRhSHzQ4NXOdrHIZJd/giphy
 
 ---
 
-## ttt
+## Relação Diâmetro e Área Transversal
 
+```{r, echo=FALSE, out.width='45%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class2/gp2.png')
+```
+.center[.font80[**Fonte:** O autor. Círculos com .red["X"] são árvores mortas.]]
 
   
 
