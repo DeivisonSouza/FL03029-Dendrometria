@@ -1557,6 +1557,7 @@ knitr::include_graphics('https://upload.wikimedia.org/wikipedia/commons/thumb/3/
 
 ## Relação Diâmetro e Área Transversal
 
+.pull-left-4[
 .shadow1[
 ### Área Transversal - Cálculo
 .font90[
@@ -1564,6 +1565,18 @@ knitr::include_graphics('https://upload.wikimedia.org/wikipedia/commons/thumb/3/
 **Pergunta-se**: .blue[Qual a área transversal, em metros quadrados, de cada árvore?]
 ]
 ]
+]
+
+--
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='95%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class2/gp.png')
+```
+.font80[**Fonte:** O autor.]
+
+]
+
 
 ---
 
@@ -1572,10 +1585,11 @@ knitr::include_graphics('https://upload.wikimedia.org/wikipedia/commons/thumb/3/
 .left-column[
 ```{r echo=FALSE, eval=T}
 df <- data.frame(
-  Arvore = seq(1:15),
-  d = c(18.0, 6.80, 7.0, 7.5, 14.9, 9.9, 
-        14.0, 11.2, 11.7, 7.1, 15.0, 12.6, 
-        23.8, 14.7, 20.6
+  Arvore = seq(1:18),
+  d = c(18.0, 19.7, 18.6, 19.1, 20.6,
+        20.3, 21.4, 22.5, 21.9, 25,
+        18.3, 19.4, 22.8, 21.8, 23.9,
+        18.3, 19.4, 23.9
         ), g = c(NA))
 
 df %>% 
@@ -1586,7 +1600,7 @@ df %>%
                   columnDefs = list(list(className = 'dt-center', targets="_all")),
        initComplete = htmlwidgets::JS(
           "function(settings, json) {",
-          paste0("$(this.api().table().container()).css({'font-size': '", "10pt", "'});"),
+          paste0("$(this.api().table().container()).css({'font-size': '", "8pt", "'});"),
           "}")
        ) 
      )
@@ -1632,10 +1646,11 @@ $$
 .left-column[
 ```{r echo=FALSE, eval=T}
 df <- data.frame(
-  Arvore = seq(1:15),
-  d = c(18.0, 6.80, 7.0, 7.5, 14.9, 9.9, 
-        14.0, 11.2, 11.7, 7.1, 15.0, 12.6, 
-        23.8, 14.7, 20.6
+  Arvore = seq(1:18),
+  d = c(18.0, 19.7, 18.6, 19.1, 20.6,
+        20.3, 21.4, 22.5, 21.9, 25,
+        18.3, 19.4, 22.8, 21.8, 23.9,
+        18.3, 19.4, 23.9
         ), g = c(NA))
 
 df <- df %>% 
@@ -1650,7 +1665,7 @@ df %>%
                   columnDefs = list(list(className = 'dt-center', targets="_all")),
        initComplete = htmlwidgets::JS(
           "function(settings, json) {",
-          paste0("$(this.api().table().container()).css({'font-size': '", "10pt", "'});"),
+          paste0("$(this.api().table().container()).css({'font-size': '", "8pt", "'});"),
           "}")
        ) 
      )
@@ -1670,7 +1685,7 @@ knitr::include_graphics('https://media0.giphy.com/media/fRhSHzQ4NXOdrHIZJd/giphy
 
 ## ttt
 
- 
+
   
 
 ---
