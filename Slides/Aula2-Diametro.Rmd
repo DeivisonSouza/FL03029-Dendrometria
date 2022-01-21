@@ -5,6 +5,8 @@ author: "Prof. Dr. Deivison Venicio Souza"
 institute: "Universidade Federal do Pará (UFPA)"
 date:
 encoding: "UTF-8"
+header-includes: 
+   - \usepackage{xcolor}
 output:
   xaringan::moon_reader:
     css:
@@ -17,7 +19,7 @@ output:
       in_header: "assets/mathjax-equation-numbers.html"
     nature:
       beforeInit: ["assets/remark-zoom.js", "https://platform.twitter.com/widgets.js"]
-      highlightStyle: googlecode
+      highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
       highlightLanguage: ["r", "css", "yaml"]
@@ -34,7 +36,7 @@ background-size: 220px, 90px, cover
 knitr::opts_chunk$set(
   fig.showtext = TRUE,
   fig.align = "center", 
-  cache = TRUE,
+  cache = FALSE, 
   error = FALSE,
   message = FALSE, 
   warning = FALSE, 
@@ -1501,8 +1503,7 @@ layout: true
 ### Área Transversal (Batista et al., 2014)
 .font90[
 - A área transversal é a .blue[área da secção transversal] do tronco na altura de .blue[1,30m] do solo;
-- A área transversal é simbolizada por $g$ ( $g$ minúsculo );
-- É uma medida derivada do diâmetro;
+- A área transversal é simbolizada por $g$ ( $g$ minúsculo ), e expressa em $m^2$;
 - Comumente, a secção transversal do tronco é assumida como tendo .blue[forma circular]. Nessa situação, para uma árvore assume-se que: **Área Transversal** = **Área do Círculo**;
 - Na geometria, a área de um círculo é dado por ( $r$ = raio do círculo):
 
@@ -1516,7 +1517,7 @@ $$
 
 $$
 \begin{equation*}
-g = \pi \left(\dfrac{d}{2}\right)^2\color{green}{\Rightarrow} g = \left(\dfrac{\pi}{4}\right)d^2
+g = \pi \left(\dfrac{d}{2}\right)^2\color{green}{\Rightarrow} \color{orange}{g = \left(\dfrac{\pi}{4}\right)d^2}
 \end{equation*}
 $$
 ]
@@ -1551,6 +1552,126 @@ knitr::include_graphics('https://upload.wikimedia.org/wikipedia/commons/thumb/3/
 ]
 ]
 
+
+---
+
+## Relação Diâmetro e Área Transversal
+
+.shadow1[
+### Área Transversal - Cálculo
+.font90[
+- **Exemplo 1**: Considere que em uma parcela quadrada de $10m$ x $10m$ ( $100 m^2$ ) estabelecida em um povoamento de *Tectona grandis* foram medidos os diâmetros a 1,30m do solo, em cm, de todas as árvores. 
+**Pergunta-se**: .blue[Qual a área transversal, em metros quadrados, de cada árvore?]
+]
+]
+
+---
+
+## Relação Diâmetro e Área Transversal
+
+.left-column[
+```{r echo=FALSE, eval=T}
+df <- data.frame(
+  Arvore = seq(1:15),
+  d = c(18.0, 6.80, 7.0, 7.5, 14.9, 9.9, 
+        14.0, 11.2, 11.7, 7.1, 15.0, 12.6, 
+        23.8, 14.7, 20.6
+        ), g = c(NA))
+
+df %>% 
+   DT::datatable(editable = 'cell', rownames = FALSE, style = "default",
+                 class = "display", width = '450px',
+                 caption = '',
+     options=list(pageLength = 18, dom = 't', autoWidth = F,
+                  columnDefs = list(list(className = 'dt-center', targets="_all")),
+       initComplete = htmlwidgets::JS(
+          "function(settings, json) {",
+          paste0("$(this.api().table().container()).css({'font-size': '", "10pt", "'});"),
+          "}")
+       ) 
+     )
+```
+
+]
+
+--
+
+.right-column[
+
+.center[.green[**Área transversal da primeira árvore...**]]
+
+- .font80[**Solução 1**: (dividir $d$ de cada árvore por 100)]
+
+$$
+\begin{equation*}
+g = \left(\dfrac{\pi}{4}\right)d^2 \color{green}{\Rightarrow}
+\color{green}{g = \left(\dfrac{\pi}{4}\right)\left(\dfrac{d}{100}\right)^2} \\
+g_1 = \left(\dfrac{\pi}{4}\right)\left(\dfrac{18}{100}\right)^2 = \color{orange}{0,0254~m^2}
+\end{equation*}
+$$
+
+- .font80[**Solução 2**: (dividir por 40000)]
+
+$$
+\begin{equation*}
+g = \left(\dfrac{\pi}{4}\right)d^2 \color{green}{\Rightarrow}
+g = \left(\dfrac{\pi}{4}\right)\left(\dfrac{d}{100}\right)^2 \color{green}{\Rightarrow}
+\color{green}{g = \dfrac{\pi d^2}{40000}}\\
+g_1 = \dfrac{\pi (18^2)}{40000} = \color{orange}{0,0254~m^2}
+\end{equation*}
+$$
+
+]
+
+
+
+---
+
+## Relação Diâmetro e Área Transversal
+
+.left-column[
+```{r echo=FALSE, eval=T}
+df <- data.frame(
+  Arvore = seq(1:15),
+  d = c(18.0, 6.80, 7.0, 7.5, 14.9, 9.9, 
+        14.0, 11.2, 11.7, 7.1, 15.0, 12.6, 
+        23.8, 14.7, 20.6
+        ), g = c(NA))
+
+df <- df %>% 
+  mutate(g = (pi/4)*((d/100)^2)) %>% 
+  round(4)
+
+df %>% 
+   DT::datatable(editable = 'cell', rownames = FALSE, style = "default",
+                 class = "display", width = '450px',
+                 caption = '',
+     options=list(pageLength = 18, dom = 't', autoWidth = F,
+                  columnDefs = list(list(className = 'dt-center', targets="_all")),
+       initComplete = htmlwidgets::JS(
+          "function(settings, json) {",
+          paste0("$(this.api().table().container()).css({'font-size': '", "10pt", "'});"),
+          "}")
+       ) 
+     )
+```
+]
+
+.right-column[
+
+```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('https://media0.giphy.com/media/fRhSHzQ4NXOdrHIZJd/giphy.gif')
+```
+.font80[**Fonte**: Disponível em [https://gph.is/g/aQyO5NV](https://gph.is/g/aQyO5NV), jan 21, 2022]
+
+]
+
+---
+
+## ttt
+
+ 
+  
 
 ---
 layout: false

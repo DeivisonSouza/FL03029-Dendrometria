@@ -16,6 +16,11 @@
     <script src="Aula2-Diametro_files/crosstalk-1.1.1/js/crosstalk.min.js"></script>
     <link href="Aula2-Diametro_files/plotly-htmlwidgets-css-1.57.1/plotly-htmlwidgets.css" rel="stylesheet" />
     <script src="Aula2-Diametro_files/plotly-main-1.57.1/plotly-latest.min.js"></script>
+    <link href="Aula2-Diametro_files/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+    <script src="Aula2-Diametro_files/datatables-binding-0.20/datatables.js"></script>
+    <link href="Aula2-Diametro_files/dt-core-1.11.3/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="Aula2-Diametro_files/dt-core-1.11.3/css/jquery.dataTables.extra.css" rel="stylesheet" />
+    <script src="Aula2-Diametro_files/dt-core-1.11.3/js/jquery.dataTables.min.js"></script>
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
         TeX: { equationNumbers: { autoNumber: "AMS" } },
@@ -91,7 +96,7 @@ top:.8em;right:-.5em;
 ##### Faculdade de Engenharia Florestal
 ##### E-mail: deivisonvs@ufpa.br
 &lt;br&gt;
-##### 1ª versão: 25/janeiro/2022 &lt;br&gt; (Atualizado em: 20/janeiro/2022) &lt;br&gt; Altamira, Pará
+##### 1ª versão: 25/janeiro/2022 &lt;br&gt; (Atualizado em: 21/janeiro/2022) &lt;br&gt; Altamira, Pará
 
 ---
 layout: true
@@ -357,8 +362,8 @@ $$
 --
 
 .pull-left-2[
-<div id="htmlwidget-210554fb70f9f14d4b9e" style="width:600px;height:360px;" class="plotly html-widget"></div>
-<script type="application/json" data-for="htmlwidget-210554fb70f9f14d4b9e">{"x":{"data":[{"orientation":"v","width":[10,10,10,10,10,10,10,10,10],"base":[0,0,0,0,0,0,0,0,0],"x":[35,45,55,65,75,85,95,105,115],"y":[37,947,924,420,202,59,20,6,2],"text":["Count: 37<br />Lower: 30<br />Mids: 35<br />Upper: 40","Count: 947<br />Lower: 40<br />Mids: 45<br />Upper: 50","Count: 924<br />Lower: 50<br />Mids: 55<br />Upper: 60","Count: 420<br />Lower: 60<br />Mids: 65<br />Upper: 70","Count: 202<br />Lower: 70<br />Mids: 75<br />Upper: 80","Count: 59<br />Lower: 80<br />Mids: 85<br />Upper: 90","Count: 20<br />Lower: 90<br />Mids: 95<br />Upper: 100","Count: 6<br />Lower: 100<br />Mids: 105<br />Upper: 110","Count: 2<br />Lower: 110<br />Mids: 115<br />Upper: 120"],"type":"bar","marker":{"autocolorscale":false,"color":"rgba(0,255,0,0.2)","line":{"width":1.88976377952756,"color":"rgba(255,0,0,1)"}},"showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"text":["Count: 37<br />Lower: 30<br />Mids: 35<br />Upper: 40","Count: 947<br />Lower: 40<br />Mids: 45<br />Upper: 50","Count: 924<br />Lower: 50<br />Mids: 55<br />Upper: 60","Count: 420<br />Lower: 60<br />Mids: 65<br />Upper: 70","Count: 202<br />Lower: 70<br />Mids: 75<br />Upper: 80","Count: 59<br />Lower: 80<br />Mids: 85<br />Upper: 90","Count: 20<br />Lower: 90<br />Mids: 95<br />Upper: 100","Count: 6<br />Lower: 100<br />Mids: 105<br />Upper: 110","Count: 2<br />Lower: 110<br />Mids: 115<br />Upper: 120"],"hoverinfo":"text","xaxis":"x","yaxis":"y","frame":null},{"text":["Count: 37<br />Lower: 30<br />Mids: 35<br />Upper: 40","Count: 947<br />Lower: 40<br />Mids: 45<br />Upper: 50","Count: 924<br />Lower: 50<br />Mids: 55<br />Upper: 60","Count: 420<br />Lower: 60<br />Mids: 65<br />Upper: 70","Count: 202<br />Lower: 70<br />Mids: 75<br />Upper: 80","Count: 59<br />Lower: 80<br />Mids: 85<br />Upper: 90","Count: 20<br />Lower: 90<br />Mids: 95<br />Upper: 100","Count: 6<br />Lower: 100<br />Mids: 105<br />Upper: 110","Count: 2<br />Lower: 110<br />Mids: 115<br />Upper: 120"],"hoverinfo":"text","xaxis":"x","yaxis":"y","frame":null},{"text":["Count: 37<br />Lower: 30<br />Mids: 35<br />Upper: 40","Count: 947<br />Lower: 40<br />Mids: 45<br />Upper: 50","Count: 924<br />Lower: 50<br />Mids: 55<br />Upper: 60","Count: 420<br />Lower: 60<br />Mids: 65<br />Upper: 70","Count: 202<br />Lower: 70<br />Mids: 75<br />Upper: 80","Count: 59<br />Lower: 80<br />Mids: 85<br />Upper: 90","Count: 20<br />Lower: 90<br />Mids: 95<br />Upper: 100","Count: 6<br />Lower: 100<br />Mids: 105<br />Upper: 110","Count: 2<br />Lower: 110<br />Mids: 115<br />Upper: 120"],"hoverinfo":"text","xaxis":"x","yaxis":"y","frame":null}],"layout":{"margin":{"t":45.7108066971081,"r":7.30593607305936,"b":42.130898021309,"l":48.9497716894977},"plot_bgcolor":"rgba(255,255,255,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"Distribuição Diamétrica <br />(Vouacapoua americana Aubl.)","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[25.5,124.5],"tickmode":"array","ticktext":["30","40","50","60","70","80","90","100","110","120"],"tickvals":[30,40,50,60,70,80,90,100,110,120],"categoryorder":"array","categoryarray":["30","40","50","60","70","80","90","100","110","120"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"Classes de Diâmetro","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-50,1050],"tickmode":"array","ticktext":["0","100","200","300","400","500","600","700","800","900","1000"],"tickvals":[0,100,200,300,400,500,600,700,800,900,1000],"categoryorder":"array","categoryarray":["0","100","200","300","400","500","600","700","800","900","1000"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"Número de Indivíduos","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":"transparent","line":{"color":"rgba(0,0,0,1)","width":0.66417600664176,"linetype":"solid"},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.88976377952756,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"bc15b196403":{"x":{},"type":"bar"}},"cur_data":"bc15b196403","visdat":{"bc15b196403":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-7269d2785606088135a1" style="width:600px;height:360px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-7269d2785606088135a1">{"x":{"data":[{"orientation":"v","width":[10,10,10,10,10,10,10,10,10],"base":[0,0,0,0,0,0,0,0,0],"x":[35,45,55,65,75,85,95,105,115],"y":[37,947,924,420,202,59,20,6,2],"text":["Count: 37<br />Lower: 30<br />Mids: 35<br />Upper: 40","Count: 947<br />Lower: 40<br />Mids: 45<br />Upper: 50","Count: 924<br />Lower: 50<br />Mids: 55<br />Upper: 60","Count: 420<br />Lower: 60<br />Mids: 65<br />Upper: 70","Count: 202<br />Lower: 70<br />Mids: 75<br />Upper: 80","Count: 59<br />Lower: 80<br />Mids: 85<br />Upper: 90","Count: 20<br />Lower: 90<br />Mids: 95<br />Upper: 100","Count: 6<br />Lower: 100<br />Mids: 105<br />Upper: 110","Count: 2<br />Lower: 110<br />Mids: 115<br />Upper: 120"],"type":"bar","marker":{"autocolorscale":false,"color":"rgba(0,255,0,0.2)","line":{"width":1.88976377952756,"color":"rgba(255,0,0,1)"}},"showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"text":["Count: 37<br />Lower: 30<br />Mids: 35<br />Upper: 40","Count: 947<br />Lower: 40<br />Mids: 45<br />Upper: 50","Count: 924<br />Lower: 50<br />Mids: 55<br />Upper: 60","Count: 420<br />Lower: 60<br />Mids: 65<br />Upper: 70","Count: 202<br />Lower: 70<br />Mids: 75<br />Upper: 80","Count: 59<br />Lower: 80<br />Mids: 85<br />Upper: 90","Count: 20<br />Lower: 90<br />Mids: 95<br />Upper: 100","Count: 6<br />Lower: 100<br />Mids: 105<br />Upper: 110","Count: 2<br />Lower: 110<br />Mids: 115<br />Upper: 120"],"hoverinfo":"text","xaxis":"x","yaxis":"y","frame":null},{"text":["Count: 37<br />Lower: 30<br />Mids: 35<br />Upper: 40","Count: 947<br />Lower: 40<br />Mids: 45<br />Upper: 50","Count: 924<br />Lower: 50<br />Mids: 55<br />Upper: 60","Count: 420<br />Lower: 60<br />Mids: 65<br />Upper: 70","Count: 202<br />Lower: 70<br />Mids: 75<br />Upper: 80","Count: 59<br />Lower: 80<br />Mids: 85<br />Upper: 90","Count: 20<br />Lower: 90<br />Mids: 95<br />Upper: 100","Count: 6<br />Lower: 100<br />Mids: 105<br />Upper: 110","Count: 2<br />Lower: 110<br />Mids: 115<br />Upper: 120"],"hoverinfo":"text","xaxis":"x","yaxis":"y","frame":null},{"text":["Count: 37<br />Lower: 30<br />Mids: 35<br />Upper: 40","Count: 947<br />Lower: 40<br />Mids: 45<br />Upper: 50","Count: 924<br />Lower: 50<br />Mids: 55<br />Upper: 60","Count: 420<br />Lower: 60<br />Mids: 65<br />Upper: 70","Count: 202<br />Lower: 70<br />Mids: 75<br />Upper: 80","Count: 59<br />Lower: 80<br />Mids: 85<br />Upper: 90","Count: 20<br />Lower: 90<br />Mids: 95<br />Upper: 100","Count: 6<br />Lower: 100<br />Mids: 105<br />Upper: 110","Count: 2<br />Lower: 110<br />Mids: 115<br />Upper: 120"],"hoverinfo":"text","xaxis":"x","yaxis":"y","frame":null}],"layout":{"margin":{"t":45.7108066971081,"r":7.30593607305936,"b":42.130898021309,"l":48.9497716894977},"plot_bgcolor":"rgba(255,255,255,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"Distribuição Diamétrica <br />(Vouacapoua americana Aubl.)","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[25.5,124.5],"tickmode":"array","ticktext":["30","40","50","60","70","80","90","100","110","120"],"tickvals":[30,40,50,60,70,80,90,100,110,120],"categoryorder":"array","categoryarray":["30","40","50","60","70","80","90","100","110","120"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"Classes de Diâmetro","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-50,1050],"tickmode":"array","ticktext":["0","100","200","300","400","500","600","700","800","900","1000"],"tickvals":[0,100,200,300,400,500,600,700,800,900,1000],"categoryorder":"array","categoryarray":["0","100","200","300","400","500","600","700","800","900","1000"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"Número de Indivíduos","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":"transparent","line":{"color":"rgba(0,0,0,1)","width":0.66417600664176,"linetype":"solid"},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.88976377952756,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"40cc2d56cf03":{"x":{},"type":"bar"}},"cur_data":"40cc2d56cf03","visdat":{"40cc2d56cf03":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 
 ]
 
@@ -1432,8 +1437,7 @@ layout: true
 ### Área Transversal (Batista et al., 2014)
 .font90[
 - A área transversal é a .blue[área da secção transversal] do tronco na altura de .blue[1,30m] do solo;
-- A área transversal é simbolizada por `\(g\)` ( `\(g\)` minúsculo );
-- É uma medida derivada do diâmetro;
+- A área transversal é simbolizada por `\(g\)` ( `\(g\)` minúsculo ), e expressa em `\(m^2\)`;
 - Comumente, a secção transversal do tronco é assumida como tendo .blue[forma circular]. Nessa situação, para uma árvore assume-se que: **Área Transversal** = **Área do Círculo**;
 - Na geometria, a área de um círculo é dado por ( `\(r\)` = raio do círculo):
 
@@ -1447,7 +1451,7 @@ $$
 
 $$
 `\begin{equation*}
-g = \pi \left(\dfrac{d}{2}\right)^2\color{green}{\Rightarrow} g = \left(\dfrac{\pi}{4}\right)d^2
+g = \pi \left(\dfrac{d}{2}\right)^2\color{green}{\Rightarrow} \color{orange}{g = \left(\dfrac{\pi}{4}\right)d^2}
 \end{equation*}`
 $$
 ]
@@ -1478,6 +1482,82 @@ $$
 ]
 ]
 
+
+---
+
+## Relação Diâmetro e Área Transversal
+
+.shadow1[
+### Área Transversal - Cálculo
+.font90[
+- **Exemplo 1**: Considere que em uma parcela quadrada de `\(10m\)` x `\(10m\)` ( `\(100 m^2\)` ) estabelecida em um povoamento de *Tectona grandis* foram medidos os diâmetros a 1,30m do solo, em cm, de todas as árvores. 
+**Pergunta-se**: .blue[Qual a área transversal, em metros quadrados, de cada árvore?]
+]
+]
+
+---
+
+## Relação Diâmetro e Área Transversal
+
+.left-column[
+<div id="htmlwidget-83c6071369c783d82e2b" style="width:450px;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-83c6071369c783d82e2b">{"x":{"filter":"none","vertical":false,"caption":"<caption><\/caption>","editable":{"target":"cell","disable":{"columns":null},"numeric":[0,1],"area":[]},"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],[18,6.8,7,7.5,14.9,9.9,14,11.2,11.7,7.1,15,12.6,23.8,14.7,20.6],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Arvore<\/th>\n      <th>d<\/th>\n      <th>g<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":18,"dom":"t","autoWidth":false,"columnDefs":[{"className":"dt-center","targets":"_all"}],"initComplete":"function(settings, json) {\n$(this.api().table().container()).css({'font-size': '10pt'});\n}","order":[],"orderClasses":false,"lengthMenu":[10,18,25,50,100]}},"evals":["options.initComplete"],"jsHooks":[]}</script>
+
+]
+
+--
+
+.right-column[
+
+.center[.green[**Área transversal da primeira árvore...**]]
+
+- .font80[**Solução 1**: (dividir `\(d\)` de cada árvore por 100)]
+
+$$
+`\begin{equation*}
+g = \left(\dfrac{\pi}{4}\right)d^2 \color{green}{\Rightarrow}
+\color{green}{g = \left(\dfrac{\pi}{4}\right)\left(\dfrac{d}{100}\right)^2} \\
+g_1 = \left(\dfrac{\pi}{4}\right)\left(\dfrac{18}{100}\right)^2 = \color{orange}{0,0254~m^2}
+\end{equation*}`
+$$
+
+- .font80[**Solução 2**: (dividir por 40000)]
+
+$$
+`\begin{equation*}
+g = \left(\dfrac{\pi}{4}\right)d^2 \color{green}{\Rightarrow}
+g = \left(\dfrac{\pi}{4}\right)\left(\dfrac{d}{100}\right)^2 \color{green}{\Rightarrow}
+\color{green}{g = \dfrac{\pi d^2}{40000}}\\
+g_1 = \dfrac{\pi (18^2)}{40000} = \color{orange}{0,0254~m^2}
+\end{equation*}`
+$$
+
+]
+
+
+
+---
+
+## Relação Diâmetro e Área Transversal
+
+.left-column[
+<div id="htmlwidget-29c02c70e743647ec155" style="width:450px;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-29c02c70e743647ec155">{"x":{"filter":"none","vertical":false,"caption":"<caption><\/caption>","editable":{"target":"cell","disable":{"columns":null},"numeric":[0,1,2],"area":[]},"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],[18,6.8,7,7.5,14.9,9.9,14,11.2,11.7,7.1,15,12.6,23.8,14.7,20.6],[0.0254,0.0036,0.0038,0.0044,0.0174,0.0077,0.0154,0.0099,0.0108,0.004,0.0177,0.0125,0.0445,0.017,0.0333]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Arvore<\/th>\n      <th>d<\/th>\n      <th>g<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":18,"dom":"t","autoWidth":false,"columnDefs":[{"className":"dt-center","targets":"_all"}],"initComplete":"function(settings, json) {\n$(this.api().table().container()).css({'font-size': '10pt'});\n}","order":[],"orderClasses":false,"lengthMenu":[10,18,25,50,100]}},"evals":["options.initComplete"],"jsHooks":[]}</script>
+]
+
+.right-column[
+
+&lt;img src="https://media0.giphy.com/media/fRhSHzQ4NXOdrHIZJd/giphy.gif" width="75%" style="display: block; margin: auto;" /&gt;
+.font80[**Fonte**: Disponível em [https://gph.is/g/aQyO5NV](https://gph.is/g/aQyO5NV), jan 21, 2022]
+
+]
+
+---
+
+## ttt
+
+ 
+  
 
 ---
 layout: false
@@ -1570,7 +1650,7 @@ SOARES, C. P. B.; PAULA NETO, F.; SOUZA, A. L. **Dendrometria e Inventário Flor
 <script src="assets/remark-zoom.js"></script>
 <script src="https://platform.twitter.com/widgets.js"></script>
 <script>var slideshow = remark.create({
-"highlightStyle": "googlecode",
+"highlightStyle": "github",
 "highlightLines": true,
 "countIncrementalSlides": false,
 "highlightLanguage": ["r", "css", "yaml"],
