@@ -1991,34 +1991,35 @@ layout: true
 .shadow1[
 ### Média Aritmética
 .font90[
-- A média aritmética é a medida de tendência central mais usada para variáveis quantativas.
-- Genericamente, a forma simplificada da expressão matemática é:
+- A média aritmética é a medida de tendência central mais usual. No  caso do diâmetro, é simbolizado por $\large \color{green}{\bar{d}}$;
+- Uma vez que a variável é o diâmetro, pode-se escrever a expressão matemática da média aritmética como:
 ]
 ]
 
 --
 
+.font80[
 .left-column[
 - **Média aritmética amostral**
 $$
-\small
-\bar{x} = \frac{1}{n}\sum_{i=1}^{n}x_i
+\normalsize
+\bar{d} = \frac{1}{n}\sum_{i=1}^{n}d_i
 $$
 - **Média aritmética populacional**
 $$
-\small
-\mu = \frac{1}{N}\sum_{i=1}^{N}X_i
+\normalsize
+\mu = \frac{1}{N}\sum_{i=1}^{N}d_i
 $$
 ]
-
+]
 
 .right-column[
-.font70[
-Em que:
+.font80[
+**Em que**:
 
 $\sum$ (lê-se sigma) = Símbolo de somatório.
 
-$i$ = índice de variação dos elementos que deverão ser somados.
+$i$ = $i$-ésima árvore amostrada (ou populacional).
 
 $N$ = Número total de elementos da população.
 
@@ -2033,12 +2034,37 @@ $x$ = Variável quantitativa objeto de estudo.
 ## Estatísticas Associadas ao Diâmetro
 
 .shadow1[
-### Média Aritmética
+### Diâmetro Médio (ou Diâmetro Quadrático)
+.font90[
+- Estatística que corresponde ao diâmetro da árvore de área transversal média $\Large \left ( \bar{g} \right)$ do povoamento florestal (ou parcela);
+- Simbolizado por $\Large \color{green}{d_g}$ (IUFRO). Porém, várias literaturas simbolizam por $\Large \color{green}{q}$;
+- A expressão matemática do $\Large \color{green}{d_g}$ é:
+
+$$
+\Large
+\begin{equation*}
+d_g = \sqrt{\dfrac{1}{n}\sum_{i=1}^{n}d_i^2}
+\end{equation*}
+$$
+- A estatística $\Large \color{green}{d_g}$ dá .blue[peso maior] para as grandes árvores, podendo ser .blue[igual ou maior] do que a média aritmética dos diâmetros $\large \left ( \bar{d} \right)$ (Campos et al., 2009).
+
+]
+]
+
+
+
+---
+
+## Estatísticas Associadas ao Diâmetro
+
+.shadow1[
+### Vamos Praticar...
 .font90[
 - **Exemplo 2**: Considere os dados da tabela a seguir (Soares et al., 2011 - Exercício/Tópico 8) [(Link para Página Web)](http://www.mensuracaoflorestal.com.br/capitulo-2-diametro-circunferencia-e-area-basal#:~:text=A%20%C3%A1rea%20basal%20%C3%A9%20um,de%20determinada%20%C3%A1rea%20por%20madeira.)
 ]
 ]
 
+.pull-left-4[
 | Árvore | CAP (cm) | Espessura de Casca (cm) |
 |:--------:|:----------:|:-------------------------:|
 | 1      | 78,0     | 2,5                     |
@@ -2047,6 +2073,25 @@ $x$ = Variável quantitativa objeto de estudo.
 | 4      | 35,0     | 1,0                     |
 
 .center[.font80[**Fonte**: Soares et al., 2011]]
+]
+
+.pull-right-4[
+.font80[
+**Questões Popostas**
+
+- **1)** Calcular os diâmetros sem casca de cada árvore.
+- **2)** Considerando os diâmetros com casca $\large \left ( d_c \right)$, calcular:<br>
+    a) A média aritmética dos diâmetros $\large \left ( \bar{d} \right)$. <br>
+    b) O diâmetro médio ou diâmetro quadrático $\large \left ( d_g \right)$. <br>
+    c) O diâmetro equivalente $\large \left ( d_{eq} \right)$.<br>
+    d) A área basal de duas maneiras diferentes.<br>
+    e) A área seccional média de duas maneiras diferentes.
+]
+]
+
+---
+
+
 
 ---
 
