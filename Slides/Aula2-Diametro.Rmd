@@ -1988,7 +1988,45 @@ layout: true
 
 ## Estatísticas Associadas ao Diâmetro
 
+.shadow1[
+### Média Aritmética
+.font90[
+- A média aritmética é a medida de tendência central mais usada para variáveis quantativas.
+- A forma simplificada da expressão matemática é:
+]
+]
 
+--
+
+.left-column[
+- **Média aritmética amostral**
+$$
+\small
+\bar{x} = \frac{1}{n}\sum_{i=1}^{n}x_i
+$$
+- **Média aritmética populacional**
+$$
+\small
+\mu = \frac{1}{N}\sum_{i=1}^{N}X_i
+$$
+]
+
+
+.right-column[
+.font70[
+Em que:
+
+$\sum$ (lê-se sigma) = Símbolo de somatório.
+
+$i$ = índice de variação dos elementos que deverão ser somados.
+
+$N$ = Número total de elementos da população.
+
+$n$ = Número total de elementos da amostra.
+
+$x$ = Variável quantitativa objeto de estudo.
+]
+]
 
 
 ---
