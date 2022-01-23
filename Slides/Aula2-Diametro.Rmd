@@ -222,11 +222,10 @@ Ao final desta aula espera-se que o discente seja capaz de...
 <br>
 **Parte 5 - Estatísticas Associadas ao Diâmetro**
 .font80[
-[1 - Média aritmética](#ma)
+[1 - Média Aritmética dos Diâmetros](#ma)
 
-[2 - Diâmetro médio (ou Média quadrática)](#dm)
+[2 - Diâmetro Médio (ou Diâmetro Quadrático)](#dm)
 
-[3 - Diâmetro equivalente - $d_{eq}$](#deq)
 ]
 ]
 ]
@@ -1977,7 +1976,7 @@ class: inverse, middle, center
 background-image: url(fig/class1/sec.png)
 background-size: cover
 
-.white[.font200[**Estatísticas Associadas ao Diâmetro:**] <br> .font150[1 - Média Aritmética <br> 2 - Diâmetro Médio (ou Quadrático) <br> 3 - Diâmetro Equivalente]]
+.white[.font200[**Estatísticas Associadas ao Diâmetro:**] <br> .font150[1 - Média Aritmética <br> 2 - Diâmetro Médio (ou Quadrático)]]
 
 ---
 layout: true
@@ -1985,7 +1984,7 @@ layout: true
 <div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Medição de Diâmetros de Árvores/Parte 5: Estatísticas Associadas ao Diâmetro</div>
 
 ---
-
+name: ma
 ## Estatísticas Associadas ao Diâmetro
 
 .shadow1[
@@ -2023,14 +2022,14 @@ $i$ = $i$-ésima árvore amostrada (ou populacional).
 
 $N$ = Número total de elementos da população.
 
-$n$ = Número total de elementos da amostra.
+$n$ = Número total de observações.
 
-$x$ = Variável quantitativa objeto de estudo.
+$d$ = Diâmetro da árvore, medido à 1,30m do solo.
 ]
 ]
 
 ---
-
+name: dm
 ## Estatísticas Associadas ao Diâmetro
 
 .shadow1[
@@ -2050,19 +2049,6 @@ $$
 
 ]
 ]
-
----
-
-## Estatísticas Associadas ao Diâmetro
-
-.shadow1[
-### Diâmetro Equivalente $\large \left ( d_{eq} \right)$
-.font90[
-
-
-]
-]
-
 
 ---
 
@@ -2090,13 +2076,12 @@ $$
 .font80[
 **Questões Popostas**
 
-- **1)** Calcular os diâmetros sem casca de cada árvore.
+- **1)** Calcular os diâmetros sem casca $\large \left ( d_{sc} \right)$ de cada árvore.
 - **2)** Considerando os diâmetros com casca $\large \left ( d_c \right)$, calcular:<br>
     a) A média aritmética dos diâmetros $\large \left ( \bar{d} \right)$. <br>
     b) O diâmetro médio ou diâmetro quadrático $\large \left ( d_g \right)$. <br>
-    c) O diâmetro equivalente $\large \left ( d_{eq} \right)$.<br>
-    d) A área basal de duas maneiras diferentes.<br>
-    e) A área seccional média de duas maneiras diferentes.
+    d) A área basal  $\large \left ( G \right)$ de duas maneiras diferentes.<br>
+    e) A área transversal média  $\large \left ( \bar{g} \right)$ de duas maneiras diferentes.
 ]
 ]
 
