@@ -257,49 +257,7 @@ p + theme(legend.key.size = unit(2, 'cm'),
 
 ```
 
-<!-- Slide 6 -->
----
-## Palestras
-<br>
 
-- **Dia 03/02** (Período da manhã) - A partir das 08h:00min
-
-.green[**Palestra 1**]: **Dendrometria no Manejo Florestal Sustentável** (08h:00min)
-
-**Palestrante**: .blue[XXXXXXXXXX] (Engenheiro Florestal)
-
-**Empresa**: XXXXXXXXXXXXXX
-<br><br>
-
-.green[**Palestra 2**]: **Dendrocronologia** (10h:30min)
-
-**Palestrante**: .blue[YYYYYYYYYYY] (Engenheira Florestal)
-
-**Empresa**: XXXXXXXXXXXXXX
-<br><br>
-
-<!-- Slide 7 -->
----
-## Palestras
-<br>
-
-- **Dia 04/02** (Período da manhã) - A partir das 8h:00min
-
-.green[**Palestra 1**]: **FFF** (8h:00min)
-
-**Palestrante**: .blue[ZZZZZZ] (Engenheiro Florestal)
-
-**Empresa**: XXXXXXXXXXXXXX
-<br><br>
-
-
-.green[**Palestra 2**]: **RRR** (10h:30min)
-
-**Palestrante**: .blue[GGGGGG] (Engenheiro Florestal)
-
-**Empresa**: XXXXXXXXXXXXXX
-
-<!-- Slide 7 -->
 ---
 
 ## Ementa da disciplina (FL03029).
@@ -322,7 +280,6 @@ p + theme(legend.key.size = unit(2, 'cm'),
 
 8 - Biomassa e Carbono de Árvores
 
-9 - Análise de Tronco
 ]
 
 <!-- Slide 7 -->
