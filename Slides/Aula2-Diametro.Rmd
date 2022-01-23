@@ -2087,6 +2087,34 @@ $$
 
 ---
 
+## Estatísticas Associadas ao Diâmetro
+
+.shadow1[
+### Vamos Praticar...
+]
+
+<br>
+.pull-left-4[
+| Árvore | CAP (cm) | Espessura de Casca (cm) |
+|:--------:|:----------:|:-------------------------:|
+| 1      | 78,0     | 2,5                     |
+| 2      | 69,0     | 2,0                     |
+| 3      | 52,0     | 1,8                     |
+| 4      | 35,0     | 1,0                     |
+
+.center[.font80[**Fonte**: Soares et al., 2011]]
+]
+
+--
+
+.pull-right-4[
+.font80[
+**Questões Popostas**
+
+- **1)** Calcular os diâmetros sem casca $\large \left ( d_{sc} \right)$ de cada árvore.
+
+]
+]
 
 
 ---
