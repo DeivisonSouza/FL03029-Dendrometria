@@ -1658,7 +1658,7 @@ df <- data.frame(
 
 df <- df %>% 
   mutate(g = (pi/4)*((d/100)^2)) %>% 
-  round(4)
+  round(6)
 
 df %>% 
    DT::datatable(editable = 'cell', rownames = FALSE, style = "default",
@@ -1768,7 +1768,7 @@ knitr::include_graphics('fig/class2/gp.png')
 - **Lembre-se**: Area basal é soma das áreas transversais das árvores;
 - As áreas transversais das árvores na parcela já foram calculada;
 - Portanto, a área basal da parcela será dada pela simples soma das áreas transversais das árvores vivas. Nesse caso, a unidade de medida será: $m^2/100m^2$.
-- No entanto, a unidade de medida padrão é $m^2/ha$. Assim, será necessário extrapolar o valor obtido na parcela para hectares.
+- No entanto, a unidade de medida padrão é $m^2/ha$. Assim, será necessário extrapolar para hectare. Pode-se fazer isso usando um **Fator de Proporcionalidade** (FP).
 ]
 ]
 ]
@@ -1782,6 +1782,98 @@ knitr::include_graphics('fig/class2/gp2.png')
 .center[.font80[**Fonte:** O autor. Círculos com .red["X"] são árvores mortas.]]
 ]
 
+---
+
+## Área Basal - Cálculo
+
+.left-column[
+```{r echo=FALSE, eval=T}
+library(dplyr)
+df <- data.frame(
+  Arvore = seq(1:17),
+  d = c(18.0, 19.7, 18.6, 19.1, 20.6,
+        20.3, 21.4, 22.5, 21.9, 25,
+        18.3, 19.4, 22.8, 21.8, 23.9,
+        19.4, 23.9
+        ), g = c(NA))
+
+df <- df %>% 
+  mutate(g = (pi/4)*((d/100)^2)) %>% 
+  round(6)
+
+df %>% 
+   DT::datatable(editable = 'cell', rownames = FALSE, style = "default",
+                 class = "display", width = '450px',
+                 caption = '',
+     options=list(pageLength = 18, dom = 't', autoWidth = F,
+                  columnDefs = list(list(className = 'dt-center', targets="_all")),
+       initComplete = htmlwidgets::JS(
+          "function(settings, json) {",
+          paste0("$(this.api().table().container()).css({'font-size': '", "8pt", "'});"),
+          "}")
+       ) 
+     )
+```
+]
+
+
+--
+
+.right-column[
+
+.center[.green[**Cálculo da Área Basal (G) da Parcela...**]]
+
+- .font80[**1)** Qual a Área Basal da Parcela?] ( $m²/100m^2$ ou $m^2/0,01ha$)
+
+$$
+\large
+\begin{equation*}
+G = \sum_{i=1}^{n}g_i\\~\\
+G = 0,025447 + 0,030481 + ...+ 0,044863 \color{green}{\Rightarrow} \\~\\
+G = \color{orange}{0,593229}~~(m^2/0,01ha)
+\end{equation*}
+$$
+]
+
+---
+
+## Área Basal - Cálculo
+
+.center[.green[**Cálculo da Área Basal (G) por Hectare...**]]
+
+- .font90[**2)** Qual a Área Basal em] $m².ha^{-1}$?
+
+.left-column[
+.font80[**1<sup>o</sup> Passo**: calcular o Fator de Proporcionalidade.]
+
+$$
+\normalsize
+\begin{equation*}
+FP = \dfrac{10.000~(m^2)}{a~(m^2)} = \dfrac{1~(ha)}{a~(ha)} \color{green}{\Rightarrow} \\~\\
+FP = \dfrac{10.000~(m^2)}{100~(m^2)} = \dfrac{1~(ha)}{0,01~(ha)}\\~\\
+FP = \color{red}{100}
+\end{equation*}
+$$
+**Em que**: $a$ = área da parcela (unidade de amostra).
+]
+
+--
+
+.right-column[
+
+.font80[**2<sup>o</sup> Passo**: fazer a extrapolação. Basta multiplicar a G da parcela pelo FP.]
+
+$$
+\normalsize
+\begin{equation*}
+G = \sum_{i=1}^{n}g_i.(FP) \\~\\
+G = \color{orange}{0,593229}.(100) \\~\\
+G = \color{brown}{59,3229}~~(m^2.ha^{-1})
+\end{equation*}
+$$
+
+
+]
 
 ---
 layout: false
