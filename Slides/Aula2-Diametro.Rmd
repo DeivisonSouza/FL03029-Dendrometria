@@ -2030,7 +2030,23 @@ $x$ = Variável quantitativa objeto de estudo.
 
 ---
 
+## Estatísticas Associadas ao Diâmetro
 
+.shadow1[
+### Média Aritmética
+.font90[
+- **Exemplo 2**: Considere os dados da tabela a seguir (Soares et al., 2011 - Exercício/Tópico 8) [(Link para Página Web)](http://www.mensuracaoflorestal.com.br/capitulo-2-diametro-circunferencia-e-area-basal#:~:text=A%20%C3%A1rea%20basal%20%C3%A9%20um,de%20determinada%20%C3%A1rea%20por%20madeira.)
+]
+]
+
+| Árvore | CAP (cm) | Espessura de Casca (cm) |
+|:--------:|:----------:|:-------------------------:|
+| 1      | 78,0     | 2,5                     |
+| 2      | 69,0     | 2,0                     |
+| 3      | 52,0     | 1,8                     |
+| 4      | 35,0     | 1,0                     |
+
+.center[.font80[**Fonte**: Soares et al., 2011]]
 
 ---
 
