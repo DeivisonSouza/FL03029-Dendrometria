@@ -1499,7 +1499,7 @@ layout: true
 <div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Medição de Diâmetros de Árvores/Parte 3: Medidas Derivadas do Diâmetro</div>
 
 ---
-
+name: rdat
 ## Medidas Derivadas do Diâmetro
 
 .shadow1[
@@ -1694,17 +1694,38 @@ knitr::include_graphics('fig/class2/gp2.png')
 .center[.font80[**Fonte:** O autor. Círculos com .red["X"] são árvores mortas.]]
 
 ---
-
+name: rdab
 ## Relação Diâmetro e Área Basal
 
 .shadow1[
 ### Diâmetro e Área Basal
 .font90[
-- A área basal refere-se ao grau de ocupação do solo pelos fustes das árvores;
-- A área basal é simbolizada por $G$ ( $G$ maiúsculo ), e expressa em $m^2/ha$ (ou $m^2.ha^{-1}$);
+- Do ponto de vista matemático, é o somatório das áreas transversais das árvores;
+- A área basal é simbolizada por $G$ ( $G$ maiúsculo ), devido a origem alemã da palavra: .green[**Grundfläche**];
+- A unidade de medida padrão é $m^2/ha$ (ou $m^2.ha^{-1}$);
+- **Interpretação prática**: A área basal refere-se ao grau de ocupação do solo pelos troncos das árvores.
+- A fórmula é dada por:<br>
+
+$$
+\begin{equation*}
+G = \sum_{i=1}^{n}g_i~~~~~~~~~~~~~~~~~~~~~~~~
+g_i = \left(\dfrac{\pi}{4}\right)d^2
+\end{equation*}
+$$
+
+**Em que**: $g_i$ = área transversal da *i*-ésima árvore na amostra (ou população), em $m^2$; $d$ = diâmetro da árvore, em metros.
 ]
 ]
 
+---
+
+## Relação Diâmetro e Área Basal
+
+.shadow1[
+### Importância da Área Basal
+.font90[
+]
+]
 
 ---
 layout: false
