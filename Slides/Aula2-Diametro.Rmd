@@ -1989,7 +1989,7 @@ layout: true
 ## Estatísticas Associadas ao Diâmetro
 
 .shadow1[
-### Média Aritmética
+### Média Aritmética dos Diâmetros $\large \left ( \bar{d} \right)$
 .font90[
 - A média aritmética é a medida de tendência central mais usual. No  caso do diâmetro, é simbolizado por $\large \color{green}{\bar{d}}$;
 - Uma vez que a variável é o diâmetro, pode-se escrever a expressão matemática da média aritmética como:
@@ -2034,7 +2034,7 @@ $x$ = Variável quantitativa objeto de estudo.
 ## Estatísticas Associadas ao Diâmetro
 
 .shadow1[
-### Diâmetro Médio (ou Diâmetro Quadrático)
+### Diâmetro Médio (ou Diâmetro Quadrático) - $\large \left ( d_g \right)$
 .font90[
 - Estatística que corresponde ao diâmetro da árvore de área transversal média $\Large \left ( \bar{g} \right)$ do povoamento florestal (ou parcela);
 - Simbolizado por $\Large \color{green}{d_g}$ (IUFRO). Porém, várias literaturas simbolizam por $\Large \color{green}{q}$;
@@ -2051,6 +2051,17 @@ $$
 ]
 ]
 
+---
+
+## Estatísticas Associadas ao Diâmetro
+
+.shadow1[
+### Diâmetro Equivalente $\large \left ( d_{eq} \right)$
+.font90[
+
+
+]
+]
 
 
 ---
