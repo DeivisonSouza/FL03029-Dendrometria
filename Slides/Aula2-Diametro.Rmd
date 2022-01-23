@@ -1564,7 +1564,7 @@ knitr::include_graphics('https://upload.wikimedia.org/wikipedia/commons/thumb/3/
 .shadow1[
 ### Área Transversal - Cálculo
 .font90[
-- **Exemplo 1**: Uma parcela quadrada de $10m$ x $10m$ ( $100 m^2$ ) foi instalada em um povoamento de *Tectona grandis* (espaçamento $2m$ x $2m$), e em seguida foram medidos os diâmetros a 1,30m do solo, em cm, de todas as árvores vivas. <br>
+- **Exemplo 1**: Uma parcela quadrada de $10m$ x $10m$ foi instalada em um povoamento de *Tectona grandis* (espaçamento $2m$ x $2m$), e em seguida foram medidos os diâmetros a 1,30m do solo, em cm, de todas as árvores vivas. <br>
 
 **Pergunta-se**: .blue[Qual a área transversal, em metros quadrados, de cada árvore?]
 ]
@@ -1730,6 +1730,36 @@ $$
 - Em ecologia, é usada como parâmetro da estrutura horizontal: .blue[Dominância Absoluta] e .blue[Dominância Relativa].
 ]
 ]
+
+---
+
+## Relação Diâmetro e Área Basal
+
+
+
+.pull-left-4[
+**Retornemos ao exemplo anterior...**
+.shadow1[
+### Área Basal - Cálculo
+.font80[
+- **Exemplo 1**: Uma parcela quadrada de $10m$ x $10m$ foi instalada em um povoamento de *Tectona grandis* (espaçamento $2m$ x $2m$), e em seguida foram medidos os diâmetros a 1,30m do solo, em cm, de todas as árvores vivas. **Pergunta-se**: <br><br>
+- **1)** Qual a área basal da parcela ( $m^2/100m^2$ )?
+- **2)** Qual a área basal em $m^2/ha$?
+]
+]
+]
+
+--
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='95%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class2/gp.png')
+```
+.font80[**Fonte:** O autor. Círculos com .red["X"] são árvores mortas.]
+
+]
+
+
 
 ---
 layout: false
