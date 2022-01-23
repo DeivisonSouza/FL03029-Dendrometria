@@ -1999,12 +1999,12 @@ name: ma
 
 .font80[
 .left-column[
-- **Média aritmética amostral**
+- **Média aritmética amostral dos diâmetros**
 $$
 \normalsize
 \bar{d} = \frac{1}{n}\sum_{i=1}^{n}d_i
 $$
-- **Média aritmética populacional**
+- **Média aritmética populacional dos diâmetros**
 $$
 \normalsize
 \mu = \frac{1}{N}\sum_{i=1}^{N}d_i
@@ -2062,21 +2062,23 @@ $$
 ]
 
 .pull-left-4[
-| Árvore | CAP (cm) | Espessura de Casca (cm) |
+| Árvore | c (cm) | Espessura de Casca (cm) |
 |:--------:|:----------:|:-------------------------:|
 | 1      | 78,0     | 2,5                     |
 | 2      | 69,0     | 2,0                     |
 | 3      | 52,0     | 1,8                     |
 | 4      | 35,0     | 1,0                     |
 
-.center[.font80[**Fonte**: Soares et al., 2011]]
+.center[.font80[**Fonte**: Soares et al., 2011]].
+
+.font80[**Em que**: c = circunferência medida a 1,30m do solo.]
 ]
 
 .pull-right-4[
 .font80[
 **Questões Popostas**
 
-- **1)** Calcular os diâmetros sem casca $\large \left ( d_{sc} \right)$ de cada árvore.
+<!-- - **1)** Calcular os diâmetros sem casca $\large \left ( d_{sc} \right)$ de cada árvore. -->
 - **2)** Considerando os diâmetros com casca $\large \left ( d_c \right)$, calcular:<br>
     a) A média aritmética dos diâmetros $\large \left ( \bar{d} \right)$. <br>
     b) O diâmetro médio ou diâmetro quadrático $\large \left ( d_g \right)$. <br>
@@ -2095,7 +2097,7 @@ $$
 
 <br>
 .pull-left-4[
-| Árvore | CAP (cm) | Espessura de Casca (cm) |
+| Árvore | c (cm) | Espessura de Casca (cm) |
 |:--------:|:----------:|:-------------------------:|
 | 1      | 78,0     | 2,5                     |
 | 2      | 69,0     | 2,0                     |
@@ -2103,6 +2105,8 @@ $$
 | 4      | 35,0     | 1,0                     |
 
 .center[.font80[**Fonte**: Soares et al., 2011]]
+
+.font80[**Em que**: c = circunferência medida a 1,30m do solo.]
 ]
 
 --
@@ -2111,7 +2115,25 @@ $$
 .font80[
 **Questões Popostas**
 
-- **1)** Calcular os diâmetros sem casca $\large \left ( d_{sc} \right)$ de cada árvore.
+- **2)** Considerando os diâmetros com casca $\large \left ( d_c \right)$, calcular:<br>
+    
+a) A média aritmética dos diâmetros $\large \left ( \bar{d} \right)$. <br>
+**Antes**: Transforme as circunferências para diâmetros.
+
+$$
+\begin{equation*}
+\large
+d_i = \dfrac{c_i}{\pi} ~~~~~~~~~~~~ d_1 = \dfrac{c_1}{\pi} = \dfrac{78}{\pi} \approx \color{orange}{24,83~cm} 
+\end{equation*}
+$$
+
+**Depois**: Calcule a média aritmética dos diâmetros.
+$$
+\large
+\bar{d} = \frac{1}{n}\sum_{i=1}^{n}d_i \color{green}{\Rightarrow} \frac{1}{4}(24,83 + ...+ 11,14) \approx \color{orange}{18,62~cm} 
+$$
+
+
 
 ]
 ]
