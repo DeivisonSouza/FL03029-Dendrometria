@@ -203,7 +203,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 .font80[
 [1 - Erros no Uso da Suta](#eus)
 
-[2 - Erro da Área Transversal Devido à Seção Elíptica](#eat)
+[2 - Erro da Área Transversal Devido ao Desvio da Forma do Círculo](#eat)
 ]
 ]
 ]
@@ -1871,8 +1871,6 @@ G = \color{orange}{0,593229}.(100) \\~\\
 G = \color{brown}{59,3229}~~(m^2.ha^{-1})
 \end{equation*}
 $$
-
-
 ]
 
 ---
@@ -1911,7 +1909,6 @@ c) Transformação de circunferências de fustes excêntricos (elípticos) para 
 ]
 ]
 
-
 ---
 
 ## Erros na Medição de Diâmetros
@@ -1934,7 +1931,21 @@ Os erros mais frequentes ao se utilizar a **Suta** são (SOARES et al., 2011):
 ## Erros na Medição de Diâmetros
 
 .shadow1[
-### Erro da área transversal devido à seção elíptica
+### .font70[**Erro da Área Transversal Devido ao Desvio da Forma do Círculo** (Batista et al. 2014)]
+.font90[
+- No cálculo da área transversal, convencionalmente admitisse que a área da secção transversal possui a forma circular;
+- Não obstante, para muitas espécies arbóreas isso não é verdade. Pelo contrário, muitas vezes a forma da secção transversal diverge bastante do círculo;
+- Portanto, se a área da secção transversal possui forma divergente do círculo, e ainda sim calcula-se sua área usando a fórmula do círculo, se estará cometendo um erro.
+- Por exemplo, em algumas situações (áreas declivosas e ventos fortes) é comum as árvores desenvolverem uma forma de tronco que tende à elipse.
+
+$$
+\Large
+\begin{equation*}
+\underbrace{A = \left(\dfrac{\pi}{4}\right)d^2}_{Área~do~Círculo}
+\end{equation*}
+$$
+
+]
 ]
 
 
