@@ -99,7 +99,6 @@ layout: true
 
 8 - Biomassa e Carbono de Árvores
 
-.red[9 - Análise de Tronco]
 ]
 ]
 
@@ -117,7 +116,6 @@ Ao final desta aula espera-se que o discente seja capaz de...
 ---
 
 ## Conteúdo
-<br>
 
 .pull-left[
 .pull-top[
@@ -759,7 +757,7 @@ name: ib
 <br>
 
 .shadow1[
-### Padronização da simbologia em Mensuração e Manejo Florestal
+### Padronização da Simbologia em Mensuração e Manejo Florestal
 .font90[
 
 - **.green[2021]**: No .blue[V Encontro Brasileiro de Mensuração Florestal] (MENSUFLOR), que ocorreu de forma on-line, foi apresentado pelo **Professor Dr. Gilson Fernandes da Silva** (UFES) um documento preliminar (em construção) com uma proposta de ".blue[Padronização da Simbologia em Mensuração e Manejo Florestal]".
