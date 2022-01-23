@@ -1992,7 +1992,7 @@ layout: true
 ### Média Aritmética
 .font90[
 - A média aritmética é a medida de tendência central mais usada para variáveis quantativas.
-- A forma simplificada da expressão matemática é:
+- Genericamente, a forma simplificada da expressão matemática é:
 ]
 ]
 
@@ -2027,6 +2027,9 @@ $n$ = Número total de elementos da amostra.
 $x$ = Variável quantitativa objeto de estudo.
 ]
 ]
+
+---
+
 
 
 ---
