@@ -135,8 +135,9 @@ Ao final desta aula espera-se que o discente seja capaz de...
 * Compreender a importância da medição do diâmetro de árvores, bem como a necessidade de padronização de pontos de medição;
 * Compreender sobre situações especiais de pontos de medição de diâmetros;
 * Conhecer os principais instrumentos para a medição de diâmetros;
-* Conhecer os principais erros que podem ocorrer na medição de diâmetros, bem como entender como evitá-los (ou minimizá-los); e
-* Compreender a relação entre diâmetro x área basal do povoamento florestal.
+* Conhecer os principais erros que podem ocorrer na medição de diâmetros, bem como entender como evitá-los (ou minimizá-los);
+* Compreender a relação entre diâmetro x área tranversal e área basal do povoamento florestal; e
+* Conhecer as principais estatísticas associadas ao diâmetro da árvore.
 
 ---
 
@@ -190,6 +191,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 ]
 
 .pull-bottom[
+<br>
 **Parte 3 - Medidas Derivadas do Diâmetro**
 .font80[
 [1 - Relação Diâmetro e Área Transversal](#rdat)
@@ -197,16 +199,38 @@ Ao final desta aula espera-se que o discente seja capaz de...
 [2 - Relação Diâmetro e Área Basal](#rdab)
 ]
 ]
+]
 
-.pull-bottom[
+
+---
+
+## Conteúdo (Cont.)
+
+.pull-left[
+.pull-top[
+<br>
 **Parte 4 - Erros na Medição de Diâmetros**
 .font80[
 [1 - Erros no Uso da Suta](#eus)
 
 [2 - Erro da Área Transversal Devido ao Desvio da Forma do Círculo](#eat)
+
+]
+]
+
+.pull-bottom[
+<br>
+**Parte 5 - Estatísticas Associadas ao Diâmetro**
+.font80[
+[1 - Média aritmética](#ma)
+
+[2 - Diâmetro médio (ou Média quadrática)](#dm)
+
+[3 - Diâmetro equivalente - $d_{eq}$](#deq)
 ]
 ]
 ]
+
 
 <!-- Slide XX -->
 ---
@@ -1944,9 +1968,27 @@ $$
 \underbrace{A = \left(\dfrac{\pi}{4}\right)d^2}_{Área~do~Círculo}
 \end{equation*}
 $$
+]
+]
 
-]
-]
+---
+layout: false
+class: inverse, middle, center
+background-image: url(fig/class1/sec.png)
+background-size: cover
+
+.white[.font200[**Estatísticas Associadas ao Diâmetro:**] <br> .font150[1 - Média Aritmética <br> 2 - Diâmetro Médio (ou Quadrático) <br> 3 - Diâmetro Equivalente]]
+
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Medição de Diâmetros de Árvores/Parte 5: Estatísticas Associadas ao Diâmetro</div>
+
+---
+
+## Estatísticas Associadas ao Diâmetro
+
+
 
 
 ---
