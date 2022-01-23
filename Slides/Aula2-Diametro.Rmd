@@ -1735,8 +1735,6 @@ $$
 
 ## Relação Diâmetro e Área Basal
 
-
-
 .pull-left-4[
 **Retornemos ao exemplo anterior...**
 .shadow1[
@@ -1759,6 +1757,30 @@ knitr::include_graphics('fig/class2/gp.png')
 
 ]
 
+---
+
+## Relação Diâmetro e Área Basal
+
+.pull-left-4[
+.shadow1[
+### Área Basal - Cálculo
+.font90[
+- **Lembre-se**: Area basal é soma das áreas transversais das árvores;
+- As áreas transversais das árvores na parcela já foram calculada;
+- Portanto, a área basal da parcela será dada pela simples soma das áreas transversais das árvores vivas. Nesse caso, a unidade de medida será: $m^2/100m^2$.
+- No entanto, a unidade de medida padrão é $m^2/ha$. Assim, será necessário extrapolar o valor obtido na parcela para hectares.
+]
+]
+]
+
+--
+
+.pull-right-4[
+```{r, echo=FALSE, out.width='95%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class2/gp2.png')
+```
+.center[.font80[**Fonte:** O autor. Círculos com .red["X"] são árvores mortas.]]
+]
 
 
 ---
