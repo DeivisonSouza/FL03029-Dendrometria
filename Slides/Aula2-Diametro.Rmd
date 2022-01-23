@@ -1700,7 +1700,7 @@ name: rdab
 .shadow1[
 ### Diâmetro e Área Basal
 .font90[
-- Do ponto de vista matemático, é o somatório das áreas transversais das árvores;
+- Do ponto de vista matemático, é o somatório das áreas transversais das árvores, cujos diâmetros foram medido a 1,30m do solo;
 - A área basal é simbolizada por $G$ ( $G$ maiúsculo ), devido a origem alemã da palavra: .green[**Grundfläche**];
 - A unidade de medida padrão é $m^2/ha$ (ou $m^2.ha^{-1}$);
 - **Interpretação prática**: A área basal refere-se ao grau de ocupação do solo pelos troncos das árvores.
@@ -1724,6 +1724,10 @@ $$
 .shadow1[
 ### Importância da Área Basal
 .font90[
+- É um parâmetro da densidade do povoamento (Qual grau de ocupação do solo por madeira?);
+- Portanto, contribuiu para alcançar o estoque (volume) existente de madeira;
+- É usada como .blue[variável independente] no desenvolvimento de funções para predizer o .blue[crescimento e a produção]; e
+- Em ecologia, é usada como parâmetro da estrutura horizontal: .blue[Dominância Absoluta] e .blue[Dominância Relativa].
 ]
 ]
 
