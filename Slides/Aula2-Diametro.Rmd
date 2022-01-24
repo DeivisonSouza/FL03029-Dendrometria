@@ -2133,7 +2133,50 @@ $$
 \bar{d} = \frac{1}{n}\sum_{i=1}^{n}d_i \color{green}{\Rightarrow} \frac{1}{4}(24,83 + ...+ 11,14) \approx \color{orange}{18,62~cm} 
 $$
 
+]
+]
 
+---
+
+## Estatísticas Associadas ao Diâmetro
+
+.shadow1[
+### Vamos Praticar...
+]
+
+<br>
+.pull-left-4[
+| Árvore | c (cm) | Espessura de Casca (cm) |
+|:--------:|:----------:|:-------------------------:|
+| 1      | 78,0     | 2,5                     |
+| 2      | 69,0     | 2,0                     |
+| 3      | 52,0     | 1,8                     |
+| 4      | 35,0     | 1,0                     |
+
+.center[.font80[**Fonte**: Soares et al., 2011]]
+
+.font80[**Em que**: c = circunferência medida a 1,30m do solo.]
+]
+
+--
+
+.pull-right-4[
+.font80[
+**Questões Popostas**
+
+- **2)** Considerando os diâmetros com casca $\large \left ( d_c \right)$, calcular:<br>
+    
+b) O diâmetro médio ou diâmetro quadrático $\large \left ( d_g \right)$.<br>
+
+**Atenção**: Eleve cada valor de diâmetro ao quadrado e depois faça a soma.
+
+$$
+\large
+\begin{equation*}
+d_g = \sqrt{\dfrac{1}{n}\sum_{i=1}^{n}d_i^2} \color{green}{\Rightarrow} d_g = \sqrt{\dfrac{1}{4}(24,83^2 + ...+ 11,14^2)}\\~\\
+d_g \approx \color{orange}{19,34~cm} 
+\end{equation*}
+$$
 
 ]
 ]
