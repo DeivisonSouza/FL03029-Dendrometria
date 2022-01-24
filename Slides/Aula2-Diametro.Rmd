@@ -2265,13 +2265,14 @@ c) A área transversal média  $\large \left ( \bar{g} \right)$ de duas maneiras
 
 - **Antes**: Calcule a área transversal de cada árvore.
 
-Para a **Árvore 1**:
+**Para a Árvore 1**:
 
 $$
 \normalsize
 \begin{equation*}
 g_i = \left(\dfrac{\pi}{4}\right)d^2 \color{green}{\Rightarrow} g_1 = \left(\dfrac{\pi}{4}\right)d_1^2 \color{green}{\Rightarrow}
-g_1 = \left(\dfrac{\pi}{4}\right)\left(\dfrac{24,83}{100}\right)^2
+g_1 = \left(\dfrac{\pi}{4}\right)\left(\dfrac{24,83}{100}\right)^2 \\~\\
+g_1 = 
 \end{equation*}
 $$
 
