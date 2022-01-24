@@ -2062,7 +2062,7 @@ $$
 ]
 
 .pull-left-4[
-| Árvore | c (cm) | Espessura de Casca (cm) |
+| Árvore | c (cm) | Espessura de <br /> Casca (cm) |
 |:--------:|:----------:|:-------------------------:|
 | 1      | 78,0     | 2,5                     |
 | 2      | 69,0     | 2,0                     |
@@ -2082,8 +2082,9 @@ $$
 - **2)** Considerando os diâmetros com casca $\large \left ( d_c \right)$, calcular:<br>
     a) A média aritmética dos diâmetros $\large \left ( \bar{d} \right)$. <br>
     b) O diâmetro médio ou diâmetro quadrático $\large \left ( d_g \right)$. <br>
-    d) A área basal  $\large \left ( G \right)$ de duas maneiras diferentes.<br>
-    e) A área transversal média  $\large \left ( \bar{g} \right)$ de duas maneiras diferentes.
+    c) A área transversal média  $\large \left ( \bar{g} \right)$ de duas maneiras diferentes.<br>
+    d) A área basal  $\large \left ( G \right)$ de duas maneiras diferentes.
+
 ]
 ]
 
@@ -2097,7 +2098,7 @@ $$
 
 <br>
 .pull-left-4[
-| Árvore | c (cm) | Espessura de Casca (cm) |
+| Árvore | c (cm) | Espessura de <br /> Casca (cm) |
 |:--------:|:----------:|:-------------------------:|
 | 1      | 78,0     | 2,5                     |
 | 2      | 69,0     | 2,0                     |
@@ -2146,12 +2147,12 @@ $$
 
 <br>
 .pull-left-4[
-| Árvore | c (cm) | Espessura de Casca (cm) |
-|:--------:|:----------:|:-------------------------:|
-| 1      | 78,0     | 2,5                     |
-| 2      | 69,0     | 2,0                     |
-| 3      | 52,0     | 1,8                     |
-| 4      | 35,0     | 1,0                     |
+| Árvore | c (cm) | Espessura de <br /> Casca (cm) | d (cm) |
+|:--------:|:----------:|:-------------------------:|:----------:|
+| 1      | 78,0     | 2,5                     | 24,83     |
+| 2      | 69,0     | 2,0                     | 21,96     |
+| 3      | 52,0     | 1,8                     | 16,55     |
+| 4      | 35,0     | 1,0                     | 11,14     |
 
 .center[.font80[**Fonte**: Soares et al., 2011]]
 
@@ -2175,6 +2176,102 @@ $$
 \begin{equation*}
 d_g = \sqrt{\dfrac{1}{n}\sum_{i=1}^{n}d_i^2} \color{green}{\Rightarrow} d_g = \sqrt{\dfrac{1}{4}(24,83^2 + ...+ 11,14^2)}\\~\\
 d_g \approx \color{orange}{19,34~cm} 
+\end{equation*}
+$$
+
+]
+]
+
+
+---
+
+## Estatísticas Associadas ao Diâmetro
+
+.shadow1[
+### Vamos Praticar...
+]
+
+<br>
+.pull-left-4[
+| Árvore | c (cm) | Espessura de <br /> Casca (cm) | d (cm) |
+|:--------:|:----------:|:-------------------------:|:----------:|
+| 1      | 78,0     | 2,5                     | 24,83     |
+| 2      | 69,0     | 2,0                     | 21,96     |
+| 3      | 52,0     | 1,8                     | 16,55     |
+| 4      | 35,0     | 1,0                     | 11,14     |
+
+.center[.font80[**Fonte**: Soares et al., 2011]]
+
+.font80[**Em que**: c = circunferência medida a 1,30m do solo.]
+]
+
+--
+
+.pull-right-4[
+.font80[
+**Questões Popostas**
+
+- **2)** Considerando os diâmetros com casca $\large \left ( d_c \right)$, calcular:<br>
+    
+c) A área transversal média  $\large \left ( \bar{g} \right)$ de duas maneiras diferentes.<br>
+
+**Solução 1**: Faça uma média aritmética das áreas transversais das árvores
+
+$$
+\large
+\begin{equation*}
+g_i = \left(\dfrac{\pi}{4}\right)d^2 ~~~~~~~~~~~~~~~~~~~~~~~~
+\bar{g} = \frac{1}{n}\sum_{i=1}^{n}g_i
+\end{equation*}
+$$
+
+]
+]
+
+
+---
+
+## Estatísticas Associadas ao Diâmetro
+
+.shadow1[
+### Vamos Praticar...
+]
+
+<br>
+.pull-left-4[
+| Árvore | c (cm) | Espessura de <br /> Casca (cm) | d (cm) |
+|:--------:|:----------:|:-------------------------:|:----------:|
+| 1      | 78,0     | 2,5                     | 24,83     |
+| 2      | 69,0     | 2,0                     | 21,96     |
+| 3      | 52,0     | 1,8                     | 16,55     |
+| 4      | 35,0     | 1,0                     | 11,14     |
+
+.center[.font80[**Fonte**: Soares et al., 2011]]
+
+.font80[**Em que**: c = circunferência medida a 1,30m do solo.]
+]
+
+--
+
+.pull-right-4[
+.font80[
+**Questões Popostas**
+
+- **2)** Considerando os diâmetros com casca $\large \left ( d_c \right)$, calcular:<br>
+    
+c) A área transversal média  $\large \left ( \bar{g} \right)$ de duas maneiras diferentes.<br>
+
+**Solução 1**: Faça uma média aritmética das áreas transversais das árvores.
+
+- **Antes**: Calcule a área transversal de cada árvore.
+
+Para a **Árvore 1**:
+
+$$
+\normalsize
+\begin{equation*}
+g_i = \left(\dfrac{\pi}{4}\right)d^2 \color{green}{\Rightarrow} g_1 = \left(\dfrac{\pi}{4}\right)d_1^2 \color{green}{\Rightarrow}
+g_1 = \left(\dfrac{\pi}{4}\right)\left(\dfrac{24,83}{100}\right)^2
 \end{equation*}
 $$
 
