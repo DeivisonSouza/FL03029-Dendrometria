@@ -1681,7 +1681,7 @@ df <- data.frame(
 
 df <- df %>% 
   mutate(g = (pi/4)*((d/100)^2)) %>% 
-  round(6)
+  round(4)
 
 df %>% 
    DT::datatable(editable = 'cell', rownames = FALSE, style = "default",
@@ -1822,7 +1822,7 @@ df <- data.frame(
 
 df <- df %>% 
   mutate(g = (pi/4)*((d/100)^2)) %>% 
-  round(6)
+  round(4)
 
 df %>% 
    DT::datatable(editable = 'cell', rownames = FALSE, style = "default",
@@ -1852,8 +1852,8 @@ $$
 \large
 \begin{equation*}
 G = \sum_{i=1}^{n}g_i\\~\\
-G = 0,025447 + 0,030481 + ...+ 0,044863 \color{green}{\Rightarrow} \\~\\
-G = \color{orange}{0,593229}~~(m^2/0,01ha)
+G = 0,0254 + 0,0305 + ...+ 0,0449 \color{green}{\Rightarrow} \\~\\
+G = \color{orange}{0,5932}~~(m^2/0,01ha)
 \end{equation*}
 $$
 ]
@@ -1890,8 +1890,8 @@ $$
 \normalsize
 \begin{equation*}
 G = \sum_{i=1}^{n}g_i.(FP) \\~\\
-G = \color{orange}{0,593229}.(100) \\~\\
-G = \color{brown}{59,3229}~~(m^2.ha^{-1})
+G = \color{orange}{0,5932}.(100) \\~\\
+G = \color{brown}{59,32}~~(m^2.ha^{-1})
 \end{equation*}
 $$
 ]
