@@ -34,7 +34,7 @@ background-size: 220px, 90px, cover
 knitr::opts_chunk$set(
   fig.showtext = TRUE,
   fig.align = "center", 
-  cache = TRUE,
+  cache = FALSE,
   error = FALSE,
   message = FALSE, 
   warning = FALSE, 
