@@ -200,9 +200,9 @@ p <- calendR::calendR(year = 2022,
           "1ª Avaliação",
           "Estudo da \n Forma do Tronco\n das Árvores",
           "Volume de \n Árvores \n(Métodos de \nCubagem)",
-          "Método de \n Bitterlich", 
           "Biomassa e \n Carbono de \n Árvores", 
           "Aula Prática \n (Cubagem e \n Biomassa)",
+          "Método de \n Bitterlich",
           "2ª Avaliação"),
         text.pos = c(5:10, 12:17), 
         text.size = 12,
@@ -231,9 +231,9 @@ p + theme(legend.key.size = unit(2, 'cm'),
 
 6 - Volume de Árvores (Métodos de Cubagem)
 
-7 - Método de Bitterlich - Relascopia 
+7 - Biomassa e Carbono Florestal
 
-8 - Biomassa e Carbono de Árvores
+8 - Método de Bitterlich - Relascopia 
 
 ]
 
