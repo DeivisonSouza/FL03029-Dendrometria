@@ -157,21 +157,21 @@ Email: deivisonvs@ufpa.br
 <!-- Slide 2 -->
 ---
 
-## Cronograma .black[.font80[(**Horário: 07h30min - 12h50min**)]]
+## Cronograma .black[.font80[(**Horário: 14h00min - 19h00min**)]]
 
 ```{r echo=FALSE, eval=TRUE, warning=FALSE, dpi=600, fig.width = 35, fig.height = 17}
 library(calendR)
 library(ggplot2)
 
-dates <- seq(as.Date("2022-01-01"), as.Date("2022-01-31"), by = "1 day")
+dates <- seq(as.Date("2022-09-01"), as.Date("2022-09-30"), by = "1 day")
 events <- ifelse(format(dates, "%w") %in% c(6,7), "Final de semana", NA)
 #events[c(12)] <- "Aniversário do Professor"
 #events[c(25)] <- "Curso ggplot2 - SIINGEF"
 
 p <- calendR::calendR(year = 2022,
-        month = 1,
+        month = 9,
         start = "M",
-        title = "Janeiro (Ano 2022)",
+        title = "Setembro (Ano 2022)",
         title.size = 50, 
         subtitle.size = 20, 
         title.col = 2,  
@@ -197,58 +197,14 @@ p <- calendR::calendR(year = 2022,
           "Medição de \n Alturas de \n Árvores",
           "Aula Prática \n (Diâmetro e \n Altura)",
           "Relação \n Hipsométrica",
-          "1ª Avaliação"),
-        text.pos = c(24:28, 31), 
-        text.size = 12,
-        text.col = 1)
-
-p + theme(legend.key.size = unit(2, 'cm'),
-          legend.text = element_text(size=30))
-
-```
-
-<!-- Slide 3 -->
----
-## Cronograma .black[.font80[(**Horário: 07h30min - 12h50min**)]]
-
-```{r echo=FALSE, eval=TRUE, warning=FALSE, dpi=600, fig.width = 35, fig.height = 17}
-
-dates <- seq(as.Date("2022-02-01"), as.Date("2022-02-28"), by = "1 day")
-events <- ifelse(format(dates, "%w") %in% c(6,7), "Final de semana", NA)
-events[c(8)] <- "Fim do Período Letivo"
-events[c(25)] <- "Lançamento de Conceitos (Prazo Final)"
-
-p <- calendR::calendR(year = 2022,
-        month = 2,
-        start = "M",
-        title = "Fevereiro (Ano 2022)",
-        title.size = 50, 
-        subtitle.size = 20, 
-        title.col = 2,  
-        subtitle = "",   
-        subtitle.col = 3,
-        weeknames.size = 15,
-        special.days = events,
-        legend.pos = "bottom",
-        special.col = c(rgb(1, 0, 0, 0.1), "lightgreen", rgb(0, 0, 1, 0.1)),
-        col = "black",                  
-        lwd = 1,
-        lty = 1,
-        font.family = "mono",       
-        font.style = "bold",
-        weeknames.col = "black",
-        months.col = "gray30",
-        days.col = 2, 
-        day.size = 18,
-        bg.img = "",
-        text = c(
+          "1ª Avaliação",
           "Estudo da \n Forma do Tronco\n das Árvores",
           "Volume de \n Árvores \n(Métodos de \nCubagem)",
           "Método de \n Bitterlich", 
-          "Aula Prática \n (Relascópio)",
           "Biomassa e \n Carbono de \n Árvores", 
+          "Aula Prática \n (Cubagem e \n Biomassa)",
           "2ª Avaliação"),
-        text.pos = c(1:4, 7:8), 
+        text.pos = c(5:10, 12:17), 
         text.size = 12,
         text.col = 1)
 
@@ -256,7 +212,6 @@ p + theme(legend.key.size = unit(2, 'cm'),
           legend.text = element_text(size=30))
 
 ```
-
 
 ---
 
