@@ -157,7 +157,15 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 &nbsp;&nbsp;[4.1 - Método Direto (Destrutivo)](#md)
 
+&nbsp;&nbsp;&nbsp;&nbsp;[4.1.1 - Árvores Individuais](#ai)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[4.1.2 - Parcelas de Amostragem](#pa)
+
 &nbsp;&nbsp;[4.2 - Método Indireto (Não Destrutivo)](#mi)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[4.2.1 - Equações de Biomassa](#eb)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[4.2.2 - Fatores de Expansão de Biomassa](#feb)
 
 [5 - Conversão da Biomassa em Carbono](#cbc)
 
