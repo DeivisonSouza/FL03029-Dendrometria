@@ -133,12 +133,10 @@ layout: true
 <br><br>
 Ao final desta aula espera-se que o discente seja capaz de...
 
-* Compreender a importância da medição do diâmetro de árvores, bem como a necessidade de padronização de pontos de medição;
-* Compreender sobre situações especiais de pontos de medição de diâmetros;
-* Conhecer os principais instrumentos para a medição de diâmetros;
-* Conhecer os principais erros que podem ocorrer na medição de diâmetros, bem como entender como evitá-los (ou minimizá-los);
-* Compreender a relação entre diâmetro x área tranversal e área basal do povoamento florestal; e
-* Conhecer as principais estatísticas associadas ao diâmetro da árvore.
+* Compreender a importância da medição da biomassa e carbono em ecossistemas florestais;
+* Conhecer os principais componentes da biomassa florestal;
+* Compreender os fatores que afetam a produção de biomassa florestal; e
+* Conhecer os principais métodos de quantificação da biomassa florestal.
 
 ---
 
@@ -146,91 +144,26 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 .pull-left[
 .pull-top[
-**Parte 1 - O Diâmetro das Árvores**
-.font80[
+**Parte 1 - A Biomassa Florestal**
+.font90[
 
-[1 - Importância do Diâmetro](#id)
+[1 - Conceitos](#con)
 
-[2 - Ponto de Medição do Diâmetro - PMD](#pmd)
+[2 - Importância da Biomassa Florestal](#ibf)
 
-[3 - Relação entre Diâmetro e Circunferência](#rdc)
+[3 - Produção da Biomassa Florestal](#pbf)
 
-[4 - Situações Especiais de PMD](#sepmd)
+[4 - Quantificação da Biomassa Florestal](#qbf)
 
-&nbsp;&nbsp;[4.1 - Árvores sem anomalias e situadas em terreno plano](#asa)
+&nbsp;&nbsp;[4.1 - Método Direto (Destrutivo)](#md)
 
-&nbsp;&nbsp;[4.2 - Árvores inclinadas](#ai)
+&nbsp;&nbsp;[4.2 - Método Indireto (Não Destrutivo)](#mi)
 
-&nbsp;&nbsp;[4.3 - Árvores em aclives ou declives](#aad)
-
-&nbsp;&nbsp;[4.4 - Árvores bifurcadas abaixo de 1,30 m do solo](#ab)
-
-&nbsp;&nbsp;[4.5 - Árvores bifurcadas acima de 1,30 m do solo](#aba)
-
-&nbsp;&nbsp;[4.6 - Árvores com sapopemas ou raízes aéreas](#asra)
+[5 - Conversão da Biomassa em Carbono](#cbc)
 
 ]
 ]
 ]
-
-
-.pull-right[
-.pull-top[
-**Parte 2 - Instrumentos para a Medição de Diâmetros**
-.font80[
-[1 - Suta (Mecânica e Eletrônica)](#sme)
-
-[2 - Fita Diamétrica](#fd)
-
-[3 - Régua de Biltmore](#vb)
-
-[4 - Garfo de Diâmetro](#gd)
-
-[5 - Cinta Dendrométrica](#cd)
-
-]
-]
-
-.pull-bottom[
-<br>
-**Parte 3 - Medidas Derivadas do Diâmetro**
-.font80[
-[1 - Relação Diâmetro e Área Transversal](#rdat)
-
-[2 - Relação Diâmetro e Área Basal](#rdab)
-]
-]
-]
-
-
----
-
-## Conteúdo (Cont.)
-
-.pull-left[
-.pull-top[
-<br>
-**Parte 4 - Erros na Medição de Diâmetros**
-.font80[
-[1 - Erros no Uso da Suta](#eus)
-
-[2 - Erro da Área Transversal Devido ao Desvio da Forma do Círculo](#eat)
-
-]
-]
-
-.pull-bottom[
-<br>
-**Parte 5 - Estatísticas Associadas ao Diâmetro**
-.font80[
-[1 - Média Aritmética dos Diâmetros](#ma)
-
-[2 - Diâmetro Médio (ou Diâmetro Quadrático)](#dm)
-
-]
-]
-]
-
 
 <!-- Slide XX -->
 ---
@@ -239,20 +172,25 @@ class: inverse, middle, center
 background-image: url(fig/class1/sec.png)
 background-size: cover
 
-.white[.font200[**Diâmetro das Árvores:**] <br> .font150[Importância, Ponto de Medição, Situações Especiais]]
+.white[.font200[**Biomassa Florestal:**] <br> .font150[Conceito e Importância]]
 
 ---
 layout: true
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Medição de Diâmetros de Árvores/Parte 1: O Diâmetro das Árvores</div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Biomassa e Carbono Florestal/Parte 1: A Biomassa Florestal</div>
 
 ---
-name: id
-## Diâmetro das Árvores: Importância
+name: conc
+## Biomassa Florestal: Importância
+
+
+---
+name: ibf
+## Biomassa Florestal: Importância
 <br>
 
 .shadow1[
-### Importância do Diâmetro
+### Importância da Biomassa Florestal
 <br>
 **1)** O diâmetro da árvore é importante para o cálculo de diversas medidas derivadas:
  * a) Cálculo da área transversal (g) da árvore;
