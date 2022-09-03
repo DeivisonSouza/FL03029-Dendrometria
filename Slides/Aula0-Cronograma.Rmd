@@ -357,7 +357,7 @@ $$
 
 **NA** = Nota das Atividade (Soma das atividades será 10 pts.)
 
-**NP** = Nota das Provas Teóricas (Soma das provas será 10 pts.)
+**NPT** = Nota das Provas Teóricas (Soma das provas será 10 pts.)
 
 <br>
 

@@ -4,13 +4,11 @@
 <!-- badges: end -->
 <!-- Emprestei a função list_github_files() da Curso-R. (https://github.com/curso-r). A ideia desse readme emprestei da Curso-R. Achei excelente!-->
 
-# Seja bem vindo(a)! :deciduous\_tree: :smiley: :grin:
+# Seja bem vindo(a)! :deciduous_tree: :smiley: :grin:
 
-:calendar: **Janeiro: 24, 25, 26, 27, 28 e 31**
+:calendar: **Setembro: 5 a 10 (semana 1) e 12 a 17 (semana 2)**
 
-:calendar: **Fevereiro: 1, 2, 3, 4, 7 e 8**
-
-:alarm\_clock: **07h30min - 12h50min**
+:alarm_clock: **14h00min - 19h00min**
 
 <div itemscope="" itemtype="https://schema.org/Person">
 
@@ -57,10 +55,10 @@ A programação, o conteúdo e os slides da disciplina **Dendrometria**
 | Slides/Aula1-Introducao-Dendrometria.html | <https://deivisonsouza.github.io/FL03029-Dendrometria/Slides/Aula1-Introducao-Dendrometria.html> |
 | Slides/Aula2-Diametro.html                | <https://deivisonsouza.github.io/FL03029-Dendrometria/Slides/Aula2-Diametro.html>                |
 
-# Facilitador :deciduous\_tree:
+# Facilitador :deciduous_tree:
 
-**Deivison Venicio Souza** possui graduação em :deciduous\_tree:
-**Engenharia Florestal** :deciduous\_tree: pela Universidade Federal
+**Deivison Venicio Souza** possui graduação em :deciduous_tree:
+**Engenharia Florestal** :deciduous_tree: pela Universidade Federal
 Rural da Amazônia (2008), Mestrado em Ciências Florestais pela
 Universidade Federal Rural da Amazônia (2011) e Doutorado em Engenharia
 Florestal pela Universidade Federal do Paraná (2020). No período de 2009

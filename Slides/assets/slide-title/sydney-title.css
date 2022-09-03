@@ -214,6 +214,11 @@ div3 {
   width: 30%;
 }
 
+.pull-left-15 {
+  float: left;
+  width: 70%;
+}
+
 
 /* use to position text at the bottom */
 .pull-down {

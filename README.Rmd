@@ -50,11 +50,9 @@ list_github_files <- function(repo, dir = NULL, ext = NULL) {
 
 # Seja bem vindo(a)! :deciduous_tree: :smiley: :grin:
 
-:calendar: **Janeiro: 24, 25, 26, 27, 28 e 31**
+:calendar: **Setembro: 5 a 10 (semana 1) e 12 a 17 (semana 2)**
 
-:calendar: **Fevereiro: 1, 2, 3, 4, 7 e 8**
-
-:alarm_clock: **07h30min - 12h50min**
+:alarm_clock: **14h00min - 19h00min**
 
 <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-2975-0927" href="https://orcid.org/0000-0002-2975-0927" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0002-2975-0927</a></div>
 
