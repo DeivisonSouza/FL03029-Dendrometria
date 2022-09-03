@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Dendrometria (FL03029)</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Prof. Dr. Deivison Venicio Souza" />
+    <script src="Aula7-Biomassa-Carbono_files/header-attrs-2.14/header-attrs.js"></script>
+    <link href="Aula7-Biomassa-Carbono_files/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="Aula7-Biomassa-Carbono_files/font-awesome-animation-1.0/font-awesome-animation-emi.css" rel="stylesheet" />
+    <script src="Aula7-Biomassa-Carbono_files/fontawesome-5.0.13/js/fontawesome-all.min.js"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        TeX: { equationNumbers: { autoNumber: "AMS" } },
+      });
+    </script>
+    <style>
+    .mjx-mrow a {
+      color: black;
+      pointer-events: none;
+      cursor: default;
+    }
+    </style>
+    <link rel="stylesheet" href="assets/sydney-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="assets/slide-title/sydney-title.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+class: title-slide, center, middle
+background-image: url(fig/slide-title/ufpa2.png), url(fig/slide-title/forest.png), url(fig/slide-title/img3.png)
+background-position: 84% 90%, 95% 90%
+background-size: 220px, 90px, cover
+
+
+
+
+
+<div>
+<style type="text/css">.xaringan-extra-logo {
+width: 140px;
+height: 140px;
+z-index: 0;
+background-image: url(fig/slide-title/ufpa.png);
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+top:.8em;right:-.5em;
+}
+</style>
+<script>(function () {
+  let tries = 0
+  function addLogo () {
+    if (typeof slideshow === 'undefined') {
+      tries += 1
+      if (tries < 10) {
+        setTimeout(addLogo, 100)
+      }
+    } else {
+      document.querySelectorAll('.remark-slide-content:not(.title-slide):not(.inverse):not(.hide_logo)')
+        .forEach(function (slide) {
+          const logo = document.createElement('div')
+          logo.classList = 'xaringan-extra-logo'
+          logo.href = null
+          slide.appendChild(logo)
+        })
+    }
+  }
+  document.addEventListener('DOMContentLoaded', addLogo)
+})()</script>
+</div>
+
+
+
+
+
+&lt;!-- title-slide --&gt;
+# Dendrometria &lt;br&gt; (FL03029)
+&lt;br&gt;
+## <span>&lt;i class="fab  fa-pagelines faa-horizontal animated " style=" color:green;"&gt;&lt;/i&gt;</span> Biomassa e Carbono <span>&lt;i class="fab  fa-pagelines faa-horizontal animated " style=" color:green;"&gt;&lt;/i&gt;</span> &lt;br&gt; Florestal
+
+#### **Prof. Dr. Deivison Venicio Souza**
+##### Universidade Federal do Pará (UFPA) 
+##### Faculdade de Engenharia Florestal
+##### E-mail: deivisonvs@ufpa.br
+&lt;br&gt;
+##### 1ª versão: 03/setembro/2022 &lt;br&gt; (Atualizado em: 03/setembro/2022) &lt;br&gt; Altamira, Pará
+
+---
+layout: true
+&lt;div class="my-header"&gt;&lt;/div&gt;
+&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;Dendrometria (FL03029) - Biomassa e Carbono Florestal&lt;/div&gt;
+
+---
+
+## Ementa da disciplina (FL03039 - IF)
+&lt;br&gt;
+
+.pull-left-3[
+.shadow3[
+1 - Introdução à Dendrometria
+
+2 - Medição de Diâmetros de Árvores
+
+3 - Medição de Alturas de Árvores
+
+4 - Relação Hipsométrica
+
+5 - Estudo da Forma do Tronco das Árvores
+
+6 - Volume de Árvores (Métodos de Cubagem)
+
+**7 - Biomassa e Carbono Florestal**
+
+8 - Método de Bitterlich - Relascopia
+
+]
+]
+
+---
+
+## Objetivos
+&lt;br&gt;&lt;br&gt;
+Ao final desta aula espera-se que o discente seja capaz de...
+
+* Compreender a importância da medição do diâmetro de árvores, bem como a necessidade de padronização de pontos de medição;
+* Compreender sobre situações especiais de pontos de medição de diâmetros;
+* Conhecer os principais instrumentos para a medição de diâmetros;
+* Conhecer os principais erros que podem ocorrer na medição de diâmetros, bem como entender como evitá-los (ou minimizá-los);
+* Compreender a relação entre diâmetro x área tranversal e área basal do povoamento florestal; e
+* Conhecer as principais estatísticas associadas ao diâmetro da árvore.
+
+---
+
+## Conteúdo
+
+.pull-left[
+.pull-top[
+**Parte 1 - O Diâmetro das Árvores**
+.font80[
+
+[1 - Importância do Diâmetro](#id)
+
+[2 - Ponto de Medição do Diâmetro - PMD](#pmd)
+
+[3 - Relação entre Diâmetro e Circunferência](#rdc)
+
+[4 - Situações Especiais de PMD](#sepmd)
+
+&amp;nbsp;&amp;nbsp;[4.1 - Árvores sem anomalias e situadas em terreno plano](#asa)
+
+&amp;nbsp;&amp;nbsp;[4.2 - Árvores inclinadas](#ai)
+
+&amp;nbsp;&amp;nbsp;[4.3 - Árvores em aclives ou declives](#aad)
+
+&amp;nbsp;&amp;nbsp;[4.4 - Árvores bifurcadas abaixo de 1,30 m do solo](#ab)
+
+&amp;nbsp;&amp;nbsp;[4.5 - Árvores bifurcadas acima de 1,30 m do solo](#aba)
+
+&amp;nbsp;&amp;nbsp;[4.6 - Árvores com sapopemas ou raízes aéreas](#asra)
+
+]
+]
+]
+
+
+.pull-right[
+.pull-top[
+**Parte 2 - Instrumentos para a Medição de Diâmetros**
+.font80[
+[1 - Suta (Mecânica e Eletrônica)](#sme)
+
+[2 - Fita Diamétrica](#fd)
+
+[3 - Régua de Biltmore](#vb)
+
+[4 - Garfo de Diâmetro](#gd)
+
+[5 - Cinta Dendrométrica](#cd)
+
+]
+]
+
+.pull-bottom[
+&lt;br&gt;
+**Parte 3 - Medidas Derivadas do Diâmetro**
+.font80[
+[1 - Relação Diâmetro e Área Transversal](#rdat)
+
+[2 - Relação Diâmetro e Área Basal](#rdab)
+]
+]
+]
+
+
+---
+
+## Conteúdo (Cont.)
+
+.pull-left[
+.pull-top[
+&lt;br&gt;
+**Parte 4 - Erros na Medição de Diâmetros**
+.font80[
+[1 - Erros no Uso da Suta](#eus)
+
+[2 - Erro da Área Transversal Devido ao Desvio da Forma do Círculo](#eat)
+
+]
+]
+
+.pull-bottom[
+&lt;br&gt;
+**Parte 5 - Estatísticas Associadas ao Diâmetro**
+.font80[
+[1 - Média Aritmética dos Diâmetros](#ma)
+
+[2 - Diâmetro Médio (ou Diâmetro Quadrático)](#dm)
+
+]
+]
+]
+
+
+&lt;!-- Slide XX --&gt;
+---
+layout: false
+class: inverse, middle, center
+background-image: url(fig/class1/sec.png)
+background-size: cover
+
+.white[.font200[**Diâmetro das Árvores:**] &lt;br&gt; .font150[Importância, Ponto de Medição, Situações Especiais]]
+
+---
+layout: true
+&lt;div class="my-header"&gt;&lt;/div&gt;
+&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;Dendrometria (FL03029) - Medição de Diâmetros de Árvores/Parte 1: O Diâmetro das Árvores&lt;/div&gt;
+
+---
+name: id
+## Diâmetro das Árvores: Importância
+&lt;br&gt;
+
+.shadow1[
+### Importância do Diâmetro
+&lt;br&gt;
+**1)** O diâmetro da árvore é importante para o cálculo de diversas medidas derivadas:
+ * a) Cálculo da área transversal (g) da árvore;
+
+$$
+`\begin{equation*}
+\large
+ g_i = \frac{\pi \color{blue}{d}^2}{4}
+\end{equation*}`
+$$
+ * b) Cálculo da área basal (G) da parcela/unidade de amostra (ou população);
+$$
+`\begin{equation*}
+G = \sum_{i=1}^{n}g_i
+\end{equation*}`
+$$
+
+]
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="assets/remark-zoom.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"highlightLanguage": ["r", "css", "yaml"],
+"ratio": "16:9",
+"navigation": {
+"scroll": false
+}
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

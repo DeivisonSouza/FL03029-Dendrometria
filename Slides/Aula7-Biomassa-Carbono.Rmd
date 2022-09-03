@@ -1,0 +1,275 @@
+---
+title: "Dendrometria (FL03029)"
+subtitle: "Biomassa e Carbono Florestal"
+author: "Prof. Dr. Deivison Venicio Souza"
+institute: "Universidade Federal do Pará (UFPA)"
+date:
+encoding: "UTF-8"
+header-includes: 
+   - \usepackage{xcolor}
+output:
+  xaringan::moon_reader:
+    css:
+      - default
+      - assets/sydney-fonts.css
+      - assets/slide-title/sydney-title.css
+    self_contained: false
+    seal: false
+    includes:
+      in_header: "assets/mathjax-equation-numbers.html"
+    nature:
+      beforeInit: ["assets/remark-zoom.js", "https://platform.twitter.com/widgets.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      highlightLanguage: ["r", "css", "yaml"]
+      ratio: '16:9'
+      navigation:
+        scroll: false
+---
+class: title-slide, center, middle
+background-image: url(fig/slide-title/ufpa2.png), url(fig/slide-title/forest.png), url(fig/slide-title/img3.png)
+background-position: 84% 90%, 95% 90%
+background-size: 220px, 90px, cover
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  fig.showtext = TRUE,
+  fig.align = "center", 
+  cache = FALSE, 
+  error = FALSE,
+  message = FALSE, 
+  warning = FALSE, 
+  collapse = TRUE ,
+  dpi = 600)
+```
+
+```{r packages, include=FALSE}
+# remotes::install_github("dill/emoGG")
+library(ggplot2)
+library(dplyr)
+library(ggimage)
+```
+
+```{r xaringan-logo, echo=FALSE}
+library(xaringanExtra)
+use_logo(
+  image_url = "fig/slide-title/ufpa.png",
+  position = css_position(top = ".8em", right = "-.5em"),
+  width = "140px",
+  height = "140px"
+)
+```
+
+```{r customDT, echo=F}
+CustomDT <- function(data){
+  data %>% DT::datatable(editable = 'cell', rownames = FALSE,
+                         style = "default",
+                         class = "display", width = '180px',
+                         caption = '',
+     options=list(pageLength = 20, dom = 't', autoWidth = F,
+       initComplete = htmlwidgets::JS(
+          "function(settings, json) {",
+          paste0("$(this.api().table().container()).css({'font-size': '", "9pt", "'});"),
+          "}")
+       ) 
+     )
+}
+```
+
+```{r icon, echo=FALSE}
+#remotes::install_github("mitchelloharawild/icons")
+#library(icons)
+#download_fontawesome()
+#download_simple_icons()
+```
+
+<!-- title-slide -->
+# Dendrometria <br> (FL03029)
+<br>
+## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Biomassa e Carbono `r anicon::faa("pagelines", animate="horizontal", colour="green")` <br> Florestal
+
+#### **Prof. Dr. Deivison Venicio Souza**
+##### Universidade Federal do Pará (UFPA) 
+##### Faculdade de Engenharia Florestal
+##### E-mail: deivisonvs@ufpa.br
+<br>
+##### 1ª versão: 03/setembro/2022 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
+
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Biomassa e Carbono Florestal</div>
+
+---
+
+## Ementa da disciplina (FL03039 - IF)
+<br>
+
+.pull-left-3[
+.shadow3[
+1 - Introdução à Dendrometria
+
+2 - Medição de Diâmetros de Árvores
+
+3 - Medição de Alturas de Árvores
+
+4 - Relação Hipsométrica
+
+5 - Estudo da Forma do Tronco das Árvores
+
+6 - Volume de Árvores (Métodos de Cubagem)
+
+**7 - Biomassa e Carbono Florestal**
+
+8 - Método de Bitterlich - Relascopia
+
+]
+]
+
+---
+
+## Objetivos
+<br><br>
+Ao final desta aula espera-se que o discente seja capaz de...
+
+* Compreender a importância da medição do diâmetro de árvores, bem como a necessidade de padronização de pontos de medição;
+* Compreender sobre situações especiais de pontos de medição de diâmetros;
+* Conhecer os principais instrumentos para a medição de diâmetros;
+* Conhecer os principais erros que podem ocorrer na medição de diâmetros, bem como entender como evitá-los (ou minimizá-los);
+* Compreender a relação entre diâmetro x área tranversal e área basal do povoamento florestal; e
+* Conhecer as principais estatísticas associadas ao diâmetro da árvore.
+
+---
+
+## Conteúdo
+
+.pull-left[
+.pull-top[
+**Parte 1 - O Diâmetro das Árvores**
+.font80[
+
+[1 - Importância do Diâmetro](#id)
+
+[2 - Ponto de Medição do Diâmetro - PMD](#pmd)
+
+[3 - Relação entre Diâmetro e Circunferência](#rdc)
+
+[4 - Situações Especiais de PMD](#sepmd)
+
+&nbsp;&nbsp;[4.1 - Árvores sem anomalias e situadas em terreno plano](#asa)
+
+&nbsp;&nbsp;[4.2 - Árvores inclinadas](#ai)
+
+&nbsp;&nbsp;[4.3 - Árvores em aclives ou declives](#aad)
+
+&nbsp;&nbsp;[4.4 - Árvores bifurcadas abaixo de 1,30 m do solo](#ab)
+
+&nbsp;&nbsp;[4.5 - Árvores bifurcadas acima de 1,30 m do solo](#aba)
+
+&nbsp;&nbsp;[4.6 - Árvores com sapopemas ou raízes aéreas](#asra)
+
+]
+]
+]
+
+
+.pull-right[
+.pull-top[
+**Parte 2 - Instrumentos para a Medição de Diâmetros**
+.font80[
+[1 - Suta (Mecânica e Eletrônica)](#sme)
+
+[2 - Fita Diamétrica](#fd)
+
+[3 - Régua de Biltmore](#vb)
+
+[4 - Garfo de Diâmetro](#gd)
+
+[5 - Cinta Dendrométrica](#cd)
+
+]
+]
+
+.pull-bottom[
+<br>
+**Parte 3 - Medidas Derivadas do Diâmetro**
+.font80[
+[1 - Relação Diâmetro e Área Transversal](#rdat)
+
+[2 - Relação Diâmetro e Área Basal](#rdab)
+]
+]
+]
+
+
+---
+
+## Conteúdo (Cont.)
+
+.pull-left[
+.pull-top[
+<br>
+**Parte 4 - Erros na Medição de Diâmetros**
+.font80[
+[1 - Erros no Uso da Suta](#eus)
+
+[2 - Erro da Área Transversal Devido ao Desvio da Forma do Círculo](#eat)
+
+]
+]
+
+.pull-bottom[
+<br>
+**Parte 5 - Estatísticas Associadas ao Diâmetro**
+.font80[
+[1 - Média Aritmética dos Diâmetros](#ma)
+
+[2 - Diâmetro Médio (ou Diâmetro Quadrático)](#dm)
+
+]
+]
+]
+
+
+<!-- Slide XX -->
+---
+layout: false
+class: inverse, middle, center
+background-image: url(fig/class1/sec.png)
+background-size: cover
+
+.white[.font200[**Diâmetro das Árvores:**] <br> .font150[Importância, Ponto de Medição, Situações Especiais]]
+
+---
+layout: true
+<div class="my-header"></div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Medição de Diâmetros de Árvores/Parte 1: O Diâmetro das Árvores</div>
+
+---
+name: id
+## Diâmetro das Árvores: Importância
+<br>
+
+.shadow1[
+### Importância do Diâmetro
+<br>
+**1)** O diâmetro da árvore é importante para o cálculo de diversas medidas derivadas:
+ * a) Cálculo da área transversal (g) da árvore;
+
+$$
+\begin{equation*}
+\large
+ g_i = \frac{\pi \color{blue}{d}^2}{4}
+\end{equation*}
+$$
+ * b) Cálculo da área basal (G) da parcela/unidade de amostra (ou população);
+$$
+\begin{equation*}
+G = \sum_{i=1}^{n}g_i
+\end{equation*}
+$$
+
+]
+
+
