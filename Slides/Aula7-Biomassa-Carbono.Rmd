@@ -189,7 +189,7 @@ layout: true
 
 ---
 name: conc
-## Biomassa Florestal: Importância
+## Conceitos
 
 
 ---
@@ -200,21 +200,11 @@ name: ibf
 .shadow1[
 ### Importância da Biomassa Florestal
 <br>
-**1)** O diâmetro da árvore é importante para o cálculo de diversas medidas derivadas:
+**1)** Estimar os estoques de **Carbono (C)** nos ecossistemas florestais.
  * a) Cálculo da área transversal (g) da árvore;
 
-$$
-\begin{equation*}
-\large
- g_i = \frac{\pi \color{blue}{d}^2}{4}
-\end{equation*}
-$$
- * b) Cálculo da área basal (G) da parcela/unidade de amostra (ou população);
-$$
-\begin{equation*}
-G = \sum_{i=1}^{n}g_i
-\end{equation*}
-$$
+
+
 
 ]
 
