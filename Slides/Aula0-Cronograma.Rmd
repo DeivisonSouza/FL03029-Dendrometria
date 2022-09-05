@@ -194,6 +194,7 @@ p <- calendR::calendR(year = 2022,
         text = c(
           "Introdução à \n Dendrometria",
           "Medição de \n Diâmetros de \n Árvores",
+          "Feriado",
           "Medição de \n Alturas de \n Árvores",
           "Aula Prática \n (Diâmetro e \n Altura)",
           "Relação \n Hipsométrica",
@@ -204,7 +205,7 @@ p <- calendR::calendR(year = 2022,
           "Aula Prática \n (Cubagem e \n Biomassa)",
           "Método de \n Bitterlich",
           "2ª Avaliação"),
-        text.pos = c(5:10, 12:17), 
+        text.pos = c(5:10, 12:17, 19), 
         text.size = 12,
         text.col = 1)
 
