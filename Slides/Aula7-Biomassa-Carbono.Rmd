@@ -192,18 +192,11 @@ name: conc
 ## Conceitos
 
 .shadow1[
-### Biomassa ≠ Massa (Batista et al., 2014)
+### Biomassa
 <br>
 
-.font90[
-- **Massa**: A massa de um objeto é obtida pela medida direta numa balança (pesagem).
-- **Biomassa da árvore**: refere-se à .blue[massa dos componentes da árvore], .blue[excluindo-se a água]. Ou seja, diz respeito à massa seca destes componentes.
+- **Biomassa**: É o total de matéria orgânica, morta ou viva, tanto acima quanto abaixo do solo, existente nos organismos (animais ou vegetais) de uma determinada comunidade (Higa et al., 2014).
 
-]
-
-<br>
-
-.center[.blue[**Biomassa da árvore**] = .blue[**Massa seca da árvore**]]
 ]
 
 ---
@@ -214,9 +207,28 @@ name: conc
 ### Biomassa Florestal (Sanquetta et al., 2002)
 <br>
 
-- **Biomassa florestal**: massa de matéria biológica vegetal, viva ou morta, existente na  floresta  ou  apenas  na  fração  arbórea, 
+- **Biomassa florestal**: massa de matéria biológica vegetal, viva ou morta, existente na  floresta  ou  apenas  na  fração  arbórea.
 - O termo **fitomassa** é comumente usado para referir-se a **biomassa florestal**.
 ]
+
+---
+
+.shadow1[
+### Biomassa da árvore
+<br>
+
+- **Biomassa da árvore**: refere-se à .blue[massa dos componentes da árvore], .blue[excluindo-se a água]. Ou seja, diz respeito à massa seca destes componentes.
+
+.center[.blue[**Biomassa da árvore**] = .blue[**Massa seca da árvore**]]
+
+]
+
+---
+## Conceitos
+
+
+
+
 
 ---
 name: ibf
