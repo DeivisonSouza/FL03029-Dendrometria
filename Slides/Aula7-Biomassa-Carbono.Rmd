@@ -155,13 +155,13 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 [4 - Quantificação da Biomassa Florestal](#qbf)
 
-&nbsp;&nbsp;[4.1 - Método Direto (Destrutivo)](#md)
+&nbsp;&nbsp;[4.1 - Métodos Destrutivos](#md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[4.1.1 - Árvores Individuais](#ai)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[4.1.2 - Parcelas de Amostragem](#pa)
 
-&nbsp;&nbsp;[4.2 - Método Indireto (Não Destrutivo)](#mi)
+&nbsp;&nbsp;[4.2 - Métodos Não Destrutivos](#mi)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[4.2.1 - Equações de Biomassa](#eb)
 
@@ -191,6 +191,22 @@ layout: true
 name: conc
 ## Conceitos
 
+.shadow1[
+### Biomassa ≠ Massa (Batista et al., 2014)
+<br>
+
+.font90[
+- **Massa**: A massa de um objeto é obtida pela medida direta numa balança (pesagem).
+- **Biomassa da árvore**: refere-se à .blue[massa dos componentes da árvore], .blue[excluindo-se a água]. Ou seja, diz respeito à massa seca destes componentes.
+
+]
+
+<br>
+
+.center[.blue[**Biomassa da árvore**] = .blue[**Massa seca da árvore**]]
+
+]
+
 
 ---
 name: ibf
@@ -204,8 +220,28 @@ name: ibf
  * a) Cálculo da área transversal (g) da árvore;
 
 
+]
 
+---
+name: qbf
+## Quantificação da Biomassa Florestal
+
+.shadow1[
+### Métodos Destrutivos vs Métodos Não Destrutivos
+<br>
 
 ]
 
+---
+name: qbf
+## Quantificação da Biomassa Florestal
+
+.shadow1[
+### Compartimentação da biomassa da árvore
+]
+
+
+```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class7/bio1.png')
+```
 
