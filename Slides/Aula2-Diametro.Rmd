@@ -87,7 +87,7 @@ CustomDT <- function(data){
 <!-- title-slide -->
 # Dendrometria <br> (FL03029)
 <br>
-## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Medição de Diâmetros <br> de Árvores `r anicon::faa("pagelines", animate="horizontal", colour="green")`
+## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Medição de Diâmetros `r anicon::faa("pagelines", animate="horizontal", colour="green")` <br> de Árvores
 
 #### **Prof. Dr. Deivison Venicio Souza**
 ##### Universidade Federal do Pará (UFPA) 
