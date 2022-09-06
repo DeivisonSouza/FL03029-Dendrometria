@@ -257,4 +257,12 @@ knitr::include_graphics('fig/class7/bio1.png')
 
 ---
 name: qbf
-## Determinação da biomassa em campo
+## Quantificação da Biomassa Florestal
+
+.shadow1[
+### Determinação da biomassa em campo
+]
+
+```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class7/bio2.png')
+```
