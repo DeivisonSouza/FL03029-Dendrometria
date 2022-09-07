@@ -133,10 +133,15 @@ layout: true
 <br><br>
 Ao final desta aula espera-se que o discente seja capaz de...
 
-* Compreender a importância da medição da biomassa e carbono em ecossistemas florestais;
-* Conhecer os principais componentes da biomassa florestal;
-* Compreender os fatores que afetam a produção de biomassa florestal; e
-* Conhecer os principais métodos de quantificação da biomassa florestal.
+.font90[
+* Compreender os conceitos básicos associados ao estudo de biomassa e carbono;
+* Compreender a importância de determinar (ou estimar) o estoque de biomassa e carbono em ecossistemas florestais;
+* Conhecer os principais reservatórios de biomassa e carbono em ecossistemas florestais;
+* Compreender os fatores que afetam a produção de biomassa florestal;
+* Conhecer os principais métodos de determinação e estimativa da biomassa e carbono florestal;
+* Conhecer algumas modelos tradicionais usados na modelagem da biomassa e carbono; e
+* Aprender a ajustar um modelo linear para predição da biomassa.
+]
 
 ---
 
@@ -189,8 +194,6 @@ Ao final desta aula espera-se que o discente seja capaz de...
 ]
 ]
 
-
-
 <!-- Slide XX -->
 ---
 layout: false
@@ -210,12 +213,40 @@ name: conc
 ## Conceitos
 
 .shadow1[
-### Biomassa
+### Biomassa (Higa et al., 2014)
+.font90[
+- **Biomassa**: refere-se ao total de .blue[matéria orgânica], .blue[morta ou viva], presente .blue[acima e abaixo do solo], existente nos organismos (.blue[animais ou vegetais]) de uma comunidade qualquer.
+
+]
+]
+
+--
+
+.shadow1[
+### Biomassa Florestal ou Fitomassa (Sanquetta et al., 2002)
+.font90[
+- **Biomassa florestal**:refere-se à .blue[matéria biológica vegetal], .blue[viva ou morta], existente na  floresta  ou  apenas  na  fração  arbórea.
+- **Fitomassa** é uma sinonímia para **biomassa florestal**.
+]
+]
+
 <br>
+
 .font80[
-- **Biomassa**: É o total de matéria orgânica, morta ou viva, tanto acima quanto abaixo do solo, existente nos organismos (animais ou vegetais) de uma determinada comunidade (Higa et al., 2014).
-- **Biomassa florestal**: biomassa de matéria biológica vegetal, viva ou morta, existente na  floresta  ou  apenas  na  fração  arbórea (Sanquetta et al., 2002)
-- **Fitomassa**: Esse termo é comumente usado para referir-se a **biomassa florestal** (Sanquetta et al., 2002).
+**Matéria orgânica**: é o conjunto de compostos químicos formados por moléculas orgânicas encontradas em ambientes naturais, sejam terrestres ou aquáticos. (Fonte: [pt.wikipedia.org](https://pt.wikipedia.org/wiki/Mat%C3%A9ria_org%C3%A2nica))
+]
+
+---
+
+## Conceitos
+
+.shadow1[
+### Biomassa ≠ Massa (Batista et al., 2014)
+<br>
+.font90[
+- **Massa**: Refere-se a massa de um objeto/componente obtida pela .blue[medição direta] deste por meio de .blue[pesagem] (usando uma balança, por exemplo). <br><br> `r anicon::faa("hand-point-right", animate="horizontal", colour="orange")` **Massa Úmida** (ou **Peso Úmido**)<br><br>
+- **Biomassa**: Refere-se a .blue[massa] de um objeto/componente, .blue[excluindo-se a água]. <br><br> `r anicon::faa("hand-point-right", animate="horizontal", colour="orange")` **Massa Seca** (ou **Peso Seco**)
+
 ]
 ]
 
@@ -224,18 +255,7 @@ name: conc
 ## Conceitos
 
 .shadow1[
-### Biomassa Florestal (Sanquetta et al., 2002)
-<br>
-
-- **Biomassa florestal**: massa de matéria biológica vegetal, viva ou morta, existente na  floresta  ou  apenas  na  fração  arbórea.
-- O termo **fitomassa** é comumente usado para referir-se a **biomassa florestal**.
-]
-
----
-
-.shadow1[
-### Biomassa da árvore
-<br>
+### Biomassa da árvore (Batista et al., 2014)
 
 - **Biomassa da árvore**: refere-se à .blue[massa dos componentes da árvore], .blue[excluindo-se a água]. Ou seja, diz respeito à massa seca destes componentes.
 
@@ -243,11 +263,37 @@ name: conc
 
 ]
 
+--
+
+.shadow1[
+### Biomassa é uma medida indireta... (Batista et al., 2014)
+.font90[
+- Na prática, a .blue[massa ou peso (úmido)] da árvore (e de seus componentes) é uma .blue[medida direta], alcançada por pesagem, após derruba desta em campo.
+- No entanto, a .blue[biomassa] da árvore é uma .blue[medida indireta], ou seja, é obtida a partir de outras medidas tomadas diretamente da árvore (ou seja, a partir das medidas de massa úmida).
+]
+]
+
+--
+
+.font80[
+**Biomassa lenhosa**: refere-se à massa da substância madeira (mais casca) de uma árvore. `r anicon::faa("hand-point-right", animate="horizontal", colour="orange")` **Massa Seca do Lenho** (sem água).
+]
+
 ---
+
 ## Conceitos
 
+.shadow1[
+### Algumas outras terminologias...
+<br>
 
+.font90[
+**Biomassa lenhosa**: refere-se à massa da substância madeira (mais casca) de uma árvore. <br><br> `r anicon::faa("hand-point-right", animate="horizontal", colour="orange")` **Massa Seca do Lenho** (sem água).
 
+**Biomassa foliar**: refere-se à massa seca das folhas da árvore.
+
+]
+]
 
 
 ---
@@ -256,25 +302,37 @@ name: ibf
 <br>
 
 .shadow1[
-### Importância da quantificação da biomassa
+### Por que quantificar a biomassa florestal?
 <br>
 .font90[
 
-**2)** A biomassa está relacionada aos estoques de macro e micronutrientes da vegetação (.magenta[Higuchi et al., 1998]); Portanto, subsidia a quantificação da ciclagem de nutrientes (Silveira et al., 2008).
+**1)** As florestas estão dentre os ecossistemas terrestres que apresentam maior quantidade de biomassa por unidade de área.
 
-**1)** Subsidia estudos relacionados ao **Estoque e Dinâmica de Carbono (C)** nos ecossistemas florestais $\rightarrow$ **Mudanças Climáticas**
+**2)** 
 
-**2)** Contribui para compreensão de índices de produtividade e analisar o
+**1)** A biomassa está relacionada aos estoques de macro e micronutrientes da vegetação (.magenta[Higuchi et al., 1998]). Portanto, subsidia a quantificação da ciclagem de nutrientes (.magenta[Silveira et al., 2008]).
+
+**2)** Subsidia estudos relacionados ao **Estoque e Dinâmica de Carbono (C)** nos ecossistemas florestais $\rightarrow$ **Mudanças Climáticas**
+
+**3)** Contribui para compreensão de índices de produtividade e analisar o
 crescimento em um determinado sítio.
-
-
 
 ]
 ]
 
 ---
+name: cba
+## Compartimentação da biomassa da árvore
+<br><br>
+
+```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class7/bio1.png')
+```
+
+---
 name: qbf
 ## Quantificação da Biomassa Vegetal
+<br>
 
 .shadow1[
 ### Métodos Destrutivos vs Métodos Não Destrutivos
@@ -326,6 +384,8 @@ layout: true
 ## Referências
 
 .font80[
+<br><br>
+Batista, J. L. F., Couto, H. T. Z., & Silva Filho, D. F. **Quantificação de recursos florestais**. 1. ed., São Paulo: Oficina de Textos, 2014.
 <br><br>
 Higa, R. C. V., Cardoso, D. J., Andrade, G. D. C., Zanatta, J. A., Rossi, L. M. B., Pulrolnik, K., ... & SALIS, S. D. Protocolo de medição e estimativa de biomassa e carbono florestal. **Colombo: Embrapa Florestas**, v. 1, 2014.
 <br><br>
