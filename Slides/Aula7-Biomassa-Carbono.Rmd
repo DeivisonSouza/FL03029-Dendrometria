@@ -280,21 +280,13 @@ name: conc
 ]
 
 ---
-
-## Conceitos
-
-.shadow1[
-### Algumas outras terminologias...
+name: cba
+## Compartimentação da biomassa da árvore
 <br>
 
-.font90[
-**Biomassa lenhosa**: refere-se à massa da substância madeira (mais casca) de uma árvore. <br><br> `r anicon::faa("hand-point-right", animate="horizontal", colour="orange")` **Massa Seca do Lenho** (sem água).
-
-**Biomassa foliar**: refere-se à massa seca das folhas da árvore.
-
-]
-]
-
+```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class7/bio1.png')
+```
 
 ---
 name: ibf
@@ -307,6 +299,8 @@ name: ibf
 .font90[
 
 **1)** As florestas estão dentre os ecossistemas terrestres que apresentam maior quantidade de biomassa por unidade de área.
+
+**2)** A maior parte da biomassa florestal é representada pelas árvores constituintes do dossel da floresta.
 
 **2)** 
 
@@ -321,15 +315,6 @@ crescimento em um determinado sítio.
 ]
 
 ---
-name: cba
-## Compartimentação da biomassa da árvore
-<br><br>
-
-```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class7/bio1.png')
-```
-
----
 name: qbf
 ## Quantificação da Biomassa Vegetal
 <br>
@@ -340,18 +325,6 @@ name: qbf
 
 - Destrutivo: 
 ]
-
----
-name: qbf
-## Quantificação da Biomassa Vegetal
-
-.shadow1[
-### Compartimentação da biomassa da árvore
-]
-
-```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class7/bio1.png')
-```
 
 ---
 name: qbf
