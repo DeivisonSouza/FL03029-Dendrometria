@@ -5,7 +5,7 @@ author: "Prof. Dr. Deivison Venicio Souza"
 institute: "Universidade Federal do Pará (UFPA)"
 date:
 encoding: "UTF-8"
-header-includes: 
+header-includes:
    - \usepackage{xcolor}
 output:
   xaringan::moon_reader:
@@ -278,3 +278,5 @@ name: qbf
 ```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class7/bio2.png')
 ```
+
+
