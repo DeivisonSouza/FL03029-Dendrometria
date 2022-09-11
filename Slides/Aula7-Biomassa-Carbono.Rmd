@@ -385,13 +385,12 @@ layout: true
 ---
 name: ma
 ## Ajuste de Modelo de Predição da Biomassa
-<br>
 
 .shadow1[
 ### Estudo de Caso I - *Bambusa procera* (Huy; Long, 2019)
 <br>
 .font90[
-Para ilustrar o procedimento de ajuste de um modelo de predição de biomassa, será usado um conjunto de dados disponível no **Anexo 1** do documento intitulado: **A manual for bamboo forest biomass and carbon assessment** (Huy; Long, 2019). Tratam-se de dados de biomassa da espécie *Bambusa procera*. Estão disponíveis dados de 83 indivíduos.
+Para ilustrar o procedimento de ajuste de um modelo de predição de biomassa, será usado um conjunto de dados disponível no **Anexo 1** do documento intitulado: **A manual for bamboo forest biomass and carbon assessment** ([Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment)). Tratam-se de dados de biomassa da espécie *Bambusa procera*. Estão disponíveis dados de 83 indivíduos e medidas de biomassa de diversos componentes (folhas, galhos, colmo, etc.).
 ]
 ]
 <br>
@@ -404,17 +403,17 @@ Para ilustrar o procedimento de ajuste de um modelo de predição de biomassa, s
 - Acesse os dados em planilha: [DataSet_Bambusa](https://github.com/DeivisonSouza/FL03029-Dendrometria/tree/master/Slides/Data/DataSet_Bambusa.csv)
 ]
 
-
-
 ---
 
 ## Ajuste de Modelo de Predição da Biomassa
 
 .pull-right-14[
+<br>
+
 .shadow3[
 #### .center[**Variáveis**]
 
-.font70[
+.font48[
 - Plot-Code: Código da Parcela
 - Plant-Code: Código da planta
 - X e Y: coordenadas
@@ -433,6 +432,10 @@ Para ilustrar o procedimento de ajuste de um modelo de predição de biomassa, s
 ]
 ]
 
+<br>
+
+.font70[**Fonte**: [Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment)
+]
 ]
 
 .pull-left-15[
@@ -445,14 +448,39 @@ knitr::include_graphics('fig/class7/boo1.png')
 
 ## Ajuste de Modelo de Predição da Biomassa
 
-.pull-right-3[
-.shadow1[
-### .font80[Estudo de Caso I - *Bambusa procera* (Huy; Long, 2019)]
+.pull-right-14[
+<br>
+
+.shadow3[
+#### .center[**Variáveis**]
+
+.font48[
+- Plot-Code: Código da Parcela
+- Plant-Code: Código da planta
+- X e Y: coordenadas
+- D, H e A: Diâmetro (cm), Altura e Idade (anos)
+- Bfcu: Biomassa fresca de colmos (kg)
+- Bfbr: Biomassa fresca de galhos (kg)
+- Bfle: Biomassa fresca de folhas (kg)
+- AGBf: Somatório (Bfcu, Bfbr, Bfle)
+- RatioBcu: Razão de massa fresca-seca de colmos
+- RatioBbr: Razão de massa fresca-seca de galhos
+- RatioBle: Razão de massa fresca-seca de folhas
+- Bcu: Biomassa seca de colmos (kg)
+- Bbr: Biomassa seca de galhos (kg)
+- Ble: Biomassa seca de folhas (kg)
+- AGB: Somatório (Bcu, Bbr, Ble) 
 ]
 ]
 
-.pull-left-3[
-```{r, echo=FALSE, out.width='93%', fig.align='center', fig.cap='', dpi=600}
+<br>
+
+.font70[**Fonte**: [Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment)
+]
+]
+
+.pull-left-15[
+```{r, echo=FALSE, out.width='92%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class7/boo2.png')
 ```
 ]
@@ -462,13 +490,38 @@ knitr::include_graphics('fig/class7/boo2.png')
 
 ## Ajuste de Modelo de Predição da Biomassa
 
-.pull-right-3[
-.shadow1[
-### .font80[Estudo de Caso I - *Bambusa procera* (Huy; Long, 2019)]
+.pull-right-14[
+<br>
+
+.shadow3[
+#### .center[**Variáveis**]
+
+.font48[
+- Plot-Code: Código da Parcela
+- Plant-Code: Código da planta
+- X e Y: coordenadas
+- D, H e A: Diâmetro (cm), Altura e Idade (anos)
+- Bfcu: Biomassa fresca de colmos (kg)
+- Bfbr: Biomassa fresca de galhos (kg)
+- Bfle: Biomassa fresca de folhas (kg)
+- AGBf: Somatório (Bfcu, Bfbr, Bfle)
+- RatioBcu: Razão de massa fresca-seca de colmos
+- RatioBbr: Razão de massa fresca-seca de galhos
+- RatioBle: Razão de massa fresca-seca de folhas
+- Bcu: Biomassa seca de colmos (kg)
+- Bbr: Biomassa seca de galhos (kg)
+- Ble: Biomassa seca de folhas (kg)
+- AGB: Somatório (Bcu, Bbr, Ble) 
 ]
 ]
 
-.pull-left-3[
+<br>
+
+.font70[**Fonte**: [Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment)
+]
+]
+
+.pull-left-15[
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class7/boo3.png')
 ```
