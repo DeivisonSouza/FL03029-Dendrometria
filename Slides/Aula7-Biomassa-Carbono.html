@@ -523,14 +523,46 @@ Para ilustrar o procedimento de ajuste de um modelo de predição de biomassa, s
 ## Ajuste de Modelo de Predição da Biomassa
 
 .shadow1[
-### **Modelagem da Biomassa Aérea Total**
+### **Modelo Para Predizer a Biomassa Aérea Total**
 &lt;br&gt;
 .font80[
 - Vamos ajustar um modelo para predizer a AGB da espécie *Bambusa procera*.
 - Para tanto, inicialmente, vamos admitir o modelo mais simples: `\(AGB = \beta_0 + \beta_1D\)` (modelo linear).
 - O modelo `\((AGB = \beta_0 + \beta_1D)\)` usa o diâmetro (D) dos colmos como variável preditora/independente, e a `\(AGB\)` é a variável resposta/dependente.
+- Portanto, para ajustar o modelo são necessárias apenas as variáveis: `\(D\)` e `\(AGB\)`.
 ]
 ]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.shadow1[
+### **Modelo de Regressão Linear Simples (RLS)**
+&lt;br&gt;
+.font80[
+**Método dos Mínimos Quadrados Ordinários (MQO)**: 
+
+- Ajustar modelos de regressão consiste em determinar as estimativas dos coeficientes da regressão. 
+- Em se tratando de modelos de RLS, os valores dos coeficientes da regressão podem ser obtidos pelo método dos Mínimos Quadrados Ordinários (MQO):
+
+.center[**1) Estimativa do Parâmetro β₁**:]
+
+&lt;img src="fig/class7/beta1.png" width="25%" style="display: block; margin: auto;" /&gt;
+
+.center[**2) Estimativa do Parâmetro β₀**:]
+
+$$
+`\begin{equation*}
+\beta_0 = \bar{Y} - \beta_1\bar{X}
+\end{equation*}`
+$$
+
+]
+]
+
+---
+
 
 
 
