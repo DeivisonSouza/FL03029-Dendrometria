@@ -588,8 +588,36 @@ $$
 
 ---
 
+## Ajuste de Modelo de Predição da Biomassa
 
+.pull-left-3[
+Modelo: $AGB = \beta_0 + \beta_1D$
+<br>
 
+```{r, echo=FALSE, out.width='70%', fig.align='left', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class7/tab1.png')
+```
+]
+
+--
+
+.pull-right-3[
+<br><br>
+.center[**1) Estimativa do Parâmetro β₁**:]
+
+```{r, echo=FALSE, out.width='85%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class7/beta1.png')
+```
+
+.center[**2) Estimativa do Parâmetro β₀**:]
+
+$$
+\begin{equation*}
+\beta_0 = \bar{Y} - \beta_1\bar{X}
+\end{equation*}
+$$
+
+]
 
 ---
 
