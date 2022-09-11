@@ -628,8 +628,8 @@ $$
 Modelo: $\color{blue}{AGB = \beta_0 + \beta_1D}$ $\rightarrow$ $\color{orange}{Y_i = \beta_0 + \beta_1X_i}$
 <br>
 
-```{r, echo=FALSE, out.width='80%', fig.align='left', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class7/tab2.png')
+```{r, echo=FALSE, out.width='90%', fig.align='left', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class7/tab3.png')
 ```
 
 ]
@@ -656,10 +656,80 @@ $$
 
 ---
 
+## Ajuste de Modelo de Predição da Biomassa
+
+.pull-left-3[
+Modelo: $\color{blue}{AGB = \beta_0 + \beta_1D}$ $\rightarrow$ $\color{orange}{Y_i = \beta_0 + \beta_1X_i}$
+<br>
+
+```{r, echo=FALSE, out.width='90%', fig.align='left', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class7/tab4.png')
+```
+
+]
+
+--
+
+.pull-right-3[
+<br><br>
+.center[**1) Estimativa do Parâmetro β₁**:]
+
+```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class7/beta1.png')
+```
+
+.center[**2) Estimativa do Parâmetro β₀**:]
+
+$$
+\begin{equation*}
+\beta_0 = \bar{Y} - \beta_1\bar{X}
+\end{equation*}
+$$
+
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.pull-left-3[
+Modelo: $\color{blue}{AGB = \beta_0 + \beta_1D}$ $\rightarrow$ $\color{orange}{Y_i = \beta_0 + \beta_1X_i}$
+<br>
+
+```{r, echo=FALSE, out.width='95%', fig.align='left', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class7/tab5.png')
+```
+
+]
+
+--
+
+.pull-right-3[
+<br><br>
+.center[**1) Estimativa do Parâmetro β₁**:]
+
+```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class7/beta1.png')
+```
+
+.center[**2) Estimativa do Parâmetro β₀**:]
+
+$$
+\begin{equation*}
+\beta_0 = \bar{Y} - \beta_1\bar{X}
+\end{equation*}
+$$
+
+]
+
+
+
+---
+
 ## Referências
 
 .font80[
-<br><br>
+<br>
 Batista, J. L. F., Couto, H. T. Z., & Silva Filho, D. F. **Quantificação de recursos florestais**. 1. ed., São Paulo: Oficina de Textos, 2014.
 <br><br>
 Higa, R. C. V., Cardoso, D. J., Andrade, G. D. C., Zanatta, J. A., Rossi, L. M. B., Pulrolnik, K., ... & SALIS, S. D. Protocolo de medição e estimativa de biomassa e carbono florestal. **Colombo: Embrapa Florestas**, v. 1, 2014.
@@ -668,7 +738,7 @@ Henry, M., Picard, N., Trotta, C., Manlay, R., Valentini, R., Bernoux, M., & Sai
 <br><br>
 Higuchi, N., SANTOS, J., Ribeiro, R. J., Minette, L., & Biot, Y. Biomassa da parte aérea da vegetação da floresta tropical úmida de terra-firme da Amazônia brasileira. **Acta Amazonica**, v. 28, p. 153-153, 1998.
 <br><br>
-HUY, B.; LONG, T. T. A manual for bamboo forest biomass and carbon assessment. **International Bamboo and Rattan Organization**, Beijing, China, 2019.
+Huy, B.; Long, T. T. A manual for bamboo forest biomass and carbon assessment. **International Bamboo and Rattan Organization**, Beijing, China, 2019.
 <br><br>
 Sanquetta, C. R. Métodos de determinação de biomassa florestal. In: Sanquetta, C. R. et al. (Eds.). **As florestas e o carbono**. Curitiba: [s.n.], 2002, p. 119-140.
 <br><br>
