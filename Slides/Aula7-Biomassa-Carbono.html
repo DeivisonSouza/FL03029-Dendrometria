@@ -83,7 +83,7 @@ top:.8em;right:-.5em;
 ##### Faculdade de Engenharia Florestal
 ##### E-mail: deivisonvs@ufpa.br
 &lt;br&gt;
-##### 1ª versão: 03/setembro/2022 &lt;br&gt; (Atualizado em: 07/setembro/2022) &lt;br&gt; Altamira, Pará
+##### 1ª versão: 03/setembro/2022 &lt;br&gt; (Atualizado em: 11/setembro/2022) &lt;br&gt; Altamira, Pará
 
 ---
 layout: true
@@ -161,7 +161,9 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[4.2.2 - Fatores de Expansão de Biomassa](#feb)
 
-[5 - Estudo de Caso: Modelos para Predição da Biomassa](#cbc)
+[5 - Modelos Alométricos](#ma)
+
+[6 - Estudo de Caso: Ajuste de Modelo de Predição da Biomassa](#ecmbat)
 
 ]
 ]
@@ -190,7 +192,7 @@ class: inverse, middle, center
 background-image: url(fig/class1/sec.png)
 background-size: cover
 
-.white[.font200[**Biomassa Florestal:**] &lt;br&gt; .font150[Conceito e Importância]]
+.white[.font200[**Biomassa Florestal:**] &lt;br&gt; .font150[Conceito, Importância, Componentes e Métodos]]
 
 ---
 layout: true
@@ -273,12 +275,25 @@ name: cba
 ## Compartimentação da biomassa da árvore
 &lt;br&gt;
 
+&lt;img src="fig/class7/Henry_2011.png" width="70%" style="display: block; margin: auto;" /&gt;
+.font80[**Fonte**: [Henry et al. (2011)](https://hal.inrae.fr/hal-02651041/document)]
+
+---
+
+## Compartimentação da biomassa da árvore
+&lt;br&gt;
+
 &lt;img src="fig/class7/bio1.png" width="85%" style="display: block; margin: auto;" /&gt;
+
+---
+name: cbf
+## Componentes da biomassa florestal
+&lt;br&gt;
+
 
 ---
 name: ibf
 ## Biomassa Florestal: Importância
-&lt;br&gt;
 
 .shadow1[
 ### Por que quantificar a biomassa florestal?
@@ -289,29 +304,42 @@ name: ibf
 
 **2)** A maior parte da biomassa florestal é representada pelas árvores constituintes do dossel da floresta.
 
-**2)** 
+**3)** A biomassa está relacionada aos estoques de macro e micronutrientes da vegetação (.magenta[Higuchi et al., 1998]). Portanto, subsidia a quantificação da ciclagem de nutrientes (.magenta[Silveira et al., 2008]).
 
-**1)** A biomassa está relacionada aos estoques de macro e micronutrientes da vegetação (.magenta[Higuchi et al., 1998]). Portanto, subsidia a quantificação da ciclagem de nutrientes (.magenta[Silveira et al., 2008]).
+**4)** Subsidia estudos relacionados ao **Estoque e Dinâmica de Carbono (C)** nos ecossistemas florestais `\(\rightarrow\)` **Mudanças Climáticas**
 
-**2)** Subsidia estudos relacionados ao **Estoque e Dinâmica de Carbono (C)** nos ecossistemas florestais `\(\rightarrow\)` **Mudanças Climáticas**
-
-**3)** Contribui para compreensão de índices de produtividade e analisar o
+**5)** Contribui para compreensão de índices de produtividade e analisar o
 crescimento em um determinado sítio.
 
 ]
 ]
 
 ---
-name: qbf
-## Quantificação da Biomassa Vegetal
-&lt;br&gt;
+name: qbva
+## Quantificação da Biomassa Viva da Árvore
 
 .shadow1[
 ### Métodos Destrutivos vs Métodos Não Destrutivos
 &lt;br&gt;
 
-- Destrutivo: 
+- **Métodos Destrutivos**:
+- **Métodos Não Destrutivos**:
 ]
+
+---
+
+## Quantificação da Biomassa Viva da Árvore
+
+.shadow1[
+### .font80[Métodos Destrutivos: Gravimétrico x Volumétrico (Batista et al., 2014)]
+&lt;br&gt;
+
+Em razão das medidas tomadas diretamente (em campo), existem 2 métodos de medição da biomassa:
+
+- **Gravimétrico**: A biomassa é obtida com base em medidas da .blue[*massa verde*], após derruba do vegetal/árvore em campo.
+- **Volumétrico**:
+]
+
 
 ---
 name: qbf
@@ -330,12 +358,99 @@ class: inverse, middle, center
 background-image: url(fig/class1/sec.png)
 background-size: cover
 
-.white[.font200[**Carbono Florestal:**] &lt;br&gt; .font150[Conceito e Importância]]
+.white[.font200[**Estudo de Caso**] &lt;br&gt; .font150[Ajuste de Modelo de Predição da Biomassa]]
 
 ---
 layout: true
 &lt;div class="my-header"&gt;&lt;/div&gt;
-&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;Dendrometria (FL03029) - Biomassa e Carbono Florestal/Parte 1: O carbono Florestal&lt;/div&gt;
+&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;Dendrometria (FL03029) - Biomassa e Carbono Florestal/Parte 1: A Biomassa Florestal&lt;/div&gt;
+
+---
+name: ma
+## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
+
+.shadow1[
+### Estudo de Caso I - *Bambusa procera* (Huy; Long, 2019)
+&lt;br&gt;
+.font90[
+Para ilustrar o procedimento de ajuste de um modelo de predição de biomassa, será usado um conjunto de dados disponível no Anexo 1 do documento intitulado: **A manual for bamboo forest biomass and carbon assessment** (Huy; Long, 2019). Tratam-se de dados de biomassa da espécie *Bambusa procera*. Estão disponíveis dados de 83 indivíduos.
+]
+]
+&lt;br&gt;
+
+.font90[
+**Conjunto de dados**
+
+- Espécie: *Bambusa procera*
+- número de observações: n = 83
+- Dado: 
+]
+
+
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.pull-right-14[
+.shadow3[
+#### .center[**Variáveis**]
+
+.font70[
+- Plot-Code: Código da Parcela
+- Plant-Code: Código da planta
+- X e Y: coordenadas
+- D, H e A: Diâmetro (cm), Altura e Idade (anos)
+- Bfcu: Biomassa fresca de colmos (kg)
+- Bfbr: Biomassa fresca de galhos (kg)
+- Bfle: Biomassa fresca de folhas (kg)
+- AGBf: Somatório (Bfcu, Bfbr, Bfle)
+- RatioBcu: Razão de massa fresca-seca de colmos
+- RatioBbr: Razão de massa fresca-seca de galhos
+- RatioBle: Razão de massa fresca-seca de folhas
+- Bcu: Biomassa seca de colmos (kg)
+- Bbr: Biomassa seca de galhos (kg)
+- Ble: Biomassa seca de folhas (kg)
+- AGB: Somatório (Bcu, Bbr, Ble) 
+]
+]
+
+]
+
+.pull-left-15[
+&lt;img src="fig/class7/boo1.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.pull-right-3[
+.shadow1[
+### .font80[Estudo de Caso I - *Bambusa procera* (Huy; Long, 2019)]
+]
+]
+
+.pull-left-3[
+&lt;img src="fig/class7/boo2.png" width="93%" style="display: block; margin: auto;" /&gt;
+]
+
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.pull-right-3[
+.shadow1[
+### .font80[Estudo de Caso I - *Bambusa procera* (Huy; Long, 2019)]
+]
+]
+
+.pull-left-3[
+&lt;img src="fig/class7/boo3.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
 
 ---
 
@@ -347,7 +462,11 @@ Batista, J. L. F., Couto, H. T. Z., &amp; Silva Filho, D. F. **Quantificação d
 &lt;br&gt;&lt;br&gt;
 Higa, R. C. V., Cardoso, D. J., Andrade, G. D. C., Zanatta, J. A., Rossi, L. M. B., Pulrolnik, K., ... &amp; SALIS, S. D. Protocolo de medição e estimativa de biomassa e carbono florestal. **Colombo: Embrapa Florestas**, v. 1, 2014.
 &lt;br&gt;&lt;br&gt;
+Henry, M., Picard, N., Trotta, C., Manlay, R., Valentini, R., Bernoux, M., &amp; Saint-André, L. Estimating tree biomass of sub-Saharan African forests: a review of available allometric equations. **Silva Fennica**, v. 45, n. 3, p. 477-569, 2011.
+&lt;br&gt;&lt;br&gt;
 Higuchi, N., SANTOS, J., Ribeiro, R. J., Minette, L., &amp; Biot, Y. Biomassa da parte aérea da vegetação da floresta tropical úmida de terra-firme da Amazônia brasileira. **Acta Amazonica**, v. 28, p. 153-153, 1998.
+&lt;br&gt;&lt;br&gt;
+HUY, B.; LONG, T. T. A manual for bamboo forest biomass and carbon assessment. **International Bamboo and Rattan Organization**, Beijing, China, 2019.
 &lt;br&gt;&lt;br&gt;
 Sanquetta, C. R. Métodos de determinação de biomassa florestal. In: Sanquetta, C. R. et al. (Eds.). **As florestas e o carbono**. Curitiba: [s.n.], 2002, p. 119-140.
 &lt;br&gt;&lt;br&gt;
