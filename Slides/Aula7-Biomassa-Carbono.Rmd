@@ -541,6 +541,21 @@ knitr::include_graphics('fig/class7/boo3.png')
 ]
 ]
 
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.shadow1[
+### **Modelagem da Biomassa Aérea Total**
+<br>
+.font80[
+- Vamos ajustar um modelo para predizer a AGB da espécie *Bambusa procera*.
+- Para tanto, inicialmente, vamos admitir o modelo mais simples: $AGB = \beta_0 + \beta_1D$ (modelo linear).
+- O modelo $(AGB = \beta_0 + \beta_1D)$ usa o diâmetro (D) dos colmos como variável preditora/independente, e a $AGB$ é a variável resposta/dependente.
+]
+]
+
+
 
 ---
 
