@@ -527,6 +527,20 @@ knitr::include_graphics('fig/class7/boo3.png')
 ```
 ]
 
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.shadow1[
+### **Estratégias de Modelagem...**
+<br>
+.font80[
+- No dataset *Bambusa procera* de [Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment), estão disponíveis dados da Biomassa Aérea Total (do inglês, *Above-Ground Biomass - AGB*). Neste caso, a AGB foi determinada pelo somatório da biomassa (massa seca) de folhas, galhos e colmo.
+- É possível "pensar" em algumas estratégias de modelagem: **1) Modelagem por componentes**; e 2) **Modelagem por compartimento**.
+- Por exemplo, poderíamos desenvolver modelos específicos para a predição da biomassa de folhas (Ble), galhos (Bbr) ou colmo (Bcu), e também um modelo para predizer a biomassa aérea total (AGB = Bcu + Bbr + Ble).
+]
+]
+
 
 ---
 
