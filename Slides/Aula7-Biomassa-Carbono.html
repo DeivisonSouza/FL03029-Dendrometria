@@ -564,6 +564,7 @@ $$
 ---
 
 ## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
 
 .pull-left-2[
 Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1D}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
@@ -620,10 +621,46 @@ Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1D}\)` `\(\rightarrow\)` `\(\color
 
 &lt;img src="fig/class7/tab5.png" width="100%" style="display: block; margin: auto auto auto 0;" /&gt;
 
---
+---
 
+## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
 
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1D}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+&lt;br&gt;
 
+.pull-left-1[
+$$
+`\begin{equation*}
+n = 83 \\
+\sum_{i=1}^{n}X_i = 514,8 \\
+\sum_{i=1}^{n}Y_i = 886,89 \\
+\sum_{i=1}^{n}X_iY_1 = 6022,813 \\
+\sum_{i=1}^{n}X_i^2 = 3329,08
+\end{equation*}`
+$$
+]
+
+.pull-right-2[
+
+.center[**1) Estimativa do Parâmetro β₁**:]
+
+$$
+`\begin{equation*}
+\beta_1 = \dfrac{83(6022,813)-(514,8)(886,89)}{83(3329,08)-(514,8)^2} \approx \color{blue}{3,8357}
+\end{equation*}`
+$$
+
+&lt;br&gt;&lt;br&gt;
+
+.center[**2) Estimativa do Parâmetro β₀**:]
+
+$$
+`\begin{equation*}
+\beta_0 = \bar{Y} - \beta_1\bar{X} = 10,69 - 3,8357(6,20) = \color{blue}{-13,0913}
+\end{equation*}`
+$$
+]
 
 
 ---
