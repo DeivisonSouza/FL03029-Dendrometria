@@ -590,75 +590,51 @@ $$
 
 ## Ajuste de Modelo de Predição da Biomassa
 
-.pull-left-3[
+.pull-left-2[
+Modelo: $\color{blue}{AGB = \beta_0 + \beta_1D}$ $\rightarrow$ $\color{orange}{Y_i = \beta_0 + \beta_1X_i}$
+<br>
+
+```{r, echo=FALSE, out.width='80%', fig.align='left', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class7/tab1.png')
+```
+]
+
+--
+
+.pull-right-1[
+<br><br>
+.center[**1) Estimativa do Parâmetro β₁**:]
+
+```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class7/beta1.png')
+```
+
+.center[**2) Estimativa do Parâmetro β₀**:]
+
+$$
+\begin{equation*}
+\beta_0 = \bar{Y} - \beta_1\bar{X}
+\end{equation*}
+$$
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+<br>
+
 Modelo: $\color{blue}{AGB = \beta_0 + \beta_1D}$ $\rightarrow$ $\color{orange}{Y_i = \beta_0 + \beta_1X_i}$
 <br>
 
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class7/tab1.png')
-```
-
-]
-
---
-
-.pull-right-3[
-<br><br>
-.center[**1) Estimativa do Parâmetro β₁**:]
-
-```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class7/beta1.png')
-```
-
-.center[**2) Estimativa do Parâmetro β₀**:]
-
-$$
-\begin{equation*}
-\beta_0 = \bar{Y} - \beta_1\bar{X}
-\end{equation*}
-$$
-
-]
-
----
-
-## Ajuste de Modelo de Predição da Biomassa
-
-.pull-left-3[
-Modelo: $\color{blue}{AGB = \beta_0 + \beta_1D}$ $\rightarrow$ $\color{orange}{Y_i = \beta_0 + \beta_1X_i}$
-<br>
-
-```{r, echo=FALSE, out.width='90%', fig.align='left', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class7/tab3.png')
 ```
 
-]
-
---
-
-.pull-right-3[
-<br><br>
-.center[**1) Estimativa do Parâmetro β₁**:]
-
-```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class7/beta1.png')
-```
-
-.center[**2) Estimativa do Parâmetro β₀**:]
-
-$$
-\begin{equation*}
-\beta_0 = \bar{Y} - \beta_1\bar{X}
-\end{equation*}
-$$
-
-]
-
 ---
 
 ## Ajuste de Modelo de Predição da Biomassa
+<br>
 
-.pull-left-3[
 Modelo: $\color{blue}{AGB = \beta_0 + \beta_1D}$ $\rightarrow$ $\color{orange}{Y_i = \beta_0 + \beta_1X_i}$
 <br>
 
@@ -666,61 +642,22 @@ Modelo: $\color{blue}{AGB = \beta_0 + \beta_1D}$ $\rightarrow$ $\color{orange}{Y
 knitr::include_graphics('fig/class7/tab4.png')
 ```
 
-]
-
---
-
-.pull-right-3[
-<br><br>
-.center[**1) Estimativa do Parâmetro β₁**:]
-
-```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class7/beta1.png')
-```
-
-.center[**2) Estimativa do Parâmetro β₀**:]
-
-$$
-\begin{equation*}
-\beta_0 = \bar{Y} - \beta_1\bar{X}
-\end{equation*}
-$$
-
-]
 
 ---
 
 ## Ajuste de Modelo de Predição da Biomassa
+<br>
 
-.pull-left-3[
 Modelo: $\color{blue}{AGB = \beta_0 + \beta_1D}$ $\rightarrow$ $\color{orange}{Y_i = \beta_0 + \beta_1X_i}$
 <br>
 
-```{r, echo=FALSE, out.width='95%', fig.align='left', fig.cap='', dpi=600}
+```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class7/tab5.png')
 ```
 
-]
-
 --
 
-.pull-right-3[
-<br><br>
-.center[**1) Estimativa do Parâmetro β₁**:]
 
-```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class7/beta1.png')
-```
-
-.center[**2) Estimativa do Parâmetro β₀**:]
-
-$$
-\begin{equation*}
-\beta_0 = \bar{Y} - \beta_1\bar{X}
-\end{equation*}
-$$
-
-]
 
 
 
