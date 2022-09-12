@@ -70,7 +70,7 @@ CustomDT <- function(data){
      options=list(pageLength = 20, dom = 't', autoWidth = F,
        initComplete = htmlwidgets::JS(
           "function(settings, json) {",
-          paste0("$(this.api().table().container()).css({'font-size': '", "9pt", "'});"),
+          paste0("$(this.api().table().container()).css({'font-size': '", "14pt", "'});"),
           "}")
        ) 
      )
@@ -550,9 +550,9 @@ knitr::include_graphics('fig/class7/boo3.png')
 <br>
 .font80[
 - Vamos ajustar um modelo para predizer a AGB da espécie *Bambusa procera*.
-- Para tanto, inicialmente, vamos admitir o modelo mais simples: $AGB = \beta_0 + \beta_1D$ (modelo linear).
-- O modelo $(AGB = \beta_0 + \beta_1D)$ usa o diâmetro (D) dos colmos como variável preditora/independente, e a $AGB$ é a variável resposta/dependente.
-- Portanto, para ajustar o modelo são necessárias apenas as variáveis: $D$ e $AGB$.
+- Para tanto, inicialmente, vamos admitir o modelo mais simples: $AGB = \beta_0 + \beta_1d$ (modelo linear).
+- O modelo $(AGB = \beta_0 + \beta_1d)$ usa o diâmetro (D) dos colmos como variável preditora/independente, e a $AGB$ é a variável resposta/dependente.
+- Portanto, para ajustar o modelo são necessárias apenas as variáveis: $d$ e $AGB$.
 ]
 ]
 
@@ -592,7 +592,7 @@ $$
 <br>
 
 .pull-left-2[
-Modelo: $\color{blue}{AGB = \beta_0 + \beta_1D}$ $\rightarrow$ $\color{orange}{Y_i = \beta_0 + \beta_1X_i}$
+Modelo: $\color{blue}{AGB = \beta_0 + \beta_1d}$ $\rightarrow$ $\color{orange}{Y_i = \beta_0 + \beta_1X_i}$
 <br>
 
 ```{r, echo=FALSE, out.width='80%', fig.align='left', fig.cap='', dpi=600}
@@ -624,7 +624,7 @@ $$
 ## Ajuste de Modelo de Predição da Biomassa
 <br>
 
-Modelo: $\color{blue}{AGB = \beta_0 + \beta_1D}$ $\rightarrow$ $\color{orange}{Y_i = \beta_0 + \beta_1X_i}$
+Modelo: $\color{blue}{AGB = \beta_0 + \beta_1d}$ $\rightarrow$ $\color{orange}{Y_i = \beta_0 + \beta_1X_i}$
 <br>
 
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap='', dpi=600}
@@ -636,7 +636,7 @@ knitr::include_graphics('fig/class7/tab3.png')
 ## Ajuste de Modelo de Predição da Biomassa
 <br>
 
-Modelo: $\color{blue}{AGB = \beta_0 + \beta_1D}$ $\rightarrow$ $\color{orange}{Y_i = \beta_0 + \beta_1X_i}$
+Modelo: $\color{blue}{AGB = \beta_0 + \beta_1d}$ $\rightarrow$ $\color{orange}{Y_i = \beta_0 + \beta_1X_i}$
 <br>
 
 ```{r, echo=FALSE, out.width='90%', fig.align='left', fig.cap='', dpi=600}
@@ -649,7 +649,7 @@ knitr::include_graphics('fig/class7/tab4.png')
 ## Ajuste de Modelo de Predição da Biomassa
 <br>
 
-Modelo: $\color{blue}{AGB = \beta_0 + \beta_1D}$ $\rightarrow$ $\color{orange}{Y_i = \beta_0 + \beta_1X_i}$
+Modelo: $\color{blue}{AGB = \beta_0 + \beta_1d}$ $\rightarrow$ $\color{orange}{Y_i = \beta_0 + \beta_1X_i}$
 <br>
 
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap='', dpi=600}
@@ -661,7 +661,7 @@ knitr::include_graphics('fig/class7/tab5.png')
 ## Ajuste de Modelo de Predição da Biomassa
 <br>
 
-Modelo: $\color{blue}{AGB = \beta_0 + \beta_1D}$ $\rightarrow$ $\color{orange}{Y_i = \beta_0 + \beta_1X_i}$
+Modelo: $\color{blue}{AGB = \beta_0 + \beta_1d}$ $\rightarrow$ $\color{orange}{Y_i = \beta_0 + \beta_1X_i}$
 <br>
 
 .pull-left-1[
@@ -697,8 +697,38 @@ $$
 \beta_0 = \bar{Y} - \beta_1\bar{X} = 10,69 - 3,8357(6,20) = \color{blue}{-13,0913}
 \end{equation*}
 $$
+
+<br>
+
+**Modelo ajustado**: $\color{blue}{AGB = -13,0913 + 3,8357d}$
+
 ]
 
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+<br>
+
+.pull-left-2[
+.shadow1[
+### Fazendo Predições...
+<br>
+.font90[
+Para efeito de utilização do modelo ajustado, considere 10 indivíduos da espécie *Bambusa procera* com $d$ (diâmetro a 1,30 m do solo, em cm) medido em campo. Pergunta-se: Qual o valor predito da AGB (em Kg), admitindo que o modelo ajustado $(\color{blue}{AGB = -13,0913 + 3,8357d})$ têm acurácia razoável (Obs.: O modelo precisa ser avaliado quanto a acurácia, mas isso será tópico futuro!)?
+]
+]
+]
+
+
+.font90[
+.pull-right-1[
+
+```{r tibble, echo=F, eval=T}
+data <- readr::read_csv("Data/sample.csv")
+data %>% CustomDT
+```
+]
+]
 
 ---
 

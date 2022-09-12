@@ -8,6 +8,15 @@
     <link href="Aula7-Biomassa-Carbono_files/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="Aula7-Biomassa-Carbono_files/font-awesome-animation-1.0/font-awesome-animation-emi.css" rel="stylesheet" />
     <script src="Aula7-Biomassa-Carbono_files/fontawesome-5.0.13/js/fontawesome-all.min.js"></script>
+    <script src="Aula7-Biomassa-Carbono_files/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+    <script src="Aula7-Biomassa-Carbono_files/jquery-3.5.1/jquery.min.js"></script>
+    <link href="Aula7-Biomassa-Carbono_files/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+    <script src="Aula7-Biomassa-Carbono_files/datatables-binding-0.17/datatables.js"></script>
+    <link href="Aula7-Biomassa-Carbono_files/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="Aula7-Biomassa-Carbono_files/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
+    <script src="Aula7-Biomassa-Carbono_files/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
+    <link href="Aula7-Biomassa-Carbono_files/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
+    <script src="Aula7-Biomassa-Carbono_files/crosstalk-1.1.1/js/crosstalk.min.js"></script>
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
         TeX: { equationNumbers: { autoNumber: "AMS" } },
@@ -527,9 +536,9 @@ Para ilustrar o procedimento de ajuste de um modelo de predição de biomassa, s
 &lt;br&gt;
 .font80[
 - Vamos ajustar um modelo para predizer a AGB da espécie *Bambusa procera*.
-- Para tanto, inicialmente, vamos admitir o modelo mais simples: `\(AGB = \beta_0 + \beta_1D\)` (modelo linear).
-- O modelo `\((AGB = \beta_0 + \beta_1D)\)` usa o diâmetro (D) dos colmos como variável preditora/independente, e a `\(AGB\)` é a variável resposta/dependente.
-- Portanto, para ajustar o modelo são necessárias apenas as variáveis: `\(D\)` e `\(AGB\)`.
+- Para tanto, inicialmente, vamos admitir o modelo mais simples: `\(AGB = \beta_0 + \beta_1d\)` (modelo linear).
+- O modelo `\((AGB = \beta_0 + \beta_1d)\)` usa o diâmetro (D) dos colmos como variável preditora/independente, e a `\(AGB\)` é a variável resposta/dependente.
+- Portanto, para ajustar o modelo são necessárias apenas as variáveis: `\(d\)` e `\(AGB\)`.
 ]
 ]
 
@@ -567,7 +576,7 @@ $$
 &lt;br&gt;
 
 .pull-left-2[
-Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1D}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
 &lt;br&gt;
 
 &lt;img src="fig/class7/tab1.png" width="80%" style="display: block; margin: auto auto auto 0;" /&gt;
@@ -595,7 +604,7 @@ $$
 ## Ajuste de Modelo de Predição da Biomassa
 &lt;br&gt;
 
-Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1D}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
 &lt;br&gt;
 
 &lt;img src="fig/class7/tab3.png" width="75%" style="display: block; margin: auto auto auto 0;" /&gt;
@@ -605,7 +614,7 @@ Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1D}\)` `\(\rightarrow\)` `\(\color
 ## Ajuste de Modelo de Predição da Biomassa
 &lt;br&gt;
 
-Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1D}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
 &lt;br&gt;
 
 &lt;img src="fig/class7/tab4.png" width="90%" style="display: block; margin: auto auto auto 0;" /&gt;
@@ -616,7 +625,7 @@ Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1D}\)` `\(\rightarrow\)` `\(\color
 ## Ajuste de Modelo de Predição da Biomassa
 &lt;br&gt;
 
-Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1D}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
 &lt;br&gt;
 
 &lt;img src="fig/class7/tab5.png" width="100%" style="display: block; margin: auto auto auto 0;" /&gt;
@@ -626,7 +635,7 @@ Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1D}\)` `\(\rightarrow\)` `\(\color
 ## Ajuste de Modelo de Predição da Biomassa
 &lt;br&gt;
 
-Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1D}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
 &lt;br&gt;
 
 .pull-left-1[
@@ -662,8 +671,36 @@ $$
 \beta_0 = \bar{Y} - \beta_1\bar{X} = 10,69 - 3,8357(6,20) = \color{blue}{-13,0913}
 \end{equation*}`
 $$
+
+&lt;br&gt;
+
+**Modelo ajustado**: `\(\color{blue}{AGB = -13,0913 + 3,8357d}\)`
+
 ]
 
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
+
+.pull-left-2[
+.shadow1[
+### Fazendo Predições...
+&lt;br&gt;
+.font90[
+Para efeito de utilização do modelo ajustado, considere 10 indivíduos da espécie *Bambusa procera* com `\(d\)` (diâmetro a 1,30 m do solo, em cm) medido em campo. Pergunta-se: Qual o valor predito da AGB (em Kg), admitindo que o modelo ajustado `\((\color{blue}{AGB = -13,0913 + 3,8357d})\)` têm acurácia razoável (Obs.: O modelo precisa ser avaliado quanto a acurácia, mas isso será tópico futuro!)?
+]
+]
+]
+
+
+.font90[
+.pull-right-1[
+
+<div id="htmlwidget-a200b5f12f300ad2bdd7" style="width:180px;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-a200b5f12f300ad2bdd7">{"x":{"filter":"none","caption":"<caption><\/caption>","editable":{"target":"cell","disable":{"columns":null}},"data":[[1,2,3,4,5,6,7,8,9,10],[4,4.4,5.2,5.4,6.1,6.5,7.6,8.5,8.6,9.3]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>ID<\/th>\n      <th>D<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":20,"dom":"t","autoWidth":false,"initComplete":"function(settings, json) {\n$(this.api().table().container()).css({'font-size': '14pt'});\n}","columnDefs":[{"className":"dt-right","targets":[0,1]}],"order":[],"orderClasses":false,"lengthMenu":[10,20,25,50,100]}},"evals":["options.initComplete"],"jsHooks":[]}</script>
+]
+]
 
 ---
 
