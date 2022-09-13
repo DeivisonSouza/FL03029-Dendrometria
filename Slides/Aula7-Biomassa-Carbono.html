@@ -92,7 +92,7 @@ top:.8em;right:-.5em;
 ##### Faculdade de Engenharia Florestal
 ##### E-mail: deivisonvs@ufpa.br
 &lt;br&gt;
-##### 1ª versão: 03/setembro/2022 &lt;br&gt; (Atualizado em: 12/setembro/2022) &lt;br&gt; Altamira, Pará
+##### 1ª versão: 03/setembro/2022 &lt;br&gt; (Atualizado em: 13/setembro/2022) &lt;br&gt; Altamira, Pará
 
 ---
 layout: true
@@ -330,9 +330,16 @@ name: qbva
 .shadow1[
 ### Métodos Destrutivos vs Métodos Não Destrutivos
 &lt;br&gt;
+.font90[
+**Métodos Destrutivos**:
+- Dois métodos: Gravimétrico e Volumétrico
+- Na prática, ambos implicam na derruba do vegetal para pesagem ou cubagem. Por isso, são destrutivos.
+- Implicam em determinações, pois as medidas tomadas diretamente em campo, são usadas para determinar a biomassa.
+- Análises de laboratórios são exigidas para determinação (em amostras) do teor de umidade ou densidade básica da madeira.
 
-- **Métodos Destrutivos**:
-- **Métodos Não Destrutivos**:
+**Métodos Não Destrutivos**: 
+- Implicam no uso de modelos de regressão, técnicas de sensoriamento remoto, outros.
+]
 ]
 
 ---
@@ -342,23 +349,98 @@ name: qbva
 .shadow1[
 ### .font80[Métodos Destrutivos: Gravimétrico x Volumétrico (Batista et al., 2014)]
 &lt;br&gt;
+.font90[
+**Gravimétrico**: 
 
-Em razão das medidas tomadas diretamente (em campo), existem 2 métodos de medição da biomassa:
+- A biomassa é obtida com base em medidas da .blue[*massa verde*], determinada após derruba do vegetal/árvore em campo, e do .blue[*teor de umidade*] de amostras, determinado em laboratório.
 
-- **Gravimétrico**: A biomassa é obtida com base em medidas da .blue[*massa verde*], após derruba do vegetal/árvore em campo.
-- **Volumétrico**:
+**Volumétrico**: 
+- A biomassa é obtida com base no volume, obtido por cubagem rigorosa, após derruba do vegetal/árvore em campo, e da .blue[*densidade básica da madeira*] em amostras, determinada em laboratório. (**Ideal**: Árvores/galhos de grande porte)
 ]
-
+]
 
 ---
 name: qbf
-## Quantificação da Biomassa Vegetal
+## Quantificação da Biomassa Viva da Árvore
 
 .shadow1[
-### Determinação da biomassa em campo
+### Determinação da biomassa em campo: Gravimétrico
 ]
 
 &lt;img src="fig/class7/bio2.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
+
+## Quantificação da Biomassa Viva da Árvore
+
+.shadow1[
+### .font80[Determinação do Teor de Umidade (Batista et al., 2014)]
+.font90[
+- No método gravimétrico, é necessário a determinação do teor de umidade em amostras dos componentes da árvore/vegetal.
+- O teor de umidade é obtido pela seguinte fórmula:
+]&lt;br&gt;
+
+$$
+`\begin{equation*}
+u_{\%} = \dfrac{m_v - m_s}{m_v}*100
+\end{equation*}`
+$$
+
+.font90[
+Em que: `\(m_v\)` = massa verde da amostra; `\(m_s\)` = massa seca da amostra.
+
+- A .blue[*massa verde*] da amostra é determinada em campo (balança de precisão).
+- A .blue[*massa seca*] da amostra é determinada em laboratório (estufa de circulação forçada).
+]
+]
+
+---
+
+## Quantificação da Biomassa Viva da Árvore
+
+.shadow1[
+### .font80[Determinação do Teor de Umidade (Batista et al., 2014)]
+&lt;br&gt;
+.font90[
+**Sobre a amostragem dos componentes:**
+
+- **Menor Massa** (galhos finos, folhas, raízes finas): Amostra aleatória de `\(\approx 300 g\)`.
+- **Lenho (fuste)**: Retirar discos (5 cm espessura) em 5 posições relativas do tronco (Por exemplo: 0%, 25%, 50%, 75%, 100% da altura total)
+&lt;br&gt;
+
+**Em laboratório:**
+- As amostras (folhas, galhos, raízes, etc.) são colocadas em estufa de circulação forçada à temperatura constante de 103°C, até atingir peso constante. Na prática, o .blue[*peso contante*] = .blue[*massa seca da amostra*] - `\(m_s\)`.
+- **Discos**: o teor de umidade é determinado para cada disco, usando-se a média com teor de umidade representativo do lenho.
+
+]
+]
+
+---
+
+## Quantificação da Biomassa Viva da Árvore
+
+.shadow1[
+### .font80[Cálculo da biomassa - Método Gravimétrico (Batista et al., 2014)]
+
+.font90[
+- Determinada a .blue[*massa verde*] em campo (de cada componente) e o .blue[teor de umidade] das amostras em laboratório, a biomassa dos componentes da árvore pode ser calculada por: &lt;br&gt;
+
+$$
+`\begin{equation*}
+b_L = m_L\left(1 -\dfrac{u_{L\%}}{100}\right) \rightarrow Biomassa~do~Lenho \\~\\
+b_R = m_R\left(1 -\dfrac{u_{R\%}}{100}\right) \rightarrow Biomassa~de~Ramos \\~\\
+b_F = m_F\left(1 -\dfrac{u_{F\%}}{100}\right) \rightarrow Biomassa~de~Folhas \\~\\
+ba = b_L + b_R + b_F \rightarrow Biomassa~Aérea
+\end{equation*}`
+$$
+Em que: `\(b_L\)`, `\(b_R\)` e `\(b_F\)`: biomassa do lenho, ramos e folhas, respectivamente, em kg; `\(m_L\)`, `\(m_R\)` e `\(m_F\)`: massa verde do lenho, ramos e folhas, respectivamente, em kg; e `\(u_{L\%}\)`, `\(u_{R\%}\)` e `\(u_{F\%}\)`: teor de umidade do lenho, ramos e folhas, respectivamente.
+
+
+]
+]
+
+
+
 
 &lt;!-- Slide XX --&gt;
 ---
@@ -697,10 +779,13 @@ Para efeito de utilização do modelo ajustado, considere 10 indivíduos da esp�
 .font90[
 .pull-right-1[
 
-<div id="htmlwidget-a200b5f12f300ad2bdd7" style="width:180px;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-a200b5f12f300ad2bdd7">{"x":{"filter":"none","caption":"<caption><\/caption>","editable":{"target":"cell","disable":{"columns":null}},"data":[[1,2,3,4,5,6,7,8,9,10],[4,4.4,5.2,5.4,6.1,6.5,7.6,8.5,8.6,9.3]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>ID<\/th>\n      <th>D<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":20,"dom":"t","autoWidth":false,"initComplete":"function(settings, json) {\n$(this.api().table().container()).css({'font-size': '14pt'});\n}","columnDefs":[{"className":"dt-right","targets":[0,1]}],"order":[],"orderClasses":false,"lengthMenu":[10,20,25,50,100]}},"evals":["options.initComplete"],"jsHooks":[]}</script>
+<div id="htmlwidget-f7a3678e9d8e93c6c26f" style="width:180px;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-f7a3678e9d8e93c6c26f">{"x":{"filter":"none","caption":"<caption><\/caption>","editable":{"target":"cell","disable":{"columns":null}},"data":[[1,2,3,4,5,6,7,8,9,10],[4,4.4,5.2,5.4,6.1,6.5,7.6,8.5,8.6,9.3]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>ID<\/th>\n      <th>D<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":20,"dom":"t","autoWidth":false,"initComplete":"function(settings, json) {\n$(this.api().table().container()).css({'font-size': '14pt'});\n}","columnDefs":[{"className":"dt-right","targets":[0,1]}],"order":[],"orderClasses":false,"lengthMenu":[10,20,25,50,100]}},"evals":["options.initComplete"],"jsHooks":[]}</script>
 ]
 ]
+
+---
+
 
 ---
 

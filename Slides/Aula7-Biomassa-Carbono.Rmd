@@ -336,9 +336,16 @@ name: qbva
 .shadow1[
 ### Métodos Destrutivos vs Métodos Não Destrutivos
 <br>
+.font90[
+**Métodos Destrutivos**:
+- Dois métodos: Gravimétrico e Volumétrico
+- Na prática, ambos implicam na derruba do vegetal para pesagem ou cubagem. Por isso, são destrutivos.
+- Implicam em determinações, pois as medidas tomadas diretamente em campo, são usadas para determinar a biomassa.
+- Análises de laboratórios são exigidas para determinação (em amostras) do teor de umidade ou densidade básica da madeira.
 
-- **Métodos Destrutivos**:
-- **Métodos Não Destrutivos**:
+**Métodos Não Destrutivos**: 
+- Implicam no uso de modelos de regressão, técnicas de sensoriamento remoto, outros.
+]
 ]
 
 ---
@@ -348,25 +355,100 @@ name: qbva
 .shadow1[
 ### .font80[Métodos Destrutivos: Gravimétrico x Volumétrico (Batista et al., 2014)]
 <br>
+.font90[
+**Gravimétrico**: 
 
-Em razão das medidas tomadas diretamente (em campo), existem 2 métodos de medição da biomassa:
+- A biomassa é obtida com base em medidas da .blue[*massa verde*], determinada após derruba do vegetal/árvore em campo, e do .blue[*teor de umidade*] de amostras, determinado em laboratório.
 
-- **Gravimétrico**: A biomassa é obtida com base em medidas da .blue[*massa verde*], após derruba do vegetal/árvore em campo.
-- **Volumétrico**:
+**Volumétrico**: 
+- A biomassa é obtida com base no volume, obtido por cubagem rigorosa, após derruba do vegetal/árvore em campo, e da .blue[*densidade básica da madeira*] em amostras, determinada em laboratório. (**Ideal**: Árvores/galhos de grande porte)
 ]
-
+]
 
 ---
 name: qbf
-## Quantificação da Biomassa Vegetal
+## Quantificação da Biomassa Viva da Árvore
 
 .shadow1[
-### Determinação da biomassa em campo
+### Determinação da biomassa em campo: Gravimétrico
 ]
 
 ```{r, echo=FALSE, out.width='75%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class7/bio2.png')
 ```
+
+---
+
+## Quantificação da Biomassa Viva da Árvore
+
+.shadow1[
+### .font80[Determinação do Teor de Umidade (Batista et al., 2014)]
+.font90[
+- No método gravimétrico, é necessário a determinação do teor de umidade em amostras dos componentes da árvore/vegetal.
+- O teor de umidade é obtido pela seguinte fórmula:
+]<br>
+
+$$
+\begin{equation*}
+u_{\%} = \dfrac{m_v - m_s}{m_v}*100
+\end{equation*}
+$$
+
+.font90[
+Em que: $m_v$ = massa verde da amostra; $m_s$ = massa seca da amostra.
+
+- A .blue[*massa verde*] da amostra é determinada em campo (balança de precisão).
+- A .blue[*massa seca*] da amostra é determinada em laboratório (estufa de circulação forçada).
+]
+]
+
+---
+
+## Quantificação da Biomassa Viva da Árvore
+
+.shadow1[
+### .font80[Determinação do Teor de Umidade (Batista et al., 2014)]
+<br>
+.font90[
+**Sobre a amostragem dos componentes:**
+
+- **Menor Massa** (galhos finos, folhas, raízes finas): Amostra aleatória de $\approx 300 g$.
+- **Lenho (fuste)**: Retirar discos (5 cm espessura) em 5 posições relativas do tronco (Por exemplo: 0%, 25%, 50%, 75%, 100% da altura total)
+<br>
+
+**Em laboratório:**
+- As amostras (folhas, galhos, raízes, etc.) são colocadas em estufa de circulação forçada à temperatura constante de 103°C, até atingir peso constante. Na prática, o .blue[*peso contante*] = .blue[*massa seca da amostra*] - $m_s$.
+- **Discos**: o teor de umidade é determinado para cada disco, usando-se a média com teor de umidade representativo do lenho.
+
+]
+]
+
+---
+
+## Quantificação da Biomassa Viva da Árvore
+
+.shadow1[
+### .font80[Cálculo da biomassa - Método Gravimétrico (Batista et al., 2014)]
+
+.font90[
+- Determinada a .blue[*massa verde*] em campo (de cada componente) e o .blue[teor de umidade] das amostras em laboratório, a biomassa dos componentes da árvore pode ser calculada por: <br>
+
+$$
+\begin{equation*}
+b_L = m_L\left(1 -\dfrac{u_{L\%}}{100}\right) \rightarrow Biomassa~do~Lenho \\~\\
+b_R = m_R\left(1 -\dfrac{u_{R\%}}{100}\right) \rightarrow Biomassa~de~Ramos \\~\\
+b_F = m_F\left(1 -\dfrac{u_{F\%}}{100}\right) \rightarrow Biomassa~de~Folhas \\~\\
+ba = b_L + b_R + b_F \rightarrow Biomassa~Aérea
+\end{equation*}
+$$
+Em que: $b_L$, $b_R$ e $b_F$: biomassa do lenho, ramos e folhas, respectivamente, em kg; $m_L$, $m_R$ e $m_F$: massa verde do lenho, ramos e folhas, respectivamente, em kg; e $u_{L\%}$, $u_{R\%}$ e $u_{F\%}$: teor de umidade do lenho, ramos e folhas, respectivamente.
+
+
+]
+]
+
+
+
 
 <!-- Slide XX -->
 ---
