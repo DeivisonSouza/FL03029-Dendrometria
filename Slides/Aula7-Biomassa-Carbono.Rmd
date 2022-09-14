@@ -705,7 +705,7 @@ knitr::include_graphics('fig/class7/boo3.png')
 <br>
 .font80[
 - Vamos ajustar um modelo para predizer a AGB da espécie *Bambusa procera*.
-- Inicialmente, para fins de treinamento e intuição, vamos usar apenas os dados das .blue[primeiras 20 árvores].
+- Inicialmente, para fins de treinamento e intuição, vamos usar apenas os dados das .blue[primeiras 10 árvores].
 - Vamos admitir o modelo mais simples: $AGB = \beta_0 + \beta_1d$ (modelo linear).
 - O modelo $(AGB = \beta_0 + \beta_1d)$ usa o diâmetro (d) dos colmos como variável preditora/independente, e a $AGB$ é a variável resposta/dependente.
 - Portanto, para ajustar o modelo são necessárias apenas as variáveis: $d$ e $AGB$.
@@ -752,7 +752,7 @@ Modelo: $\color{blue}{AGB = \beta_0 + \beta_1d}$ $\rightarrow$ $\color{orange}{Y
 <br>
 
 ```{r, echo=FALSE, out.width='80%', fig.align='left', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class7/tab1.png')
+knitr::include_graphics('fig/class7/tab1-10.png')
 ```
 ]
 
@@ -784,7 +784,7 @@ Modelo: $\color{blue}{AGB = \beta_0 + \beta_1d}$ $\rightarrow$ $\color{orange}{Y
 <br>
 
 ```{r, echo=FALSE, out.width='75%', fig.align='left', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class7/tab3.png')
+knitr::include_graphics('fig/class7/tab2-10.png')
 ```
 
 ---
@@ -796,9 +796,8 @@ Modelo: $\color{blue}{AGB = \beta_0 + \beta_1d}$ $\rightarrow$ $\color{orange}{Y
 <br>
 
 ```{r, echo=FALSE, out.width='90%', fig.align='left', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class7/tab4.png')
+knitr::include_graphics('fig/class7/tab3-10.png')
 ```
-
 
 ---
 
@@ -809,7 +808,7 @@ Modelo: $\color{blue}{AGB = \beta_0 + \beta_1d}$ $\rightarrow$ $\color{orange}{Y
 <br>
 
 ```{r, echo=FALSE, out.width='100%', fig.align='left', fig.cap='', dpi=600}
-knitr::include_graphics('fig/class7/tab5.png')
+knitr::include_graphics('fig/class7/tab4-10.png')
 ```
 
 ---
@@ -823,13 +822,13 @@ Modelo: $\color{blue}{AGB = \beta_0 + \beta_1d}$ $\rightarrow$ $\color{orange}{Y
 .pull-left-1[
 $$
 \begin{equation*}
-n = 83 \\
-\sum_{i=1}^{n}X_i = 514,8 \\
-\sum_{i=1}^{n}Y_i = 886,89 \\
-\sum_{i=1}^{n}X_iY_1 = 6022,813 \\
-\sum_{i=1}^{n}X_i^2 = 3329,08 \\
-\bar{Y} = 10,69 \\
-\bar{X} = 6,20
+n = 10 \\
+\sum_{i=1}^{n}X_i = 58,4 \\
+\sum_{i=1}^{n}Y_i = 96,35 \\
+\sum_{i=1}^{n}X_iY_1 = 624,968 \\
+\sum_{i=1}^{n}X_i^2 = 363,38 \\
+\bar{Y} = 9,635 \\
+\bar{X} = 5,84
 \end{equation*}
 $$
 ]
@@ -840,7 +839,7 @@ $$
 
 $$
 \begin{equation*}
-\beta_1 = \dfrac{83(6022,813)-(514,8)(886,89)}{83(3329,08)-(514,8)^2} \approx \color{blue}{3,8357}
+\beta_1 = \dfrac{10(624,968)-(58,4)(96,35)}{10(363,38)-(58,4)^2} \approx \color{blue}{2,79}
 \end{equation*}
 $$
 
@@ -850,14 +849,40 @@ $$
 
 $$
 \begin{equation*}
-\beta_0 = \bar{Y} - \beta_1\bar{X} = 10,69 - 3,8357(6,20) = \color{blue}{-13,0913}
+\beta_0 = \bar{Y} - \beta_1\bar{X} = 9,635 - 2,79(5,84) = \color{blue}{-6,6586}
 \end{equation*}
 $$
 
 <br>
 
-**Modelo ajustado**: $\color{blue}{AGB = -13,0913 + 3,8357d}$
+**Modelo ajustado**: $\color{blue}{AGB = -6,6586 + 2,79d}$
 
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+<br>
+
+.pull-left-2[
+.shadow1[
+### Fazendo Predições...
+<br>
+.font90[
+Para efeito de utilização do modelo ajustado, considere 10 indivíduos da espécie *Bambusa procera* com $d$ (diâmetro a 1,30 m do solo, em cm) medido em campo. Pergunta-se: Qual o valor predito da AGB (em Kg), admitindo que o modelo ajustado $(\color{blue}{AGB = -6,6586 + 2,79d})$ têm acurácia razoável (Obs.: O modelo precisa ser avaliado quanto a acurácia, mas isso será tópico futuro!)?
+]
+]
+]
+
+
+.font90[
+.pull-right-1[
+
+```{r tibble2, echo=F, eval=T}
+data <- readr::read_csv("Data/sample.csv")
+data %>% CustomDT
+```
+]
 ]
 
 <!-- Slide XX -->
