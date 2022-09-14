@@ -988,35 +988,6 @@ Usando o mesmo conjunto de dados disponível no **Anexo 1** do documento intitul
 ---
 
 ## Ajuste de Modelo de Predição da Biomassa
-
-.shadow1[
-### **Estratégias de Modelagem...**
-&lt;br&gt;
-.font80[
-- No dataset *Bambusa procera* de [Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment), estão disponíveis dados da Biomassa Aérea Total (do inglês, *Above-Ground Biomass - AGB*). Neste caso, a AGB foi determinada pelo somatório da biomassa (massa seca) de folhas, galhos e colmo.
-- É possível "pensar" em algumas estratégias de modelagem: **1) Modelagem por componentes**; e 2) **Modelagem por compartimento**.
-- Por exemplo, poderíamos desenvolver modelos específicos para a predição da biomassa de folhas (Ble), galhos (Bbr) ou colmo (Bcu), e também um modelo para predizer a biomassa aérea total (AGB = Bcu + Bbr + Ble).
-]
-]
-
----
-
-## Ajuste de Modelo de Predição da Biomassa
-
-.shadow1[
-### **Modelo Para Predizer a Biomassa Aérea Total**
-&lt;br&gt;
-.font80[
-- Vamos ajustar um modelo para predizer a AGB da espécie *Bambusa procera*.
-- Para tanto, inicialmente, vamos admitir o modelo mais simples: `\(AGB = \beta_0 + \beta_1d\)` (modelo linear).
-- O modelo `\((AGB = \beta_0 + \beta_1d)\)` usa o diâmetro (D) dos colmos como variável preditora/independente, e a `\(AGB\)` é a variável resposta/dependente.
-- Portanto, para ajustar o modelo são necessárias apenas as variáveis: `\(d\)` e `\(AGB\)`.
-]
-]
-
----
-
-## Ajuste de Modelo de Predição da Biomassa
 &lt;br&gt;
 
 .pull-left-2[
@@ -1062,7 +1033,6 @@ Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color
 &lt;br&gt;
 
 &lt;img src="fig/class7/tab4.png" width="90%" style="display: block; margin: auto auto auto 0;" /&gt;
-
 
 ---
 
@@ -1141,8 +1111,8 @@ Para efeito de utilização do modelo ajustado, considere 10 indivíduos da esp�
 .font90[
 .pull-right-1[
 
-<div id="htmlwidget-1e45dddfc83c73766941" style="width:180px;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-1e45dddfc83c73766941">{"x":{"filter":"none","caption":"<caption><\/caption>","editable":{"target":"cell","disable":{"columns":null}},"data":[[1,2,3,4,5,6,7,8,9,10],[4,4.4,5.2,5.4,6.1,6.5,7.6,8.5,8.6,9.3]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>ID<\/th>\n      <th>D<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":20,"dom":"t","autoWidth":false,"initComplete":"function(settings, json) {\n$(this.api().table().container()).css({'font-size': '14pt'});\n}","columnDefs":[{"className":"dt-right","targets":[0,1]}],"order":[],"orderClasses":false,"lengthMenu":[10,20,25,50,100]}},"evals":["options.initComplete"],"jsHooks":[]}</script>
+<div id="htmlwidget-db3a95c6c121eac78989" style="width:180px;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-db3a95c6c121eac78989">{"x":{"filter":"none","caption":"<caption><\/caption>","editable":{"target":"cell","disable":{"columns":null}},"data":[[1,2,3,4,5,6,7,8,9,10],[4,4.4,5.2,5.4,6.1,6.5,7.6,8.5,8.6,9.3]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>ID<\/th>\n      <th>D<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":20,"dom":"t","autoWidth":false,"initComplete":"function(settings, json) {\n$(this.api().table().container()).css({'font-size': '14pt'});\n}","columnDefs":[{"className":"dt-right","targets":[0,1]}],"order":[],"orderClasses":false,"lengthMenu":[10,20,25,50,100]}},"evals":["options.initComplete"],"jsHooks":[]}</script>
 ]
 ]
 

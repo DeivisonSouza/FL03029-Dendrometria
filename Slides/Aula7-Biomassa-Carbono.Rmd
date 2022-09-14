@@ -1024,35 +1024,6 @@ knitr::include_graphics('fig/class7/boo3.png')
 ---
 
 ## Ajuste de Modelo de Predição da Biomassa
-
-.shadow1[
-### **Estratégias de Modelagem...**
-<br>
-.font80[
-- No dataset *Bambusa procera* de [Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment), estão disponíveis dados da Biomassa Aérea Total (do inglês, *Above-Ground Biomass - AGB*). Neste caso, a AGB foi determinada pelo somatório da biomassa (massa seca) de folhas, galhos e colmo.
-- É possível "pensar" em algumas estratégias de modelagem: **1) Modelagem por componentes**; e 2) **Modelagem por compartimento**.
-- Por exemplo, poderíamos desenvolver modelos específicos para a predição da biomassa de folhas (Ble), galhos (Bbr) ou colmo (Bcu), e também um modelo para predizer a biomassa aérea total (AGB = Bcu + Bbr + Ble).
-]
-]
-
----
-
-## Ajuste de Modelo de Predição da Biomassa
-
-.shadow1[
-### **Modelo Para Predizer a Biomassa Aérea Total**
-<br>
-.font80[
-- Vamos ajustar um modelo para predizer a AGB da espécie *Bambusa procera*.
-- Para tanto, inicialmente, vamos admitir o modelo mais simples: $AGB = \beta_0 + \beta_1d$ (modelo linear).
-- O modelo $(AGB = \beta_0 + \beta_1d)$ usa o diâmetro (D) dos colmos como variável preditora/independente, e a $AGB$ é a variável resposta/dependente.
-- Portanto, para ajustar o modelo são necessárias apenas as variáveis: $d$ e $AGB$.
-]
-]
-
----
-
-## Ajuste de Modelo de Predição da Biomassa
 <br>
 
 .pull-left-2[
@@ -1106,7 +1077,6 @@ Modelo: $\color{blue}{AGB = \beta_0 + \beta_1d}$ $\rightarrow$ $\color{orange}{Y
 ```{r, echo=FALSE, out.width='90%', fig.align='left', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class7/tab4.png')
 ```
-
 
 ---
 
