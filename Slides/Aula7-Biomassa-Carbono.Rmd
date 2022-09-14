@@ -87,7 +87,7 @@ CustomDT <- function(data){
 <!-- title-slide -->
 # Dendrometria <br> (FL03029)
 <br>
-## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Biomassa e Carbono `r anicon::faa("pagelines", animate="horizontal", colour="green")` <br> Florestal
+## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Biomassa Florestal `r anicon::faa("pagelines", animate="horizontal", colour="green")`
 
 #### **Prof. Dr. Deivison Venicio Souza**
 ##### Universidade Federal do Pará (UFPA) 
@@ -156,15 +156,21 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 [2 - Importância da Biomassa Florestal](#ibf)
 
-[3 - Produção da Biomassa Florestal](#pbf)
+[3 - Compartimentação da Biomassa da Árvore](#cba)
 
-[4 - Quantificação da Biomassa Vegetal (ou Florestal)](#qbv)
+[4 - Métodos de Quantificação da Biomassa Vegetal](#mqb)
 
 &nbsp;&nbsp;[4.1 - Métodos Destrutivos](#md)
 
+&nbsp;&nbsp;&nbsp;&nbsp;[4.1.1 - Gravimétrico](#g)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[4.1.2 - Volumétrico](#v)
+
+<!--
 &nbsp;&nbsp;&nbsp;&nbsp;[4.1.1 - Árvores Individuais](#ai)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[4.1.2 - Parcelas de Amostragem](#pa)
+-->
 
 &nbsp;&nbsp;[4.2 - Métodos Não Destrutivos](#mi)
 
@@ -172,15 +178,13 @@ Ao final desta aula espera-se que o discente seja capaz de...
 
 &nbsp;&nbsp;&nbsp;&nbsp;[4.2.2 - Fatores de Expansão de Biomassa](#feb)
 
-[5 - Modelos Alométricos](#ma)
-
-[6 - Estudo de Caso: Ajuste de Modelo de Predição da Biomassa](#ecmbat)
+[5 - Estudo de Caso: Ajuste de Modelo de Predição da Biomassa (*Bambusa procera*)](#ecmbat)
 
 ]
 ]
 ]
 
-
+<!--
 .pull-right[
 .pull-top[
 **Parte 2 - O Carbono Florestal**
@@ -195,6 +199,7 @@ Ao final desta aula espera-se que o discente seja capaz de...
 ]
 ]
 ]
+-->
 
 <!-- Slide XX -->
 ---
@@ -331,7 +336,7 @@ crescimento em um determinado sítio.
 
 ---
 name: qbva
-## Quantificação da Biomassa Viva da Árvore
+## Métodos de Quantificação da Biomassa Vegetal
 
 .shadow1[
 ### Métodos Destrutivos vs Métodos Não Destrutivos
@@ -350,7 +355,7 @@ name: qbva
 
 ---
 
-## Quantificação da Biomassa Viva da Árvore
+## Métodos de Quantificação da Biomassa Vegetal
 
 .shadow1[
 ### .font80[Métodos Destrutivos: Gravimétrico x Volumétrico (Batista et al., 2014)]
@@ -367,7 +372,7 @@ name: qbva
 
 ---
 name: qbf
-## Quantificação da Biomassa Viva da Árvore
+## Métodos de Quantificação da Biomassa Vegetal
 
 .shadow1[
 ### Determinação da biomassa em campo: Gravimétrico
@@ -379,7 +384,7 @@ knitr::include_graphics('fig/class7/bio2.png')
 
 ---
 
-## Quantificação da Biomassa Viva da Árvore
+## Métodos de Quantificação da Biomassa Vegetal
 
 .shadow1[
 ### .font80[Determinação do Teor de Umidade (Batista et al., 2014)]
@@ -404,7 +409,7 @@ Em que: $m_v$ = massa verde da amostra; $m_s$ = massa seca da amostra.
 
 ---
 
-## Quantificação da Biomassa Viva da Árvore
+## Métodos de Quantificação da Biomassa Vegetal
 
 .shadow1[
 ### .font80[Determinação do Teor de Umidade (Batista et al., 2014)]
@@ -425,7 +430,7 @@ Em que: $m_v$ = massa verde da amostra; $m_s$ = massa seca da amostra.
 
 ---
 
-## Quantificação da Biomassa Viva da Árvore
+## Métodos de Quantificação da Biomassa Vegetal
 
 .shadow1[
 ### .font80[Cálculo da biomassa - Método Gravimétrico (Batista et al., 2014)]
@@ -447,6 +452,76 @@ Em que: $b_L$, $b_R$ e $b_F$: biomassa do lenho, ramos e folhas, respectivamente
 ]
 ]
 
+---
+
+## Métodos de Quantificação da Biomassa Vegetal
+
+.shadow1[
+### .font80[Exercício Prático - Cálculo da Biomassa (Batista et al., 2014)]
+
+- 1) Utilizando as informações apresentadas na tabela abaixo, encontre a **Biomassa do Lenho** da árvore por meio do **Método Gravimétrico**: (Batista et al., 2014; pg. 82)
+]
+
+.pull-left-15[
+```{r, echo=FALSE, out.width='90%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class7/tab-Batista.png')
+```
+.font80[**Fonte**: Batista et al., 2014]
+]
+
+.pull-right-14[
+.shadow3[
+.font90[
+Informações dos discos do tronco tomados como amostra na determinação da biomassa lenhosa de uma árvore. Informações da árvore: espécie ipê-felpudo (*Zeyhera tuberculosa* (Vell.) Bureau, Bignoneaceae), DAP = 28 cm; Altura total = 16 m; Volume do lenho: 550 $dm^3$; Massa verde do lenho = 435,5 kg.
+]
+]
+]
+
+---
+
+## Métodos de Quantificação da Biomassa Vegetal
+
+.shadow1[
+### .font80[Exercício Prático - Cálculo da Biomassa (Batista et al., 2014)]
+.font90[
+- **Passo 1**: Encontrar o .blue[teor de umidade] de cada disco de madeira, na sequência obter a média.
+
+$$
+\begin{equation*}
+u_{\%} = \dfrac{m_v - m_s}{m_v}*100
+\end{equation*}
+$$
+
+.font90[
+Em que: $m_v$ = massa verde da amostra; $m_s$ = massa seca da amostra.
+]
+]
+]
+
+```{r, echo=FALSE, out.width='60%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class7/tab-Batista2.png')
+```
+
+---
+
+## Métodos de Quantificação da Biomassa Vegetal
+
+.shadow1[
+### .font80[Exercício Prático - Cálculo da Biomassa (Batista et al., 2014)]
+.font90[
+- **Passo 2**: Aplicar a equação para determinar a biomassa, em função da .blue[massa verde do lenho] e .blue[teor de umidade médio] do lenho. (**Lembre-se**: Massa verde do lenho = 435,5 kg)
+
+$$
+\Large
+\begin{equation*}
+b_L = m_L\left(1 -\dfrac{u_{L\%}}{100}\right) \\~\\
+b_L = 435,5\left(1 -\dfrac{47,48}{100}\right) = \color{blue}{228,72~kg}
+\end{equation*}
+$$
+
+
+]
+]
 
 
 
