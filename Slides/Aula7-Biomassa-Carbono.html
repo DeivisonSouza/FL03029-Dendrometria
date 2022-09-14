@@ -97,7 +97,7 @@ top:.8em;right:-.5em;
 ---
 layout: true
 &lt;div class="my-header"&gt;&lt;/div&gt;
-&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;Dendrometria (FL03029) - Biomassa e Carbono Florestal&lt;/div&gt;
+&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;Dendrometria (FL03029) - Biomassa Florestal&lt;/div&gt;
 
 ---
 
@@ -211,7 +211,7 @@ background-size: cover
 ---
 layout: true
 &lt;div class="my-header"&gt;&lt;/div&gt;
-&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;Dendrometria (FL03029) - Biomassa e Carbono Florestal/Parte 1: A Biomassa Florestal&lt;/div&gt;
+&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;Dendrometria (FL03029) - Biomassa Florestal/Parte 1: A Biomassa Florestal&lt;/div&gt;
 
 ---
 name: conc
@@ -511,8 +511,6 @@ $$
 ]
 ]
 
-
-
 &lt;!-- Slide XX --&gt;
 ---
 layout: false
@@ -520,12 +518,12 @@ class: inverse, middle, center
 background-image: url(fig/class1/sec.png)
 background-size: cover
 
-.white[.font200[**Estudo de Caso**] &lt;br&gt; .font150[Ajuste de Modelo de Predição da Biomassa]]
+.white[.font200[**Estudo de Caso**] &lt;br&gt; .font150[Ajuste de Modelo de Predição da Biomassa &lt;br&gt; (*Bambusa procera*)]]
 
 ---
 layout: true
 &lt;div class="my-header"&gt;&lt;/div&gt;
-&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;Dendrometria (FL03029) - Biomassa e Carbono Florestal/Parte 1: A Biomassa Florestal&lt;/div&gt;
+&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;Dendrometria (FL03029) - Biomassa Florestal/Parte 1: A Biomassa Florestal&lt;/div&gt;
 
 ---
 name: ma
@@ -689,8 +687,9 @@ Para ilustrar o procedimento de ajuste de um modelo de predição de biomassa, s
 &lt;br&gt;
 .font80[
 - Vamos ajustar um modelo para predizer a AGB da espécie *Bambusa procera*.
-- Para tanto, inicialmente, vamos admitir o modelo mais simples: `\(AGB = \beta_0 + \beta_1d\)` (modelo linear).
-- O modelo `\((AGB = \beta_0 + \beta_1d)\)` usa o diâmetro (D) dos colmos como variável preditora/independente, e a `\(AGB\)` é a variável resposta/dependente.
+- Inicialmente, para fins de treinamento e intuição, vamos usar apenas os dados das .blue[primeiras 20 árvores].
+- Vamos admitir o modelo mais simples: `\(AGB = \beta_0 + \beta_1d\)` (modelo linear).
+- O modelo `\((AGB = \beta_0 + \beta_1d)\)` usa o diâmetro (d) dos colmos como variável preditora/independente, e a `\(AGB\)` é a variável resposta/dependente.
 - Portanto, para ajustar o modelo são necessárias apenas as variáveis: `\(d\)` e `\(AGB\)`.
 ]
 ]
@@ -831,6 +830,298 @@ $$
 
 ]
 
+&lt;!-- Slide XX --&gt;
+---
+layout: false
+class: inverse, middle, center
+background-image: url(fig/class1/sec.png)
+background-size: cover
+
+.white[.font200[**Estudo de Caso**] &lt;br&gt; .font150[Ajuste de Modelo de Predição da Biomassa &lt;br&gt; (*Bambusa procera*) &lt;br&gt;&lt;br&gt; **Vamos Praticar! 😁**]]
+
+---
+layout: true
+&lt;div class="my-header"&gt;&lt;/div&gt;
+&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;Dendrometria (FL03029) - Biomassa Florestal/Parte 1: A Biomassa Florestal&lt;/div&gt;
+
+---
+name: ma
+## Ajuste de Modelo de Predição da Biomassa
+
+.shadow1[
+### Estudo de Caso I - *Bambusa procera* (Huy; Long, 2019)
+&lt;br&gt;
+.font90[
+**Agora é sua vez!** 😁
+
+Usando o mesmo conjunto de dados disponível no **Anexo 1** do documento intitulado: **A manual for bamboo forest biomass and carbon assessment** ([Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment)). Ajuste o modelo linear `\((AGB = \beta_0 + \beta_1d)\)`. Porém, agora use o conjunto de dados completo (n = 83) para o ajuste.
+]
+]
+&lt;br&gt;
+
+.font90[
+**Conjunto de dados**
+
+- Espécie: *Bambusa procera*
+- número de observações: n = 83
+- Acesse os dados em planilha: [DataSet_Bambusa](https://github.com/DeivisonSouza/FL03029-Dendrometria/tree/master/Slides/Data/DataSet_Bambusa.csv)
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.pull-right-14[
+&lt;br&gt;
+
+.shadow3[
+#### .center[**Variáveis**]
+
+.font48[
+- Plot-Code: Código da Parcela
+- Plant-Code: Código da planta
+- X e Y: coordenadas
+- D, H e A: Diâmetro (cm), Altura e Idade (anos)
+- Bfcu: Biomassa fresca de colmos (kg)
+- Bfbr: Biomassa fresca de galhos (kg)
+- Bfle: Biomassa fresca de folhas (kg)
+- AGBf: Somatório (Bfcu, Bfbr, Bfle)
+- RatioBcu: Razão de massa fresca-seca de colmos
+- RatioBbr: Razão de massa fresca-seca de galhos
+- RatioBle: Razão de massa fresca-seca de folhas
+- Bcu: Biomassa seca de colmos (kg)
+- Bbr: Biomassa seca de galhos (kg)
+- Ble: Biomassa seca de folhas (kg)
+- AGB: Somatório (Bcu, Bbr, Ble) 
+]
+]
+
+&lt;br&gt;
+
+.font70[**Fonte**: [Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment)
+]
+]
+
+.pull-left-15[
+&lt;img src="fig/class7/boo1.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.pull-right-14[
+&lt;br&gt;
+
+.shadow3[
+#### .center[**Variáveis**]
+
+.font48[
+- Plot-Code: Código da Parcela
+- Plant-Code: Código da planta
+- X e Y: coordenadas
+- D, H e A: Diâmetro (cm), Altura e Idade (anos)
+- Bfcu: Biomassa fresca de colmos (kg)
+- Bfbr: Biomassa fresca de galhos (kg)
+- Bfle: Biomassa fresca de folhas (kg)
+- AGBf: Somatório (Bfcu, Bfbr, Bfle)
+- RatioBcu: Razão de massa fresca-seca de colmos
+- RatioBbr: Razão de massa fresca-seca de galhos
+- RatioBle: Razão de massa fresca-seca de folhas
+- Bcu: Biomassa seca de colmos (kg)
+- Bbr: Biomassa seca de galhos (kg)
+- Ble: Biomassa seca de folhas (kg)
+- AGB: Somatório (Bcu, Bbr, Ble) 
+]
+]
+
+&lt;br&gt;
+
+.font70[**Fonte**: [Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment)
+]
+]
+
+.pull-left-15[
+&lt;img src="fig/class7/boo2.png" width="92%" style="display: block; margin: auto;" /&gt;
+]
+
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.pull-right-14[
+&lt;br&gt;
+
+.shadow3[
+#### .center[**Variáveis**]
+
+.font48[
+- Plot-Code: Código da Parcela
+- Plant-Code: Código da planta
+- X e Y: coordenadas
+- D, H e A: Diâmetro (cm), Altura e Idade (anos)
+- Bfcu: Biomassa fresca de colmos (kg)
+- Bfbr: Biomassa fresca de galhos (kg)
+- Bfle: Biomassa fresca de folhas (kg)
+- AGBf: Somatório (Bfcu, Bfbr, Bfle)
+- RatioBcu: Razão de massa fresca-seca de colmos
+- RatioBbr: Razão de massa fresca-seca de galhos
+- RatioBle: Razão de massa fresca-seca de folhas
+- Bcu: Biomassa seca de colmos (kg)
+- Bbr: Biomassa seca de galhos (kg)
+- Ble: Biomassa seca de folhas (kg)
+- AGB: Somatório (Bcu, Bbr, Ble) 
+]
+]
+
+&lt;br&gt;
+
+.font70[**Fonte**: [Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment)
+]
+]
+
+.pull-left-15[
+&lt;img src="fig/class7/boo3.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.shadow1[
+### **Estratégias de Modelagem...**
+&lt;br&gt;
+.font80[
+- No dataset *Bambusa procera* de [Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment), estão disponíveis dados da Biomassa Aérea Total (do inglês, *Above-Ground Biomass - AGB*). Neste caso, a AGB foi determinada pelo somatório da biomassa (massa seca) de folhas, galhos e colmo.
+- É possível "pensar" em algumas estratégias de modelagem: **1) Modelagem por componentes**; e 2) **Modelagem por compartimento**.
+- Por exemplo, poderíamos desenvolver modelos específicos para a predição da biomassa de folhas (Ble), galhos (Bbr) ou colmo (Bcu), e também um modelo para predizer a biomassa aérea total (AGB = Bcu + Bbr + Ble).
+]
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.shadow1[
+### **Modelo Para Predizer a Biomassa Aérea Total**
+&lt;br&gt;
+.font80[
+- Vamos ajustar um modelo para predizer a AGB da espécie *Bambusa procera*.
+- Para tanto, inicialmente, vamos admitir o modelo mais simples: `\(AGB = \beta_0 + \beta_1d\)` (modelo linear).
+- O modelo `\((AGB = \beta_0 + \beta_1d)\)` usa o diâmetro (D) dos colmos como variável preditora/independente, e a `\(AGB\)` é a variável resposta/dependente.
+- Portanto, para ajustar o modelo são necessárias apenas as variáveis: `\(d\)` e `\(AGB\)`.
+]
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
+
+.pull-left-2[
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+&lt;br&gt;
+
+&lt;img src="fig/class7/tab1.png" width="80%" style="display: block; margin: auto auto auto 0;" /&gt;
+]
+
+--
+
+.pull-right-1[
+&lt;br&gt;&lt;br&gt;
+.center[**1) Estimativa do Parâmetro β₁**:]
+
+&lt;img src="fig/class7/beta1.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+.center[**2) Estimativa do Parâmetro β₀**:]
+
+$$
+`\begin{equation*}
+\beta_0 = \bar{Y} - \beta_1\bar{X}
+\end{equation*}`
+$$
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
+
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+&lt;br&gt;
+
+&lt;img src="fig/class7/tab3.png" width="75%" style="display: block; margin: auto auto auto 0;" /&gt;
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
+
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+&lt;br&gt;
+
+&lt;img src="fig/class7/tab4.png" width="90%" style="display: block; margin: auto auto auto 0;" /&gt;
+
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
+
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+&lt;br&gt;
+
+&lt;img src="fig/class7/tab5.png" width="100%" style="display: block; margin: auto auto auto 0;" /&gt;
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
+
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+&lt;br&gt;
+
+.pull-left-1[
+$$
+`\begin{equation*}
+n = 83 \\
+\sum_{i=1}^{n}X_i = 514,8 \\
+\sum_{i=1}^{n}Y_i = 886,89 \\
+\sum_{i=1}^{n}X_iY_1 = 6022,813 \\
+\sum_{i=1}^{n}X_i^2 = 3329,08 \\
+\bar{Y} = 10,69 \\
+\bar{X} = 6,20
+\end{equation*}`
+$$
+]
+
+.pull-right-2[
+
+.center[**1) Estimativa do Parâmetro β₁**:]
+
+$$
+`\begin{equation*}
+\beta_1 = \dfrac{83(6022,813)-(514,8)(886,89)}{83(3329,08)-(514,8)^2} \approx \color{blue}{3,8357}
+\end{equation*}`
+$$
+
+&lt;br&gt;&lt;br&gt;
+
+.center[**2) Estimativa do Parâmetro β₀**:]
+
+$$
+`\begin{equation*}
+\beta_0 = \bar{Y} - \beta_1\bar{X} = 10,69 - 3,8357(6,20) = \color{blue}{-13,0913}
+\end{equation*}`
+$$
+
+&lt;br&gt;
+
+**Modelo ajustado**: `\(\color{blue}{AGB = -13,0913 + 3,8357d}\)`
+
+]
+
 ---
 
 ## Ajuste de Modelo de Predição da Biomassa
@@ -850,13 +1141,10 @@ Para efeito de utilização do modelo ajustado, considere 10 indivíduos da esp�
 .font90[
 .pull-right-1[
 
-<div id="htmlwidget-5e1b96ef2a53c890a8ea" style="width:180px;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-5e1b96ef2a53c890a8ea">{"x":{"filter":"none","caption":"<caption><\/caption>","editable":{"target":"cell","disable":{"columns":null}},"data":[[1,2,3,4,5,6,7,8,9,10],[4,4.4,5.2,5.4,6.1,6.5,7.6,8.5,8.6,9.3]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>ID<\/th>\n      <th>D<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":20,"dom":"t","autoWidth":false,"initComplete":"function(settings, json) {\n$(this.api().table().container()).css({'font-size': '14pt'});\n}","columnDefs":[{"className":"dt-right","targets":[0,1]}],"order":[],"orderClasses":false,"lengthMenu":[10,20,25,50,100]}},"evals":["options.initComplete"],"jsHooks":[]}</script>
+<div id="htmlwidget-1e45dddfc83c73766941" style="width:180px;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1e45dddfc83c73766941">{"x":{"filter":"none","caption":"<caption><\/caption>","editable":{"target":"cell","disable":{"columns":null}},"data":[[1,2,3,4,5,6,7,8,9,10],[4,4.4,5.2,5.4,6.1,6.5,7.6,8.5,8.6,9.3]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>ID<\/th>\n      <th>D<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":20,"dom":"t","autoWidth":false,"initComplete":"function(settings, json) {\n$(this.api().table().container()).css({'font-size': '14pt'});\n}","columnDefs":[{"className":"dt-right","targets":[0,1]}],"order":[],"orderClasses":false,"lengthMenu":[10,20,25,50,100]}},"evals":["options.initComplete"],"jsHooks":[]}</script>
 ]
 ]
-
----
-
 
 ---
 
