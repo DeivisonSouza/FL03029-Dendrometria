@@ -310,7 +310,10 @@ name: cbf
 ## Componentes da biomassa florestal
 <br>
 
-
+```{r, echo=FALSE, out.width='65%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class7/bioflor.png')
+```
+.font80[**Fonte**: Slides de aula (Machado e Pelissari)]
 ---
 name: ibf
 ## Biomassa Florestal: Importância
@@ -522,6 +525,25 @@ $$
 
 ]
 ]
+
+---
+
+## Modelos Alométricos Para Predição da Biomassa
+
+.pull-left-2[
+```{r, echo=FALSE, out.width='95%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics('fig/class7/modelos.png')
+```
+]
+
+.pull-right-1[
+<br><br>
+.font70[
+Em que: Y = biomassa ou carbono acumulado (kg); DAP = diâmetro medido a 1,30 m do solo, em cm; Hf= altura comercial do fuste, em metros; Db= densidade básica. Ln = logaritmo neperiano; Log = logaritmo na base 10; 𝛽0,𝛽1,𝛽2,𝛽3,𝛽4 = coeficientes da regressão; e εi = termo de erro aleatório.Fonte: Modelos 1, 2, 3 e 9 (Giongo et al., 2011); Modelos 4, 5, 6,7,20 e 21 (Brown et al., 1989); Modelo 8 (Higuchi et al., 1998); Modelos 10, 11, 12, 13, 14 e 15 (Amaro, 2010); Modelos 16, 17 e 18 (Mate et al.,
+2014); Modelo 19 (Chave et al., 2005).
+]
+]
+
 
 <!-- Slide XX -->
 ---
