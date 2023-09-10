@@ -6,10 +6,10 @@
 
 # Seja bem vindo(a)! :deciduous_tree: :smiley: :grin:
 
-:calendar: **Setembro: 5 a 10 (semana 1) e 12 a 17 (semana 2) - (Ano
-2022)**
+:calendar: **Setembro: 11 a 16 (semana 1) e 18 a 23 (semana 2) - (Ano
+2023)**
 
-:alarm_clock: **14h00min - 19h00min**
+:alarm_clock: **07h30min - 12h30min**
 
 <div itemscope="" itemtype="https://schema.org/Person">
 
@@ -35,15 +35,13 @@ figuras, conjunto de dados (e outros) utilizados na disciplina de
 **Dendrometria** (FL03029) ministrada pelo **Prof. Deivison Venicio
 Souza** no curso de graduação em **Engenharia Florestal** da
 **Universidade Federal do Pará** (UFPA). O curso será ofertado na
-modalidade de Ensino Híbrido no âmbito do **Ensino Remoto Emergencial
-(ERE)** na [Universidade Federal do Pará
-(UFPA)](https://portal.ufpa.br/index.php), conforme dispõe a [Resolução
-n. 5.294, de 21 de agosto de
-2020](http://sege.ufpa.br/boletim_interno/downloads/resolucoes/consepe/2020/Resolucao_5294_2020_CONSEPE.pdf)
-e em consonância à [Resolução n. 5.332, de 22 de dezembro de
-2020](http://sege.ufpa.br/boletim_interno/downloads/resolucoes/consepe/2020/5332%20Aprova%20o%20calendario%20academico%20para%20o%20ano%20letivo%20de%202021.pdf),
+**modalidade presencial**, conforme dispõe a [Resolução n. 5.453, de 14
+de dezembro de
+2021](https://sege.ufpa.br/boletim_interno/downloads/resolucoes/consepe/2021/5453%20Aprova%20a%20Resolu%C3%A7%C3%A3o%20sobre%20o%20retorno%20das%20Atividades%20Presenciais.pdf)
+e em consonância à [Resolução n. 5.550, de 25 de agosto de
+2022](https://sege.ufpa.br/boletim_interno/downloads/resolucoes/consepe/2022/5550%20Resolu%C3%A7%C3%A3o%20Calend%C3%A1rio%20Acad%C3%AAmico%202023.pdf),
 que aprovou o Calendário Acadêmico da Universidade Federal do Pará para
-o ano de 2021.
+o ano de 2023.
 
 # Programação da disciplina
 
@@ -76,8 +74,15 @@ Dendrometria, Experimentação Florestal e Inventário Florestal,
 integrantes do desenho curricular do Curso de Graduação em Engenharia
 Florestal. Tem experiência na área de Gestão e Manejo dos Recursos
 Florestais, com ênfase em Silvicultura de Florestas Naturais, Inventário
-Florestal e Mensuração Florestal. Atualmente, seus interesses
-científicos incluem o uso da inteligência artificial na conservação da
-biodiversidade (com ênfase no uso de visão computacional) e emprego de
-técnicas de aprendizado de máquina na modelagem preditiva de variáveis
-biométricas, com uso das Linguagens R e Python.
+Florestal e Mensuração Florestal. Atualmente, é docente permanente do
+Programa de Pós-Graduação em Biodiversidade e Conservação (PPGBC) da
+Universidade Federal do Pará (UFPA)/Campus Altamira, responsável pela
+disciplina Estatística Computacional. Seus interesses científicos
+incluem o uso da inteligência artificial e visão computacional na
+conservação da biodiversidade (com ênfase na flora Amazônica explorada
+comercialmente) e emprego de técnicas de aprendizado de máquina na
+modelagem preditiva de variáveis biométricas, com uso das Linguagens R e
+Python. Além disso, tem atuado em projetos sustentáveis com ênfase em
+inventário e manejo florestal de produtos não madeireiros, estruturação
+e fortalecimento de cadeias produtivas da sociobiodiversidade, com
+atuação em comunidades indígenas.
