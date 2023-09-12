@@ -9,7 +9,7 @@
 :calendar: **Setembro: 11 a 16 (semana 1) e 18 a 23 (semana 2) - (Ano
 2023)**
 
-:alarm_clock: **07h30min - 12h30min**
+:alarm_clock: **13h30min - 18h00min**
 
 <div itemscope="" itemtype="https://schema.org/Person">
 
