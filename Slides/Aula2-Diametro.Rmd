@@ -386,7 +386,7 @@ $d$: diâmetro medido à 1,30 m do solo.
 --
 
 .pull-left-2[
-```{r tb1, echo=F, eval=T, dpi=600, fig.width=1, fig.height=.6}
+```{r tb1, echo=F, eval=T, dpi=600, fig.width=1, fig.height=.55}
 library(dplyr)
 library(ggplot2)
 library(plotly)
@@ -402,7 +402,7 @@ h1 <- data %>%
                  col="red",
                  fill="green",
                  alpha = .2) +
-  labs(title = "Distribuição Diamétrica \n(Vouacapoua americana Aubl.)",
+  labs(title = "Distribuição Diamétrica \n (Vouacapoua americana Aubl.)",
        subtitle = "") +
   scale_x_continuous(breaks=seq(30, 120, by=10),
                      limits=c(30, 120),
@@ -412,7 +412,7 @@ h1 <- data %>%
                      name="Número de Indivíduos") +
   theme_bw() +
   theme(panel.border=element_rect(color="black"),
-        plot.title = element_text(hjust = 0),
+        plot.title = element_text(hjust = 0.5),
         plot.subtitle = element_text(hjust = 0.5, face = 'italic'))
 
 
