@@ -386,7 +386,7 @@ $d$: diâmetro medido à 1,30 m do solo.
 --
 
 .pull-left-2[
-```{r tb1, echo=F, eval=T, dpi=600, fig.width=1, fig.height=.55}
+```{r tb1, echo=F, eval=T, dpi=600, fig.width=1, fig.height=.5}
 library(dplyr)
 library(ggplot2)
 library(plotly)
