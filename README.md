@@ -86,3 +86,8 @@ Python. Além disso, tem atuado em projetos sustentáveis com ênfase em
 inventário e manejo florestal de produtos não madeireiros, estruturação
 e fortalecimento de cadeias produtivas da sociobiodiversidade, com
 atuação em comunidades indígenas.
+
+<div>
+<img src="Slides/fig/slide-title/Foto.jpeg" width="300" align="middle" class="center">
+<div>
+&#10;
