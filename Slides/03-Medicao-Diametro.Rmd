@@ -84,6 +84,7 @@ CustomDT <- function(data){
 #download_simple_icons()
 ```
 
+<!-- title-slide -->
 # .font120[Dendrometria <br> (FL03029 - EF)]
 
 ## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Medição de Diâmetros `r anicon::faa("pagelines", animate="horizontal", colour="green")` <br> de Árvores
