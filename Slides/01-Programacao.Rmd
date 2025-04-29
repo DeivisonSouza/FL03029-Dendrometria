@@ -80,7 +80,7 @@ use_logo(
 ---
 layout: true
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Experimentação Florestal (FL03034 - EF) - Cronograma da disciplina</div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029 - EF) - Programação e Orientações </div>
 
 ---
 
@@ -181,20 +181,10 @@ Email: deivisonvs@ufpa.br
 (Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas)
 ]
 
-<!-- Slide 2 -->
 ---
 
-## Cronograma .black[.font80[(**Horário: 08h00min - 12h30min**)]]
+## Ementa da disciplina (FL03029)
 <br>
-
-```{r, echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class0/Setembro.jpg")
-```
-
----
-
-## Ementa da disciplina (FL03029).
-
 .shadow2[
 <br>
 1 - Introdução à Dendrometria
@@ -214,6 +204,56 @@ knitr::include_graphics("fig/class0/Setembro.jpg")
 8 - Método de Bitterlich - Relascopia 
 
 ]
+
+<!-- Slide 2 -->
+---
+
+## Cronograma .black[.font80[(**Horário: 08h00min - 12h30min**)]]
+<br>
+
+```{r, echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class0/Abril.png")
+```
+
+<!-- Slide 2 -->
+---
+
+## Cronograma .black[.font80[(**Horário: 08h00min - 12h30min**)]]
+<br>
+
+```{r, echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class0/Maio.png")
+```
+
+<!-- Slide 2 -->
+---
+
+## Cronograma .black[.font80[(**Horário: 08h00min - 12h30min**)]]
+<br>
+
+```{r, echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class0/Junho.png")
+```
+
+<!-- Slide 2 -->
+---
+
+## Cronograma .black[.font80[(**Horário: 08h00min - 12h30min**)]]
+<br>
+
+```{r, echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class0/Julho.png")
+```
+
+<!-- Slide 2 -->
+---
+
+## Cronograma .black[.font80[(**Horário: 08h00min - 12h30min**)]]
+<br>
+
+```{r, echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/class0/Agosto.png")
+```
 
 <!-- Slide 7 -->
 ---
