@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Dendrometria (FL03029)</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Prof. Dr. Deivison Venicio Souza" />
+    <script src="07-Medicao-Biomassa-Carbono_files/header-attrs-2.29/header-attrs.js"></script>
+    <link href="07-Medicao-Biomassa-Carbono_files/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="07-Medicao-Biomassa-Carbono_files/font-awesome-animation-1.0/font-awesome-animation-emi.css" rel="stylesheet" />
+    <script src="07-Medicao-Biomassa-Carbono_files/fontawesome-5.0.13/js/fontawesome-all.min.js"></script>
+    <script src="07-Medicao-Biomassa-Carbono_files/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+    <link href="07-Medicao-Biomassa-Carbono_files/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+    <script src="07-Medicao-Biomassa-Carbono_files/datatables-binding-0.33/datatables.js"></script>
+    <script src="07-Medicao-Biomassa-Carbono_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+    <link href="07-Medicao-Biomassa-Carbono_files/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="07-Medicao-Biomassa-Carbono_files/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet" />
+    <script src="07-Medicao-Biomassa-Carbono_files/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+    <link href="07-Medicao-Biomassa-Carbono_files/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet" />
+    <script src="07-Medicao-Biomassa-Carbono_files/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        TeX: { equationNumbers: { autoNumber: "AMS" } },
+      });
+    </script>
+    <style>
+    .mjx-mrow a {
+      color: black;
+      pointer-events: none;
+      cursor: default;
+    }
+    </style>
+    <link rel="stylesheet" href="assets/sydney-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="assets/slide-title/sydney-title.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+class: title-slide, center, middle
+background-image: url(fig/slide-title/ufpa2.png), url(fig/slide-title/forest.png), url(fig/slide-title/img3.png)
+background-position: 84% 90%, 95% 90%
+background-size: 220px, 90px, cover
+
+
+
+
+
+<div>
+<style type="text/css">.xaringan-extra-logo {
+width: 140px;
+height: 140px;
+z-index: 0;
+background-image: url(fig/slide-title/ufpa.png);
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+top:.8em;right:-.5em;
+}
+</style>
+<script>(function () {
+  let tries = 0
+  function addLogo () {
+    if (typeof slideshow === 'undefined') {
+      tries += 1
+      if (tries < 10) {
+        setTimeout(addLogo, 100)
+      }
+    } else {
+      document.querySelectorAll('.remark-slide-content:not(.title-slide):not(.inverse):not(.hide_logo)')
+        .forEach(function (slide) {
+          const logo = document.createElement('div')
+          logo.classList = 'xaringan-extra-logo'
+          logo.href = null
+          slide.appendChild(logo)
+        })
+    }
+  }
+  document.addEventListener('DOMContentLoaded', addLogo)
+})()</script>
+</div>
+
+
+
+
+
+&lt;!-- title-slide --&gt;
+# Dendrometria &lt;br&gt; (FL03029)
+&lt;br&gt;
+## <span>&lt;i class="fab  fa-pagelines faa-horizontal animated " style=" color:green;"&gt;&lt;/i&gt;</span> Biomassa Florestal <span>&lt;i class="fab  fa-pagelines faa-horizontal animated " style=" color:green;"&gt;&lt;/i&gt;</span>
+
+#### **Prof. Dr. Deivison Venicio Souza**
+##### Universidade Federal do Pará (UFPA) 
+##### Faculdade de Engenharia Florestal
+##### E-mail: deivisonvs@ufpa.br
+&lt;br&gt;
+##### 1ª versão: 03/setembro/2022 &lt;br&gt; (Atualizado em: 29/abril/2025) &lt;br&gt; Altamira, Pará
+
+---
+layout: true
+&lt;div class="my-header"&gt;&lt;/div&gt;
+&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;Dendrometria (FL03029) - Biomassa Florestal&lt;/div&gt;
+
+---
+
+## Ementa da disciplina (FL03039 - IF)
+&lt;br&gt;
+
+.pull-left-3[
+.shadow3[
+1 - Introdução à Dendrometria
+
+2 - Medição de Diâmetros de Árvores
+
+3 - Medição de Alturas de Árvores
+
+4 - Relação Hipsométrica
+
+5 - Estudo da Forma do Tronco das Árvores
+
+6 - Volume de Árvores (Métodos de Cubagem)
+
+**7 - Biomassa e Carbono Florestal**
+
+8 - Método de Bitterlich - Relascopia
+
+]
+]
+
+---
+
+## Objetivos
+&lt;br&gt;&lt;br&gt;
+Ao final desta aula espera-se que o discente seja capaz de...
+
+.font90[
+* Compreender os conceitos básicos associados ao estudo de biomassa e carbono;
+* Compreender a importância de determinar (ou estimar) o estoque de biomassa e carbono em ecossistemas florestais;
+* Conhecer os principais reservatórios de biomassa e carbono em ecossistemas florestais;
+* Compreender os fatores que afetam a produção de biomassa florestal;
+* Conhecer os principais métodos de determinação e estimativa da biomassa e carbono florestal;
+* Conhecer algumas modelos tradicionais usados na modelagem da biomassa e carbono; e
+* Aprender a ajustar um modelo linear para predição da biomassa.
+]
+
+---
+
+## Conteúdo
+
+.pull-left[
+.pull-top[
+**Parte 1 - A Biomassa Florestal**
+.font90[
+
+[1 - Conceitos](#con)
+
+[2 - Importância da Biomassa Florestal](#ibf)
+
+[3 - Compartimentação da Biomassa da Árvore](#cba)
+
+[4 - Métodos de Quantificação da Biomassa Vegetal](#mqb)
+
+&amp;nbsp;&amp;nbsp;[4.1 - Métodos Destrutivos](#md)
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[4.1.1 - Gravimétrico](#g)
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[4.1.2 - Volumétrico](#v)
+
+&lt;!--
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[4.1.1 - Árvores Individuais](#ai)
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[4.1.2 - Parcelas de Amostragem](#pa)
+--&gt;
+
+&amp;nbsp;&amp;nbsp;[4.2 - Métodos Não Destrutivos](#mi)
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[4.2.1 - Equações de Biomassa](#eb)
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[4.2.2 - Fatores de Expansão de Biomassa](#feb)
+
+[5 - Estudo de Caso: Ajuste de Modelo de Predição da Biomassa (*Bambusa procera*)](#ecmbat)
+
+]
+]
+]
+
+&lt;!--
+.pull-right[
+.pull-top[
+**Parte 2 - O Carbono Florestal**
+.font90[
+
+[1 - Conceitos](#con)
+
+[2 - Reservatórios de Carbono na Floresta](#rcf)
+
+[3 - Conversão da Biomassa em Carbono](#cbc)
+
+]
+]
+]
+--&gt;
+
+&lt;!-- Slide XX --&gt;
+---
+layout: false
+class: inverse, middle, center
+background-image: url(fig/class1/sec.png)
+background-size: cover
+
+.white[.font200[**Biomassa Florestal:**] &lt;br&gt; .font150[Conceito, Importância, Componentes e Métodos]]
+
+---
+layout: true
+&lt;div class="my-header"&gt;&lt;/div&gt;
+&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;Dendrometria (FL03029) - Biomassa Florestal/Parte 1: A Biomassa Florestal&lt;/div&gt;
+
+---
+name: conc
+## Conceitos
+
+.shadow1[
+### Biomassa (Higa et al., 2014)
+.font90[
+- **Biomassa**: refere-se ao total de .blue[matéria orgânica], .blue[morta ou viva], presente .blue[acima e abaixo do solo], existente nos organismos (.blue[animais ou vegetais]) de uma comunidade qualquer.
+
+]
+]
+
+--
+
+.shadow1[
+### Biomassa Florestal ou Fitomassa (Sanquetta et al., 2002)
+.font90[
+- **Biomassa florestal**:refere-se à .blue[matéria biológica vegetal], .blue[viva ou morta], existente na  floresta  ou  apenas  na  fração  arbórea.
+- **Fitomassa** é uma sinonímia para **biomassa florestal**.
+]
+]
+
+&lt;br&gt;
+
+.font80[
+**Matéria orgânica**: é o conjunto de compostos químicos formados por moléculas orgânicas encontradas em ambientes naturais, sejam terrestres ou aquáticos. (Fonte: [pt.wikipedia.org](https://pt.wikipedia.org/wiki/Mat%C3%A9ria_org%C3%A2nica))
+]
+
+---
+
+## Conceitos
+
+.shadow1[
+### Biomassa ≠ Massa (Batista et al., 2014)
+&lt;br&gt;
+.font90[
+- **Massa**: Refere-se a massa de um objeto/componente obtida pela .blue[medição direta] deste por meio de .blue[pesagem] (usando uma balança, por exemplo). &lt;br&gt;&lt;br&gt; <span>&lt;i class="fas  fa-hand-point-right faa-horizontal animated " style=" color:orange;"&gt;&lt;/i&gt;</span> **Massa Úmida** (ou **Peso Úmido**)&lt;br&gt;&lt;br&gt;
+- **Biomassa**: Refere-se a .blue[massa] de um objeto/componente, .blue[excluindo-se a água]. &lt;br&gt;&lt;br&gt; <span>&lt;i class="fas  fa-hand-point-right faa-horizontal animated " style=" color:orange;"&gt;&lt;/i&gt;</span> **Massa Seca** (ou **Peso Seco**)
+
+]
+]
+
+---
+
+## Conceitos
+
+.shadow1[
+### Biomassa da árvore (Batista et al., 2014)
+
+- **Biomassa da árvore**: refere-se à .blue[massa dos componentes da árvore], .blue[excluindo-se a água]. Ou seja, diz respeito à massa seca destes componentes.
+
+.center[.blue[**Biomassa da árvore**] = .blue[**Massa seca da árvore**]]
+
+]
+
+--
+
+.shadow1[
+### Biomassa é uma medida indireta... (Batista et al., 2014)
+.font90[
+- Na prática, a .blue[massa ou peso (úmido)] da árvore (e de seus componentes) é uma .blue[medida direta], alcançada por pesagem, após derruba desta em campo.
+- No entanto, a .blue[biomassa] da árvore é uma .blue[medida indireta], ou seja, é obtida a partir de outras medidas tomadas diretamente da árvore (ou seja, a partir das medidas de massa úmida).
+]
+]
+
+--
+
+.font80[
+**Biomassa lenhosa**: refere-se à massa da substância madeira (mais casca) de uma árvore. <span>&lt;i class="fas  fa-hand-point-right faa-horizontal animated " style=" color:orange;"&gt;&lt;/i&gt;</span> **Massa Seca do Lenho** (sem água).
+]
+
+---
+name: cba
+## Compartimentação da biomassa da árvore
+&lt;br&gt;
+
+&lt;img src="fig/class7/Henry_2011.png" width="70%" style="display: block; margin: auto;" /&gt;
+.font80[**Fonte**: [Henry et al. (2011)](https://hal.inrae.fr/hal-02651041/document)]
+
+---
+
+## Compartimentação da biomassa da árvore
+&lt;br&gt;
+
+&lt;img src="fig/class7/bio1.png" width="85%" style="display: block; margin: auto;" /&gt;
+
+---
+name: cbf
+## Componentes da biomassa florestal
+&lt;br&gt;
+
+&lt;img src="fig/class7/bioflor.png" width="65%" style="display: block; margin: auto;" /&gt;
+.font80[**Fonte**: Slides de aula (Machado e Pelissari)]
+---
+name: ibf
+## Biomassa Florestal: Importância
+
+.shadow1[
+### Por que quantificar a biomassa florestal?
+&lt;br&gt;
+.font90[
+
+**1)** As florestas estão dentre os ecossistemas terrestres que apresentam maior quantidade de biomassa por unidade de área.
+
+**2)** A maior parte da biomassa florestal é representada pelas árvores constituintes do dossel da floresta.
+
+**3)** A biomassa está relacionada aos estoques de macro e micronutrientes da vegetação (.magenta[Higuchi et al., 1998]). Portanto, subsidia a quantificação da ciclagem de nutrientes (.magenta[Silveira et al., 2008]).
+
+**4)** Subsidia estudos relacionados ao **Estoque e Dinâmica de Carbono (C)** nos ecossistemas florestais `\(\rightarrow\)` **Mudanças Climáticas**
+
+**5)** Contribui para compreensão de índices de produtividade e analisar o
+crescimento em um determinado sítio.
+
+]
+]
+
+---
+name: qbva
+## Métodos de Quantificação da Biomassa Vegetal
+
+.shadow1[
+### Métodos Destrutivos vs Métodos Não Destrutivos
+&lt;br&gt;
+.font90[
+**Métodos Destrutivos**:
+- Dois métodos: Gravimétrico e Volumétrico
+- Na prática, ambos implicam na derruba do vegetal para pesagem ou cubagem. Por isso, são destrutivos.
+- Implicam em determinações, pois as medidas tomadas diretamente em campo, são usadas para determinar a biomassa.
+- Análises de laboratórios são exigidas para determinação (em amostras) do teor de umidade ou densidade básica da madeira.
+
+**Métodos Não Destrutivos**: 
+- Implicam no uso de modelos de regressão, técnicas de sensoriamento remoto, outros.
+]
+]
+
+---
+
+## Métodos de Quantificação da Biomassa Vegetal
+
+.shadow1[
+### .font80[Métodos Destrutivos: Gravimétrico x Volumétrico (Batista et al., 2014)]
+&lt;br&gt;
+.font90[
+**Gravimétrico**: 
+
+- A biomassa é obtida com base em medidas da .blue[*massa verde*], determinada após derruba do vegetal/árvore em campo, e do .blue[*teor de umidade*] de amostras, determinado em laboratório.
+
+**Volumétrico**: 
+- A biomassa é obtida com base no volume, obtido por cubagem rigorosa, após derruba do vegetal/árvore em campo, e da .blue[*densidade básica da madeira*] em amostras, determinada em laboratório. (**Ideal**: Árvores/galhos de grande porte)
+]
+]
+
+---
+name: qbf
+## Métodos de Quantificação da Biomassa Vegetal
+
+.shadow1[
+### Determinação da biomassa em campo: Gravimétrico
+]
+
+&lt;img src="fig/class7/bio2.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
+
+## Métodos de Quantificação da Biomassa Vegetal
+
+.shadow1[
+### .font80[Determinação do Teor de Umidade (Batista et al., 2014)]
+.font90[
+- No método gravimétrico, é necessário a determinação do teor de umidade em amostras dos componentes da árvore/vegetal.
+- O teor de umidade é obtido pela seguinte fórmula:
+]&lt;br&gt;
+
+$$
+`\begin{equation*}
+u_{\%} = \dfrac{m_v - m_s}{m_v}*100
+\end{equation*}`
+$$
+
+.font90[
+Em que: `\(m_v\)` = massa verde da amostra; `\(m_s\)` = massa seca da amostra.
+
+- A .blue[*massa verde*] da amostra é determinada em campo (balança de precisão).
+- A .blue[*massa seca*] da amostra é determinada em laboratório (estufa de circulação forçada).
+]
+]
+
+---
+
+## Métodos de Quantificação da Biomassa Vegetal
+
+.shadow1[
+### .font80[Determinação do Teor de Umidade (Batista et al., 2014)]
+&lt;br&gt;
+.font90[
+**Sobre a amostragem dos componentes:**
+
+- **Menor Massa** (galhos finos, folhas, raízes finas): Amostra aleatória de `\(\approx 300 g\)`.
+- **Lenho (fuste)**: Retirar discos (5 cm espessura) em 5 posições relativas do tronco (Por exemplo: 0%, 25%, 50%, 75%, 100% da altura total)
+&lt;br&gt;
+
+**Em laboratório:**
+- As amostras (folhas, galhos, raízes, etc.) são colocadas em estufa de circulação forçada à temperatura constante de 103°C, até atingir peso constante. Na prática, o .blue[*peso contante*] = .blue[*massa seca da amostra*] - `\(m_s\)`.
+- **Discos**: o teor de umidade é determinado para cada disco, usando-se a média com teor de umidade representativo do lenho.
+
+]
+]
+
+---
+
+## Métodos de Quantificação da Biomassa Vegetal
+
+.shadow1[
+### .font80[Cálculo da biomassa - Método Gravimétrico (Batista et al., 2014)]
+
+.font90[
+- Determinada a .blue[*massa verde*] em campo (de cada componente) e o .blue[teor de umidade] das amostras em laboratório, a biomassa dos componentes da árvore pode ser calculada por: &lt;br&gt;
+
+$$
+`\begin{equation*}
+b_L = m_L\left(1 -\dfrac{u_{L\%}}{100}\right) \rightarrow Biomassa~do~Lenho \\~\\
+b_R = m_R\left(1 -\dfrac{u_{R\%}}{100}\right) \rightarrow Biomassa~de~Ramos \\~\\
+b_F = m_F\left(1 -\dfrac{u_{F\%}}{100}\right) \rightarrow Biomassa~de~Folhas \\~\\
+ba = b_L + b_R + b_F \rightarrow Biomassa~Aérea
+\end{equation*}`
+$$
+Em que: `\(b_L\)`, `\(b_R\)` e `\(b_F\)`: biomassa do lenho, ramos e folhas, respectivamente, em kg; `\(m_L\)`, `\(m_R\)` e `\(m_F\)`: massa verde do lenho, ramos e folhas, respectivamente, em kg; e `\(u_{L\%}\)`, `\(u_{R\%}\)` e `\(u_{F\%}\)`: teor de umidade do lenho, ramos e folhas, respectivamente.
+
+
+]
+]
+
+---
+
+## Métodos de Quantificação da Biomassa Vegetal
+
+.shadow1[
+### .font80[Exercício Prático - Cálculo da Biomassa (Batista et al., 2014)]
+
+- 1) Utilizando as informações apresentadas na tabela abaixo, encontre a **Biomassa do Lenho** da árvore por meio do **Método Gravimétrico**: (Batista et al., 2014; pg. 82)
+]
+
+.pull-left-15[
+&lt;img src="fig/class7/tab-Batista.png" width="90%" style="display: block; margin: auto;" /&gt;
+.font80[**Fonte**: Batista et al., 2014]
+]
+
+.pull-right-14[
+.shadow3[
+.font90[
+Informações dos discos do tronco tomados como amostra na determinação da biomassa lenhosa de uma árvore. Informações da árvore: espécie ipê-felpudo (*Zeyhera tuberculosa* (Vell.) Bureau, Bignoneaceae), DAP = 28 cm; Altura total = 16 m; Volume do lenho: 550 `\(dm^3\)`; Massa verde do lenho = 435,5 kg.
+]
+]
+]
+
+---
+
+## Métodos de Quantificação da Biomassa Vegetal
+
+.shadow1[
+### .font80[Exercício Prático - Cálculo da Biomassa (Batista et al., 2014)]
+.font90[
+- **Passo 1**: Encontrar o .blue[teor de umidade] de cada disco de madeira, na sequência obter a média.
+
+$$
+`\begin{equation*}
+u_{\%} = \dfrac{m_v - m_s}{m_v}*100
+\end{equation*}`
+$$
+
+.font90[
+Em que: `\(m_v\)` = massa verde da amostra; `\(m_s\)` = massa seca da amostra.
+]
+]
+]
+
+&lt;img src="fig/class7/tab-Batista2.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+---
+
+## Métodos de Quantificação da Biomassa Vegetal
+
+.shadow1[
+### .font80[Exercício Prático - Cálculo da Biomassa (Batista et al., 2014)]
+.font90[
+- **Passo 2**: Aplicar a equação para determinar a biomassa, em função da .blue[massa verde do lenho] e .blue[teor de umidade médio] do lenho. (**Lembre-se**: Massa verde do lenho = 435,5 kg)
+
+$$
+\Large
+`\begin{equation*}
+b_L = m_L\left(1 -\dfrac{u_{L\%}}{100}\right) \\~\\
+b_L = 435,5\left(1 -\dfrac{47,48}{100}\right) = \color{blue}{228,72~kg}
+\end{equation*}`
+$$
+
+
+]
+]
+
+---
+
+## Modelos Alométricos Para Predição da Biomassa
+
+.pull-left-2[
+&lt;img src="fig/class7/modelos.png" width="95%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right-1[
+&lt;br&gt;&lt;br&gt;
+.font70[
+Em que: Y = biomassa ou carbono acumulado (kg); DAP = diâmetro medido a 1,30 m do solo, em cm; Hf= altura comercial do fuste, em metros; Db= densidade básica. Ln = logaritmo neperiano; Log = logaritmo na base 10; 𝛽0,𝛽1,𝛽2,𝛽3,𝛽4 = coeficientes da regressão; e εi = termo de erro aleatório.Fonte: Modelos 1, 2, 3 e 9 (Giongo et al., 2011); Modelos 4, 5, 6,7,20 e 21 (Brown et al., 1989); Modelo 8 (Higuchi et al., 1998); Modelos 10, 11, 12, 13, 14 e 15 (Amaro, 2010); Modelos 16, 17 e 18 (Mate et al.,
+2014); Modelo 19 (Chave et al., 2005).
+]
+]
+
+
+&lt;!-- Slide XX --&gt;
+---
+layout: false
+class: inverse, middle, center
+background-image: url(fig/class1/sec.png)
+background-size: cover
+
+.white[.font200[**Estudo de Caso**] &lt;br&gt; .font150[Ajuste de Modelo de Predição da Biomassa &lt;br&gt; (*Bambusa procera*)]]
+
+---
+layout: true
+&lt;div class="my-header"&gt;&lt;/div&gt;
+&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;Dendrometria (FL03029) - Biomassa Florestal/Parte 1: A Biomassa Florestal&lt;/div&gt;
+
+---
+name: ma
+## Ajuste de Modelo de Predição da Biomassa
+
+.shadow1[
+### Estudo de Caso I - *Bambusa procera* (Huy; Long, 2019)
+&lt;br&gt;
+.font90[
+Para ilustrar o procedimento de ajuste de um modelo de predição de biomassa, será usado um conjunto de dados disponível no **Anexo 1** do documento intitulado: **A manual for bamboo forest biomass and carbon assessment** ([Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment)). Tratam-se de dados de biomassa da espécie *Bambusa procera*. Estão disponíveis dados de 83 indivíduos e medidas de biomassa de diversos componentes (folhas, galhos, colmo, etc.).
+]
+]
+&lt;br&gt;
+
+.font90[
+**Conjunto de dados**
+
+- Espécie: *Bambusa procera*
+- número de observações: n = 83
+- Acesse os dados em planilha: [DataSet_Bambusa](https://github.com/DeivisonSouza/FL03029-Dendrometria/tree/master/Slides/Data/DataSet_Bambusa.csv)
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.pull-right-14[
+&lt;br&gt;
+
+.shadow3[
+#### .center[**Variáveis**]
+
+.font48[
+- Plot-Code: Código da Parcela
+- Plant-Code: Código da planta
+- X e Y: coordenadas
+- D, H e A: Diâmetro (cm), Altura e Idade (anos)
+- Bfcu: Biomassa fresca de colmos (kg)
+- Bfbr: Biomassa fresca de galhos (kg)
+- Bfle: Biomassa fresca de folhas (kg)
+- AGBf: Somatório (Bfcu, Bfbr, Bfle)
+- RatioBcu: Razão de massa fresca-seca de colmos
+- RatioBbr: Razão de massa fresca-seca de galhos
+- RatioBle: Razão de massa fresca-seca de folhas
+- Bcu: Biomassa seca de colmos (kg)
+- Bbr: Biomassa seca de galhos (kg)
+- Ble: Biomassa seca de folhas (kg)
+- AGB: Somatório (Bcu, Bbr, Ble) 
+]
+]
+
+&lt;br&gt;
+
+.font70[**Fonte**: [Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment)
+]
+]
+
+.pull-left-15[
+&lt;img src="fig/class7/boo1.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.pull-right-14[
+&lt;br&gt;
+
+.shadow3[
+#### .center[**Variáveis**]
+
+.font48[
+- Plot-Code: Código da Parcela
+- Plant-Code: Código da planta
+- X e Y: coordenadas
+- D, H e A: Diâmetro (cm), Altura e Idade (anos)
+- Bfcu: Biomassa fresca de colmos (kg)
+- Bfbr: Biomassa fresca de galhos (kg)
+- Bfle: Biomassa fresca de folhas (kg)
+- AGBf: Somatório (Bfcu, Bfbr, Bfle)
+- RatioBcu: Razão de massa fresca-seca de colmos
+- RatioBbr: Razão de massa fresca-seca de galhos
+- RatioBle: Razão de massa fresca-seca de folhas
+- Bcu: Biomassa seca de colmos (kg)
+- Bbr: Biomassa seca de galhos (kg)
+- Ble: Biomassa seca de folhas (kg)
+- AGB: Somatório (Bcu, Bbr, Ble) 
+]
+]
+
+&lt;br&gt;
+
+.font70[**Fonte**: [Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment)
+]
+]
+
+.pull-left-15[
+&lt;img src="fig/class7/boo2.png" width="92%" style="display: block; margin: auto;" /&gt;
+]
+
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.pull-right-14[
+&lt;br&gt;
+
+.shadow3[
+#### .center[**Variáveis**]
+
+.font48[
+- Plot-Code: Código da Parcela
+- Plant-Code: Código da planta
+- X e Y: coordenadas
+- D, H e A: Diâmetro (cm), Altura e Idade (anos)
+- Bfcu: Biomassa fresca de colmos (kg)
+- Bfbr: Biomassa fresca de galhos (kg)
+- Bfle: Biomassa fresca de folhas (kg)
+- AGBf: Somatório (Bfcu, Bfbr, Bfle)
+- RatioBcu: Razão de massa fresca-seca de colmos
+- RatioBbr: Razão de massa fresca-seca de galhos
+- RatioBle: Razão de massa fresca-seca de folhas
+- Bcu: Biomassa seca de colmos (kg)
+- Bbr: Biomassa seca de galhos (kg)
+- Ble: Biomassa seca de folhas (kg)
+- AGB: Somatório (Bcu, Bbr, Ble) 
+]
+]
+
+&lt;br&gt;
+
+.font70[**Fonte**: [Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment)
+]
+]
+
+.pull-left-15[
+&lt;img src="fig/class7/boo3.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.shadow1[
+### **Estratégias de Modelagem...**
+&lt;br&gt;
+.font80[
+- No dataset *Bambusa procera* de [Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment), estão disponíveis dados da Biomassa Aérea Total (do inglês, *Above-Ground Biomass - AGB*). Neste caso, a AGB foi determinada pelo somatório da biomassa (massa seca) de folhas, galhos e colmo.
+- É possível "pensar" em algumas estratégias de modelagem: **1) Modelagem por componentes**; e 2) **Modelagem por compartimento**.
+- Por exemplo, poderíamos desenvolver modelos específicos para a predição da biomassa de folhas (Ble), galhos (Bbr) ou colmo (Bcu), e também um modelo para predizer a biomassa aérea total (AGB = Bcu + Bbr + Ble).
+]
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.shadow1[
+### **Modelo Para Predizer a Biomassa Aérea Total**
+&lt;br&gt;
+.font80[
+- Vamos ajustar um modelo para predizer a AGB da espécie *Bambusa procera*.
+- Inicialmente, para fins de treinamento e intuição, vamos usar apenas os dados das .blue[primeiras 10 árvores].
+- Vamos admitir o modelo mais simples: `\(AGB = \beta_0 + \beta_1d\)` (modelo linear).
+- O modelo `\((AGB = \beta_0 + \beta_1d)\)` usa o diâmetro (d) dos colmos como variável preditora/independente, e a `\(AGB\)` é a variável resposta/dependente.
+- Portanto, para ajustar o modelo são necessárias apenas as variáveis: `\(d\)` e `\(AGB\)`.
+]
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.shadow1[
+### **Modelo de Regressão Linear Simples (RLS)**
+&lt;br&gt;
+.font80[
+**Método dos Mínimos Quadrados Ordinários (MQO)**: 
+
+- Ajustar modelos de regressão consiste em determinar as estimativas dos coeficientes da regressão. 
+- Em se tratando de modelos de RLS, os valores dos coeficientes da regressão podem ser obtidos pelo método dos Mínimos Quadrados Ordinários (MQO):
+
+.center[**1) Estimativa do Parâmetro β₁**:]
+
+&lt;img src="fig/class7/beta1.png" width="25%" style="display: block; margin: auto;" /&gt;
+
+.center[**2) Estimativa do Parâmetro β₀**:]
+
+$$
+`\begin{equation*}
+\beta_0 = \bar{Y} - \beta_1\bar{X}
+\end{equation*}`
+$$
+
+]
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
+
+.pull-left-2[
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+&lt;br&gt;
+
+&lt;img src="fig/class7/tab1-10.png" width="80%" style="display: block; margin: auto auto auto 0;" /&gt;
+]
+
+--
+
+.pull-right-1[
+&lt;br&gt;&lt;br&gt;
+.center[**1) Estimativa do Parâmetro β₁**:]
+
+&lt;img src="fig/class7/beta1.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+.center[**2) Estimativa do Parâmetro β₀**:]
+
+$$
+`\begin{equation*}
+\beta_0 = \bar{Y} - \beta_1\bar{X}
+\end{equation*}`
+$$
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
+
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+&lt;br&gt;
+
+&lt;img src="fig/class7/tab2-10.png" width="75%" style="display: block; margin: auto auto auto 0;" /&gt;
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
+
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+&lt;br&gt;
+
+&lt;img src="fig/class7/tab3-10.png" width="90%" style="display: block; margin: auto auto auto 0;" /&gt;
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
+
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+&lt;br&gt;
+
+&lt;img src="fig/class7/tab4-10.png" width="100%" style="display: block; margin: auto auto auto 0;" /&gt;
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
+
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+&lt;br&gt;
+
+.pull-left-1[
+$$
+`\begin{equation*}
+n = 10 \\
+\sum_{i=1}^{n}X_i = 58,4 \\
+\sum_{i=1}^{n}Y_i = 96,35 \\
+\sum_{i=1}^{n}X_iY_1 = 624,968 \\
+\sum_{i=1}^{n}X_i^2 = 363,38 \\
+\bar{Y} = 9,635 \\
+\bar{X} = 5,84
+\end{equation*}`
+$$
+]
+
+.pull-right-2[
+
+.center[**1) Estimativa do Parâmetro β₁**:]
+
+$$
+`\begin{equation*}
+\beta_1 = \dfrac{10(624,968)-(58,4)(96,35)}{10(363,38)-(58,4)^2} \approx \color{blue}{2,79}
+\end{equation*}`
+$$
+
+&lt;br&gt;&lt;br&gt;
+
+.center[**2) Estimativa do Parâmetro β₀**:]
+
+$$
+`\begin{equation*}
+\beta_0 = \bar{Y} - \beta_1\bar{X} = 9,635 - 2,79(5,84) = \color{blue}{-6,6586}
+\end{equation*}`
+$$
+
+&lt;br&gt;
+
+**Modelo ajustado**: `\(\color{blue}{AGB = -6,6586 + 2,79d}\)`
+
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
+
+.pull-left-2[
+.shadow1[
+### Fazendo Predições...
+&lt;br&gt;
+.font90[
+Para efeito de utilização do modelo ajustado, considere 10 indivíduos da espécie *Bambusa procera* com `\(d\)` (diâmetro a 1,30 m do solo, em cm) medido em campo. Pergunta-se: Qual o valor predito da AGB (em Kg), admitindo que o modelo ajustado `\((\color{blue}{AGB = -6,6586 + 2,79d})\)` têm acurácia razoável (Obs.: O modelo precisa ser avaliado quanto a acurácia, mas isso será tópico futuro!)?
+]
+]
+]
+
+
+.font90[
+.pull-right-1[
+
+<div id="htmlwidget-a4f95de7233f5c624342" style="width:180px;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-a4f95de7233f5c624342">{"x":{"filter":"none","vertical":false,"caption":"<caption><\/caption>","editable":{"target":"cell","disable":{"columns":null},"numeric":[0,1],"date":[]},"data":[[1,2,3,4,5,6,7,8,9,10],[4,4.4,5.2,5.4,6.1,6.5,7.6,8.5,8.6,9.300000000000001]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>ID<\/th>\n      <th>D<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":20,"dom":"t","autoWidth":false,"initComplete":"function(settings, json) {\n$(this.api().table().container()).css({'font-size': '14pt'});\n}","columnDefs":[{"className":"dt-right","targets":[0,1]},{"name":"ID","targets":0},{"name":"D","targets":1}],"order":[],"orderClasses":false,"lengthMenu":[10,20,25,50,100]}},"evals":["options.initComplete"],"jsHooks":[]}</script>
+]
+]
+
+&lt;!-- Slide XX --&gt;
+---
+layout: false
+class: inverse, middle, center
+background-image: url(fig/class1/sec.png)
+background-size: cover
+
+.white[.font200[**Estudo de Caso**] &lt;br&gt; .font150[Ajuste de Modelo de Predição da Biomassa &lt;br&gt; (*Bambusa procera*) &lt;br&gt;&lt;br&gt; **Vamos Praticar! 😁**]]
+
+---
+layout: true
+&lt;div class="my-header"&gt;&lt;/div&gt;
+&lt;div class="my-footer"&gt;&lt;span&gt;Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;Dendrometria (FL03029) - Biomassa Florestal/Parte 1: A Biomassa Florestal&lt;/div&gt;
+
+---
+name: ma
+## Ajuste de Modelo de Predição da Biomassa
+
+.shadow1[
+### Estudo de Caso I - *Bambusa procera* (Huy; Long, 2019)
+&lt;br&gt;
+.font90[
+**Agora é sua vez!** 😁
+
+Usando o mesmo conjunto de dados disponível no **Anexo 1** do documento intitulado: **A manual for bamboo forest biomass and carbon assessment** ([Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment)). Ajuste o modelo linear `\((AGB = \beta_0 + \beta_1d)\)`. Porém, agora use o conjunto de dados completo (n = 83) para o ajuste.
+]
+]
+&lt;br&gt;
+
+.font90[
+**Conjunto de dados**
+
+- Espécie: *Bambusa procera*
+- número de observações: n = 83
+- Acesse os dados em planilha: [DataSet_Bambusa](https://github.com/DeivisonSouza/FL03029-Dendrometria/tree/master/Slides/Data/DataSet_Bambusa.csv)
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.pull-right-14[
+&lt;br&gt;
+
+.shadow3[
+#### .center[**Variáveis**]
+
+.font48[
+- Plot-Code: Código da Parcela
+- Plant-Code: Código da planta
+- X e Y: coordenadas
+- D, H e A: Diâmetro (cm), Altura e Idade (anos)
+- Bfcu: Biomassa fresca de colmos (kg)
+- Bfbr: Biomassa fresca de galhos (kg)
+- Bfle: Biomassa fresca de folhas (kg)
+- AGBf: Somatório (Bfcu, Bfbr, Bfle)
+- RatioBcu: Razão de massa fresca-seca de colmos
+- RatioBbr: Razão de massa fresca-seca de galhos
+- RatioBle: Razão de massa fresca-seca de folhas
+- Bcu: Biomassa seca de colmos (kg)
+- Bbr: Biomassa seca de galhos (kg)
+- Ble: Biomassa seca de folhas (kg)
+- AGB: Somatório (Bcu, Bbr, Ble) 
+]
+]
+
+&lt;br&gt;
+
+.font70[**Fonte**: [Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment)
+]
+]
+
+.pull-left-15[
+&lt;img src="fig/class7/boo1.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.pull-right-14[
+&lt;br&gt;
+
+.shadow3[
+#### .center[**Variáveis**]
+
+.font48[
+- Plot-Code: Código da Parcela
+- Plant-Code: Código da planta
+- X e Y: coordenadas
+- D, H e A: Diâmetro (cm), Altura e Idade (anos)
+- Bfcu: Biomassa fresca de colmos (kg)
+- Bfbr: Biomassa fresca de galhos (kg)
+- Bfle: Biomassa fresca de folhas (kg)
+- AGBf: Somatório (Bfcu, Bfbr, Bfle)
+- RatioBcu: Razão de massa fresca-seca de colmos
+- RatioBbr: Razão de massa fresca-seca de galhos
+- RatioBle: Razão de massa fresca-seca de folhas
+- Bcu: Biomassa seca de colmos (kg)
+- Bbr: Biomassa seca de galhos (kg)
+- Ble: Biomassa seca de folhas (kg)
+- AGB: Somatório (Bcu, Bbr, Ble) 
+]
+]
+
+&lt;br&gt;
+
+.font70[**Fonte**: [Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment)
+]
+]
+
+.pull-left-15[
+&lt;img src="fig/class7/boo2.png" width="92%" style="display: block; margin: auto;" /&gt;
+]
+
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+
+.pull-right-14[
+&lt;br&gt;
+
+.shadow3[
+#### .center[**Variáveis**]
+
+.font48[
+- Plot-Code: Código da Parcela
+- Plant-Code: Código da planta
+- X e Y: coordenadas
+- D, H e A: Diâmetro (cm), Altura e Idade (anos)
+- Bfcu: Biomassa fresca de colmos (kg)
+- Bfbr: Biomassa fresca de galhos (kg)
+- Bfle: Biomassa fresca de folhas (kg)
+- AGBf: Somatório (Bfcu, Bfbr, Bfle)
+- RatioBcu: Razão de massa fresca-seca de colmos
+- RatioBbr: Razão de massa fresca-seca de galhos
+- RatioBle: Razão de massa fresca-seca de folhas
+- Bcu: Biomassa seca de colmos (kg)
+- Bbr: Biomassa seca de galhos (kg)
+- Ble: Biomassa seca de folhas (kg)
+- AGB: Somatório (Bcu, Bbr, Ble) 
+]
+]
+
+&lt;br&gt;
+
+.font70[**Fonte**: [Huy; Long, 2019](https://www.researchgate.net/publication/333718544_A_Manual_for_Bamboo_Forest_Biomass_and_Carbon_Assessment)
+]
+]
+
+.pull-left-15[
+&lt;img src="fig/class7/boo3.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
+
+.pull-left-2[
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+&lt;br&gt;
+
+&lt;img src="fig/class7/tab1.png" width="80%" style="display: block; margin: auto auto auto 0;" /&gt;
+]
+
+--
+
+.pull-right-1[
+&lt;br&gt;&lt;br&gt;
+.center[**1) Estimativa do Parâmetro β₁**:]
+
+&lt;img src="fig/class7/beta1.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+.center[**2) Estimativa do Parâmetro β₀**:]
+
+$$
+`\begin{equation*}
+\beta_0 = \bar{Y} - \beta_1\bar{X}
+\end{equation*}`
+$$
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
+
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+&lt;br&gt;
+
+&lt;img src="fig/class7/tab3.png" width="75%" style="display: block; margin: auto auto auto 0;" /&gt;
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
+
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+&lt;br&gt;
+
+&lt;img src="fig/class7/tab4.png" width="90%" style="display: block; margin: auto auto auto 0;" /&gt;
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
+
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+&lt;br&gt;
+
+&lt;img src="fig/class7/tab5.png" width="100%" style="display: block; margin: auto auto auto 0;" /&gt;
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
+
+Modelo: `\(\color{blue}{AGB = \beta_0 + \beta_1d}\)` `\(\rightarrow\)` `\(\color{orange}{Y_i = \beta_0 + \beta_1X_i}\)`
+&lt;br&gt;
+
+.pull-left-1[
+$$
+`\begin{equation*}
+n = 83 \\
+\sum_{i=1}^{n}X_i = 514,8 \\
+\sum_{i=1}^{n}Y_i = 886,89 \\
+\sum_{i=1}^{n}X_iY_1 = 6022,813 \\
+\sum_{i=1}^{n}X_i^2 = 3329,08 \\
+\bar{Y} = 10,69 \\
+\bar{X} = 6,20
+\end{equation*}`
+$$
+]
+
+.pull-right-2[
+
+.center[**1) Estimativa do Parâmetro β₁**:]
+
+$$
+`\begin{equation*}
+\beta_1 = \dfrac{83(6022,813)-(514,8)(886,89)}{83(3329,08)-(514,8)^2} \approx \color{blue}{3,8357}
+\end{equation*}`
+$$
+
+&lt;br&gt;&lt;br&gt;
+
+.center[**2) Estimativa do Parâmetro β₀**:]
+
+$$
+`\begin{equation*}
+\beta_0 = \bar{Y} - \beta_1\bar{X} = 10,69 - 3,8357(6,20) = \color{blue}{-13,0913}
+\end{equation*}`
+$$
+
+&lt;br&gt;
+
+**Modelo ajustado**: `\(\color{blue}{AGB = -13,0913 + 3,8357d}\)`
+
+]
+
+---
+
+## Ajuste de Modelo de Predição da Biomassa
+&lt;br&gt;
+
+.pull-left-2[
+.shadow1[
+### Fazendo Predições...
+&lt;br&gt;
+.font90[
+Para efeito de utilização do modelo ajustado, considere 10 indivíduos da espécie *Bambusa procera* com `\(d\)` (diâmetro a 1,30 m do solo, em cm) medido em campo. Pergunta-se: Qual o valor predito da AGB (em Kg), admitindo que o modelo ajustado `\((\color{blue}{AGB = -13,0913 + 3,8357d})\)` têm acurácia razoável (Obs.: O modelo precisa ser avaliado quanto a acurácia, mas isso será tópico futuro!)?
+]
+]
+]
+
+
+.font90[
+.pull-right-1[
+
+<div id="htmlwidget-c1e5a20d9fe4b16271ce" style="width:180px;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-c1e5a20d9fe4b16271ce">{"x":{"filter":"none","vertical":false,"caption":"<caption><\/caption>","editable":{"target":"cell","disable":{"columns":null},"numeric":[0,1],"date":[]},"data":[[1,2,3,4,5,6,7,8,9,10],[4,4.4,5.2,5.4,6.1,6.5,7.6,8.5,8.6,9.300000000000001]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>ID<\/th>\n      <th>D<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":20,"dom":"t","autoWidth":false,"initComplete":"function(settings, json) {\n$(this.api().table().container()).css({'font-size': '14pt'});\n}","columnDefs":[{"className":"dt-right","targets":[0,1]},{"name":"ID","targets":0},{"name":"D","targets":1}],"order":[],"orderClasses":false,"lengthMenu":[10,20,25,50,100]}},"evals":["options.initComplete"],"jsHooks":[]}</script>
+]
+]
+
+---
+
+## Referências
+
+.font80[
+&lt;br&gt;
+Batista, J. L. F., Couto, H. T. Z., &amp; Silva Filho, D. F. **Quantificação de recursos florestais**. 1. ed., São Paulo: Oficina de Textos, 2014.
+&lt;br&gt;&lt;br&gt;
+Higa, R. C. V., Cardoso, D. J., Andrade, G. D. C., Zanatta, J. A., Rossi, L. M. B., Pulrolnik, K., ... &amp; SALIS, S. D. Protocolo de medição e estimativa de biomassa e carbono florestal. **Colombo: Embrapa Florestas**, v. 1, 2014.
+&lt;br&gt;&lt;br&gt;
+Henry, M., Picard, N., Trotta, C., Manlay, R., Valentini, R., Bernoux, M., &amp; Saint-André, L. Estimating tree biomass of sub-Saharan African forests: a review of available allometric equations. **Silva Fennica**, v. 45, n. 3, p. 477-569, 2011.
+&lt;br&gt;&lt;br&gt;
+Higuchi, N., SANTOS, J., Ribeiro, R. J., Minette, L., &amp; Biot, Y. Biomassa da parte aérea da vegetação da floresta tropical úmida de terra-firme da Amazônia brasileira. **Acta Amazonica**, v. 28, p. 153-153, 1998.
+&lt;br&gt;&lt;br&gt;
+Huy, B.; Long, T. T. A manual for bamboo forest biomass and carbon assessment. **International Bamboo and Rattan Organization**, Beijing, China, 2019.
+&lt;br&gt;&lt;br&gt;
+Sanquetta, C. R. Métodos de determinação de biomassa florestal. In: Sanquetta, C. R. et al. (Eds.). **As florestas e o carbono**. Curitiba: [s.n.], 2002, p. 119-140.
+&lt;br&gt;&lt;br&gt;
+Silveira, P., Koehler, H. S., Sanquetta, C. R., &amp; Arce, J. E. O estado da arte na estimativa de biomassa e carbono em formações florestais. **Floresta**, v. 38, n. 1, 2008.
+&lt;br&gt;&lt;br&gt;
+
+]
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="assets/remark-zoom.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script>var slideshow = remark.create({
+  "highlightStyle": "github",
+  "highlightLines": true,
+  "countIncrementalSlides": false,
+  "highlightLanguage": ["r", "css", "yaml"],
+  "ratio": "16:9",
+  "navigation": {
+    "scroll": false
+  }
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
