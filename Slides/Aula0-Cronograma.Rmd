@@ -26,9 +26,9 @@ output:
         scroll: false
 ---
 class: title-slide, center, middle
-background-image: url(fig/slide-title/ufpa2.png), url(fig/slide-title/forest.png), url(fig/slide-title/img3.png)
-background-position: 84% 90%, 95% 90%
-background-size: 220px, 90px, cover
+background-image: url(fig/slide-title/LMFTCA.png), url(fig/slide-title/ufpa.png), url(fig/slide-title/capa.png)
+background-position: 90% 90%, 10% 90%
+background-size: 150px, 150px, cover
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
@@ -60,14 +60,19 @@ use_logo(
 #download_simple_icons()
 ```
 
-<!-- title-slide -->
-# Dendrometria <br> (FL03029)
-<br><br>
-## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Cronograma da disciplina `r anicon::faa("pagelines", animate="horizontal", colour="green")`
 
-#### **Prof. Dr. Deivison Venicio Souza**
-##### Universidade Federal do Pará (UFPA) 
+<!-- title-slide -->
+# .font120[Dendrometria <br> (FL03029 - EF)]
+
+## `r anicon::faa("pagelines", animate="horizontal", colour="green")` Programação da Disciplina `r anicon::faa("pagelines", animate="horizontal", colour="green")` <br> 🌲🌳🌲🌳🌲🌳🌲🌳
+###### Período Letivo 2025.2
+
+##### 〰〰〰〰〰〰🌱〰〰〰〰〰〰
+##### ᨒ
+##### .font120[**Prof. Dr. Deivison Venicio Souza**]
+##### Universidade Federal do Pará (UFPA)
 ##### Faculdade de Engenharia Florestal
+##### Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas
 ##### E-mail: deivisonvs@ufpa.br
 <br>
 ##### 1ª versão: 24/janeiro/2022 <br> (Atualizado em: `r format(Sys.Date(),"%d/%B/%Y")`) <br> Altamira, Pará
@@ -75,7 +80,7 @@ use_logo(
 ---
 layout: true
 <div class="my-header"></div>
-<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Dendrometria (FL03029) - Cronograma da disciplina</div>
+<div class="my-footer"><span>Prof. Dr. Deivison Venicio Souza (E-mail: deivisonvs@ufpa.br)&emsp;&emsp;&emsp;&emsp;&emsp;Experimentação Florestal (FL03034 - EF) - Cronograma da disciplina</div>
 
 ---
 
@@ -97,22 +102,9 @@ layout: true
 ]
 
 .pull-right[
-.font90[
-3. .green[Doutorado (Titulação: ano 2020)]
-    - Universidade Federal do Paraná (UFPR);
-    - Programa de Pós-graduação em Engenharia Florestal (PPGEF); e
-    - Área de Concentração: Manejo Florestal.
-    
-4. .green[Especialização (Defesa: ano 2019)]
-    - Universidade Federal do Paraná (UFPR);
-    - Área: Big Data e Data Science
-    
- .center1[
-```{r echo = FALSE, out.width='200%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/slide-title/img.jpeg")
+```{r echo = FALSE, out.width='90%', fig.align='center', fig.cap='', dpi=600}
+knitr::include_graphics("fig/slide-title/Foto4.jpg")
 ```
-]   
-]
 ]
 
 ---
@@ -155,10 +147,27 @@ Email: deivisonvs@ufpa.br
 ]
 ]
 
+---
+
+## 👋 Olá, sejam bem vindos!
+<br>
+
+### **Projetos de Pesquisa/Extensão finalizados** (com fomento)
+
+- 1) Sistema de Visão Computacional para Reconhecer Espécies no Manejo Florestal Madeireiro na Amazônia Brasileira. (**Financiador**: Centro de Indústrias Produtoras e Exportadoras de Madeira do Estado de Mato Grosso - CIPEM) - ([https://cipem.org.br/](https://cipem.org.br/)) <br><br>
+- 2) Projeto Ipa’wã (Copaíba): Etnomapeamento e inventário de copaibais nativos na TI Xipaya (Aldeias Tukamã, Tukayá e Kaarimã). (**Financiador**: Fundo Brasileiro para a Biodiversidade - FUNBIO) - ([https://www.funbio.org.br/](https://www.funbio.org.br/)) (Parceria entre Associação Indígena Pyjahyry Xipaia – AIPHX e UFPA)
+<br>
+
+----------------------------------------
+
+**Siga o Instagram**: [@pyjahyryxipaia](https://www.instagram.com/pyjahyryxipaia/) (Associação Indígena Pyjahyry Xipaia)
+
+**Siga o Instagram**: [@lmftca_ufpa](https://www.instagram.com/lmftca_ufpa/) (Laboratório de Manejo Florestal, Tecnologias e Comunidades Amazônicas)
+
 <!-- Slide 2 -->
 ---
 
-## Cronograma .black[.font80[(**Horário: 13h30min - 18h00min**)]]
+## Cronograma .black[.font80[(**Horário: 08h00min - 12h30min**)]]
 <br>
 
 ```{r, echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
