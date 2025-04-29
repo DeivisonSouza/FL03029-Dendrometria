@@ -952,13 +952,13 @@ Usando o mesmo conjunto de dados disponível no **Anexo 1** do documento intitul
 
 ## Ajuste de Modelo de Predição da Biomassa
 
-.pull-right-14[
+.pull-left-8[
 <br>
 
 .shadow3[
 #### .center[**Variáveis**]
 
-.font48[
+.font40[
 - Plot-Code: Código da Parcela
 - Plant-Code: Código da planta
 - X e Y: coordenadas
@@ -983,7 +983,7 @@ Usando o mesmo conjunto de dados disponível no **Anexo 1** do documento intitul
 ]
 ]
 
-.pull-left-15[
+.pull-right-13[
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class7/boo1.png')
 ```
@@ -993,13 +993,13 @@ knitr::include_graphics('fig/class7/boo1.png')
 
 ## Ajuste de Modelo de Predição da Biomassa
 
-.pull-right-14[
+.pull-left-8[
 <br>
 
 .shadow3[
 #### .center[**Variáveis**]
 
-.font48[
+.font40[
 - Plot-Code: Código da Parcela
 - Plant-Code: Código da planta
 - X e Y: coordenadas
@@ -1024,7 +1024,7 @@ knitr::include_graphics('fig/class7/boo1.png')
 ]
 ]
 
-.pull-left-15[
+.pull-right-13[
 ```{r, echo=FALSE, out.width='92%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class7/boo2.png')
 ```
@@ -1035,13 +1035,13 @@ knitr::include_graphics('fig/class7/boo2.png')
 
 ## Ajuste de Modelo de Predição da Biomassa
 
-.pull-right-14[
+.pull-left-8[
 <br>
 
 .shadow3[
 #### .center[**Variáveis**]
 
-.font48[
+.font40[
 - Plot-Code: Código da Parcela
 - Plant-Code: Código da planta
 - X e Y: coordenadas
@@ -1066,7 +1066,7 @@ knitr::include_graphics('fig/class7/boo2.png')
 ]
 ]
 
-.pull-left-15[
+.pull-right-13[
 ```{r, echo=FALSE, out.width='100%', fig.align='center', fig.cap='', dpi=600}
 knitr::include_graphics('fig/class7/boo3.png')
 ```
