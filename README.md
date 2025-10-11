@@ -1,22 +1,21 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file... -->
+
 <!-- badges: start -->
+
 <!-- badges: end -->
+
 <!-- Emprestei a função list_github_files() da Curso-R. (https://github.com/curso-r). A ideia desse readme emprestei da Curso-R. Achei excelente!-->
 
 # Seja bem vindo(a)! :deciduous_tree: :smiley: :grin:
 
 :calendar: Abril: 30
 
-:calendar: Maio: 7, 14, 21, 28
+:calendar: Outubro: 13, 15, 17, 20, 22 e 24
 
-:calendar: Junho: 4, 11, 18, 25
+:calendar: Novembro: 3, 5, 7, 24, 26 e 28
 
-:calendar: Julho: 2, 9
-
-:calendar: Agosto: 6
-
-:alarm_clock: **08h00min - 12h50min**
+:alarm_clock: **14h00min - 18h50min**
 
 <div>
 
