@@ -79,9 +79,9 @@ CustomDT <- function(data){
 
 ```{r icon, echo=FALSE}
 #remotes::install_github("mitchelloharawild/icons")
-#library(icons)
-#download_fontawesome()
-#download_simple_icons()
+library(icons)
+download_fontawesome()
+download_simple_icons()
 ```
 
 <!-- title-slide -->
