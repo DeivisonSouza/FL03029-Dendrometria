@@ -266,47 +266,17 @@ knitr::include_graphics('fig/class0/deepflora.png')
 <br>
 
 ```{r, echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class0/Abril.png")
+knitr::include_graphics("fig/class0/Out.png")
 ```
 
 <!-- Slide 2 -->
 ---
 
-## 🗓 Cronograma .black[.font80[(**Horário: 08h00min - 12h30min**)]]
+## 🗓 Cronograma .black[.font80[(**Horário: 14h00min - 18h50min**)]]
 <br>
 
 ```{r, echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class0/Maio.png")
-```
-
-<!-- Slide 2 -->
----
-
-## Cronograma .black[.font80[(**Horário: 08h00min - 12h30min**)]]
-<br>
-
-```{r, echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class0/Junho.png")
-```
-
-<!-- Slide 2 -->
----
-
-## Cronograma .black[.font80[(**Horário: 08h00min - 12h30min**)]]
-<br>
-
-```{r, echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class0/Julho.png")
-```
-
-<!-- Slide 2 -->
----
-
-## Cronograma .black[.font80[(**Horário: 08h00min - 12h30min**)]]
-<br>
-
-```{r, echo = FALSE, out.width='80%', fig.align='center', fig.cap='', dpi=600}
-knitr::include_graphics("fig/class0/Agosto.png")
+knitr::include_graphics("fig/class0/Nov.png")
 ```
 
 <!-- Slide 7 -->
