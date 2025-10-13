@@ -64,7 +64,6 @@ xaringanExtra::use_editable(expires = 1)
 #.can-edit[Você pode editar este título de slide]
 #.can-edit.key-firstSlideTitle[Change this title and then reload the page]
 use_clipboard()
-
 ```
 
 ```{r icon, echo=FALSE}
